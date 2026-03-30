@@ -96,27 +96,27 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>6 - Mont-Saint-Michel (5ª notte)</name>
-        <description>Mar 25 ago | Trasferimento ~380 km. Arrivare dopo le 17.</description>
+        <name>6 - Étretat (5ª notte)</name>
+        <description>Mar 25 ago | Bayeux + Omaha Beach + Pointe du Hoc + Étretat. ~260 km da Disney via A13.</description>
+        <styleUrl>#tappa</styleUrl>
+        <Point>
+          <coordinates>0.2083,49.7083,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7 - Mont-Saint-Michel (6ª notte)</name>
+        <description>Mer 26 ago | Trasferimento da Étretat ~190 km. Arrivare dopo le 17.</description>
         <styleUrl>#tappa</styleUrl>
         <Point>
           <coordinates>-1.5116,48.6359,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>7 - Jullouville (6ª notte)</name>
-        <description>Mer 26 ago | Mont-Saint-Michel + spiagge Côte des Havres.</description>
+        <name>8 - Jullouville (7ª notte)</name>
+        <description>Gio 27 ago | Mont-Saint-Michel + spiagge Côte des Havres.</description>
         <styleUrl>#tappa</styleUrl>
         <Point>
           <coordinates>-1.5667,48.7833,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>8 - Étretat (7ª notte)</name>
-        <description>Gio 27 ago | Bayeux + Omaha Beach + Pointe du Hoc + Étretat.</description>
-        <styleUrl>#tappa</styleUrl>
-        <Point>
-          <coordinates>0.2083,49.7083,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
@@ -315,7 +315,7 @@
       </Placemark>
       <Placemark>
         <name>Camping Haliotis — Pontorson</name>
-        <description>G5 | ★★★★ | 8 km Mont-Saint-Michel · navetta inclusa · PRENOTARE</description>
+        <description>G6 | ★★★★ | 8 km Mont-Saint-Michel · navetta inclusa · PRENOTARE</description>
         <styleUrl>#camp</styleUrl>
         <Point>
           <coordinates>-1.5031,48.5553,0</coordinates>
@@ -323,7 +323,7 @@
       </Placemark>
       <Placemark>
         <name>Camping du Mont-Saint-Michel</name>
-        <description>G5 alt | ★★★★ | 2 km abbazia · vista spettacolare</description>
+        <description>G6 alt | ★★★★ | 2 km abbazia · vista spettacolare</description>
         <styleUrl>#camp</styleUrl>
         <Point>
           <coordinates>-1.5,48.6167,0</coordinates>
@@ -331,7 +331,7 @@
       </Placemark>
       <Placemark>
         <name>Camping La Vague — Jullouville</name>
-        <description>G6 | ★★★★ | Direttamente sul mare</description>
+        <description>G7 | ★★★★ | Direttamente sul mare</description>
         <styleUrl>#camp</styleUrl>
         <Point>
           <coordinates>-1.5667,48.7833,0</coordinates>
@@ -339,7 +339,7 @@
       </Placemark>
       <Placemark>
         <name>Camping Municipal d'Étretat</name>
-        <description>G7 | ★★★ | Prato dietro le scogliere</description>
+        <description>G5 | ★★★ | Prato dietro le scogliere</description>
         <styleUrl>#camp</styleUrl>
         <Point>
           <coordinates>0.2083,49.7083,0</coordinates>
@@ -347,7 +347,7 @@
       </Placemark>
       <Placemark>
         <name>Camping Port'land — Port-en-Bessin</name>
-        <description>G7 alt | ★★★★★ | Sul porto · piscina coperta</description>
+        <description>G5 alt | ★★★★★ | Sul porto · piscina coperta</description>
         <styleUrl>#camp</styleUrl>
         <Point>
           <coordinates>-0.75,49.35,0</coordinates>
@@ -601,7 +601,7 @@
         </Style>
         <LineString>
           <tessellate>1</tessellate>
-          <coordinates>9.1859,45.4654,0 4.0317,49.2583,0 2.1204,48.8049,0 2.7836,48.8674,0 2.1204,48.8049,0 -1.5116,48.6359,0 -1.5667,48.7833,0 0.2083,49.7083,0 0.2333,49.4189,0 1.5171,47.6161,0 0.69,47.39,0 7.32,45.7369,0 9.1859,45.4654,0</coordinates>
+          <coordinates>9.1859,45.4654,0 4.0317,49.2583,0 2.1204,48.8049,0 2.7836,48.8674,0 2.1204,48.8049,0 -0.7033,49.2764,0 0.2083,49.7083,0 -1.5116,48.6359,0 -1.5667,48.7833,0 0.2333,49.4189,0 1.5171,47.6161,0 0.69,47.39,0 7.32,45.7369,0 9.1859,45.4654,0</coordinates>
         </LineString>
       </Placemark>
     </Folder>
