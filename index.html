@@ -16,7 +16,7 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--ink);font-size:15px;line-height:1.65}
 
-.hero{background:var(--ink);color:var(--cream);padding:5rem 2rem 4rem;text-align:center;position:relative;overflow:hidden}
+.hero{background:var(--ink);color:var(--cream);padding:.6rem 2rem .5rem;text-align:center;position:relative;overflow:hidden}
 .hero::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(-45deg,transparent,transparent 40px,rgba(255,255,255,.015) 40px,rgba(255,255,255,.015) 41px)}
 .hero-eyebrow{font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:1.2rem;font-weight:500}
 .hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.6rem,7vw,5rem);font-weight:900;line-height:1.05;margin-bottom:1.5rem;position:relative}
@@ -106,15 +106,9 @@ footer strong{color:var(--gold)}
     <span class="pill"><strong>10</strong> notti</span>
     <span class="pill"><strong>~2.500</strong> km totali</span>
     <span class="pill">bambini <strong>8–10</strong> anni</span>
-    <span class="pill">Disneyland <strong>lunedì 24</strong></span>
     <span class="pill">consegna <strong>lun 31 ore 9:00</strong></span>
   </div>
 </header>
-
-<div class="disney-banner">
-  🎢 Disneyland Paris lunedì 24 agosto — minima affluenza della settimana, code 15–35 min
-  <span>Prenotare su disneylandparis.com</span>
-</div>
 
 <div class="route-strip">
   <div class="route-node"><div class="route-dot"></div><div class="route-name">Milano</div></div><div class="route-line"></div>
@@ -133,16 +127,18 @@ footer strong{color:var(--gold)}
 
 <div class="container">
 <section class="section">
+  <div style="background:white;border-radius:var(--r);padding:1rem 1.3rem;box-shadow:0 1px 4px rgba(0,0,0,.07);border-left:3px solid var(--blue);display:flex;align-items:center;gap:1rem;margin-bottom:2rem">
+    <span style="font-size:1.4rem">🗺</span>
+    <div>
+      <div style="font-weight:500;font-size:.9rem;color:var(--ink)">Mappa condivisa del viaggio</div>
+      <div style="font-size:.78rem;color:var(--muted);margin-top:2px">Campeggi, aree sosta e tappe per tutto il gruppo</div>
+    </div>
+    <a href="https://www.google.com/maps/d/u/0/edit?mid=1u3lTuuaE7AyUXO6IVvgWgVRu3saqAQs&usp=sharing" target="_blank" style="margin-left:auto;white-space:nowrap;font-size:.78rem;font-weight:500;color:var(--accent);text-decoration:none">Apri la mappa ↗</a>
+  </div>
   <p class="section-label">Programma giorno per giorno</p>
   <h2 class="section-title">L'itinerario</h2>
   <div class="days-grid" id="days"></div>
 
-  <div class="rientro-box">
-    <h3>Come funziona il rientro</h3>
-    <p><strong>Domenica 30 agosto</strong> — partenza dalla Loira ore 6:30. A10 → A71 → A6 Digione (colazione) → A40 → Traforo Monte Bianco (~€50) → Courmayeur. Notte ad Aosta o Courmayeur.<br><br>
-    <strong>Lunedì 31 agosto</strong> — partenza da Aosta ore 7:00. Solo 110 km di A5. Arrivo a Milano ore 8:00–8:30. Consegna camper ore 9:00 garantita senza stress.<br><br>
-    ⚠ Domenica 30 è bollino rosso — partenza alle 6:30 è obbligatoria per passare Digione prima che il traffico si intasi.</p>
-  </div>
 </section>
 
 <section class="section" style="padding-top:0">
