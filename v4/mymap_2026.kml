@@ -65,7 +65,7 @@
       </Placemark>
       <Placemark>
         <name>2 - Courmayeur (1ª notte)</name>
-        <description>Ven 21 ago | ~140 km. Prima notte corta per familiarizzare col camper. A4→Torino→A5→Courmayeur.</description>
+        <description>Ven 21 ago | ~270 km. Prima notte corta per familiarizzare col camper. A4→Torino→A5→Aosta→Courmayeur.</description>
         <styleUrl>#tappa</styleUrl>
         <Point>
           <coordinates>6.9694,45.7969,0</coordinates>
@@ -154,8 +154,6 @@
     </Folder>
     <Folder>
       <name>Luoghi da visitare</name>
-      <Folder>
-        <name>Italia e percorso andata</name>
         <Placemark>
           <name>Traforo del Fréjus</name>
           <description>~€60/camper. Giorno 1 (andata) e giorno 11 (rientro).</description>
@@ -180,9 +178,6 @@
             <coordinates>4.8357,45.7640,0</coordinates>
           </Point>
         </Placemark>
-      </Folder>
-      <Folder>
-        <name>Parigi e dintorni</name>
         <Placemark>
           <name>Reggia di Versailles</name>
           <description>Galleria degli Specchi + Giardini Le Nôtre. Prenotare online. Giorno 4 (lun 24 ago).</description>
@@ -215,9 +210,6 @@
             <coordinates>2.3431,48.8867,0</coordinates>
           </Point>
         </Placemark>
-      </Folder>
-      <Folder>
-        <name>Normandia</name>
         <Placemark>
           <name>Bayeux — Arazzo XI sec.</name>
           <description>70 metri di storia normanna. Cattedrale. Accessibile per bambini. Giorno 6 (mar 25 ago).</description>
@@ -282,9 +274,6 @@
             <coordinates>-1.9992,48.6493,0</coordinates>
           </Point>
         </Placemark>
-      </Folder>
-      <Folder>
-        <name>Valle della Loira</name>
         <Placemark>
           <name>Château de Chambord</name>
           <description>Il più grande della Loira. Scala a doppia elica di Leonardo. Giorno 10 (dom 30 ago) ore 9:00-11:00.</description>
@@ -301,7 +290,6 @@
             <coordinates>1.0698,47.3248,0</coordinates>
           </Point>
         </Placemark>
-      </Folder>
     </Folder>
     <Folder>
       <name>Campeggi consigliati</name>
@@ -413,9 +401,7 @@
     <Folder>
       <name>Aree sosta attrezzate (Aire)</name>
       <description>SC=Scarico·AC=Acqua·EL=Elettricità·WC=Bagni·DU=Docce</description>
-      <Folder>
-        <name>Italia e confine</name>
-        <Placemark>
+<Placemark>
           <name>Area Sosta Pont-Saint-Martin AO</name>
           <description>SC · AC · WC | Gratuita · uscita A5</description>
           <styleUrl>#area</styleUrl>
@@ -455,10 +441,7 @@
             <coordinates>5.9200,45.5646,0</coordinates>
           </Point>
         </Placemark>
-      </Folder>
-      <Folder>
-        <name>Percorso andata (Lione → Versailles)</name>
-        <Placemark>
+<Placemark>
           <name>Aire de Lyon Sud</name>
           <description>SC · AC · WC | Zona sud Lione · G2</description>
           <styleUrl>#area</styleUrl>
@@ -482,10 +465,7 @@
             <coordinates>4.8400,47.0300,0</coordinates>
           </Point>
         </Placemark>
-      </Folder>
-      <Folder>
-        <name>Parigi e dintorni</name>
-        <Placemark>
+<Placemark>
           <name>Aire de Versailles</name>
           <description>SC · AC · EL · WC | 2 km Reggia</description>
           <styleUrl>#area</styleUrl>
@@ -509,10 +489,7 @@
             <coordinates>2.2194,48.8236,0</coordinates>
           </Point>
         </Placemark>
-      </Folder>
-      <Folder>
-        <name>Normandia</name>
-        <Placemark>
+<Placemark>
           <name>Aire Officielle Mont-Saint-Michel</name>
           <description>SC · AC · EL · WC · DU | Ufficiale · navetta gratuita · PRENOTARE</description>
           <styleUrl>#area</styleUrl>
@@ -560,10 +537,7 @@
             <coordinates>0.2333,49.4189,0</coordinates>
           </Point>
         </Placemark>
-      </Folder>
-      <Folder>
-        <name>Loira</name>
-        <Placemark>
+<Placemark>
           <name>Aire de Chambord</name>
           <description>SC · AC · WC | 500m dal castello · pagamento</description>
           <styleUrl>#area</styleUrl>
@@ -595,7 +569,6 @@
             <coordinates>0.6900,47.3900,0</coordinates>
           </Point>
         </Placemark>
-      </Folder>
     </Folder>
     <Folder>
       <name>Percorso completo</name>
