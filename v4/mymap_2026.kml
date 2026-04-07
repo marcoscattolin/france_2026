@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Francia Camper FINALE — 21-31 Agosto 2025</name>
+    <description>Milano→Aosta→Versailles/Parigi→Étretat→Mont-Saint-Michel→Saint-Malo→Loira(Chambord+Chenonceau)→Chambéry→Milano
+4 camper·4 famiglie·bambini 8-10 anni·10 notti</description>
+    <Style id="tappa">
+      <IconStyle>
+        <color>ffff8800</color>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="visita">
+      <IconStyle>
+        <color>ff00d4ff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="camp">
+      <IconStyle>
+        <color>ff00aa00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/grn-square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="area">
+      <IconStyle>
+        <color>ffaa00ff</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Folder>
+      <name>Tappe del percorso</name>
+      <description>12 tappe dal 21 al 31 agosto</description>
+      <Placemark>
+        <name>1 - Milano (partenza)</name>
+        <description>Ven 21 ago | Ritiro camper ore 15:00. Partenza ore 19:00 verso Aosta.</description>
+        <styleUrl>#tappa</styleUrl>
+        <Point>
+          <coordinates>9.1859,45.4654,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2 - Aosta (1ª notte)</name>
+        <description>Ven 21 ago | ~110 km. Prima notte corta per familiarizzare col camper.</description>
+        <styleUrl>#tappa</styleUrl>
+        <Point>
+          <coordinates>7.3200,45.7369,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3 - Versailles (2ª notte)</name>
+        <description>Sab 22 ago | ~730 km. GIORNO DI ECCEZIONE. Aosta→Monte Bianco→Lione(pranzo)→Digione→Versailles.</description>
+        <styleUrl>#tappa</styleUrl>
+        <Point>
+          <coordinates>2.1204,48.8049,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4 - Versailles (3ª notte)</name>
+        <description>Dom 23 ago | Reggia di Versailles giornata intera.</description>
+        <styleUrl>#tappa</styleUrl>
+        <Point>
+          <coordinates>2.1204,48.8049,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5 - Versailles (4ª notte)</name>
+        <description>Lun 24 ago | Parigi via RER: Torre Eiffel, Sainte-Chapelle, Montmartre.</description>
+        <styleUrl>#tappa</styleUrl>
+        <Point>
+          <coordinates>2.1204,48.8049,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6 - Étretat (5ª notte)</name>
+        <description>Mar 25 ago | ~260 km. Da Parigi A13→Caen→Bayeux + Omaha Beach + Pointe du Hoc + scogliere Étretat.</description>
+        <styleUrl>#tappa</styleUrl>
+        <Point>
+          <coordinates>0.2083,49.7083,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7 - Mont-Saint-Michel (6ª notte)</name>
+        <description>Mer 26 ago | ~195 km. Honfleur sosta caffè. Arrivo MSM al tramonto.</description>
+        <styleUrl>#tappa</styleUrl>
+        <Point>
+          <coordinates>-1.5116,48.6359,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8 - Saint-Malo (7ª notte)</name>
+        <description>Gio 27 ago | ~50 km. Cancale (ostriche, vista baia MSM) + Saint-Malo (città corsara medievale, mura, spiaggia).</description>
+        <styleUrl>#tappa</styleUrl>
+        <Point>
+          <coordinates>-1.9992,48.6493,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9 - Loira / Bracieux (8ª notte)</name>
+        <description>Ven 28 ago | ~300 km. Da Saint-Malo via Rennes→A11→Le Mans→A85→Chambord.</description>
+        <styleUrl>#tappa</styleUrl>
+        <Point>
+          <coordinates>1.5333,47.5667,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>10 - Loira / Tours (9ª notte)</name>
+        <description>Sab 29 ago | ~60 km. Chambord (mattina) + Chenonceau (pomeriggio). Giornata dedicata ai castelli.</description>
+        <styleUrl>#tappa</styleUrl>
+        <Point>
+          <coordinates>0.6900,47.3900,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>11 - Chambéry (10ª notte)</name>
+        <description>Dom 30 ago | ~490 km. GIORNO DI ECCEZIONE. Bollino rosso: partenza ore 6:30.</description>
+        <styleUrl>#tappa</styleUrl>
+        <Point>
+          <coordinates>5.9200,45.5646,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>12 - Milano (consegna)</name>
+        <description>Lun 31 ago | ~200 km. Partenza Chambéry ore 6:30. Consegna camper ore 9:00 ✅</description>
+        <styleUrl>#tappa</styleUrl>
+        <Point>
+          <coordinates>9.1859,45.4654,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Luoghi da visitare</name>
+      <Folder>
+        <name>Italia e percorso andata</name>
+        <Placemark>
+          <name>Traforo del Fréjus</name>
+          <description>~€60/camper. Giorno 1 (andata) e giorno 11 (rientro).</description>
+          <styleUrl>#visita</styleUrl>
+          <Point>
+            <coordinates>6.6678,45.1517,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Traforo Monte Bianco</name>
+          <description>~€50/camper. Giorno 2 (Aosta→Versailles, grande trasferimento).</description>
+          <styleUrl>#visita</styleUrl>
+          <Point>
+            <coordinates>6.8694,45.9237,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Lione — sosta pranzo G2</name>
+          <description>Sosta pranzo ~1h durante il grande trasferimento Aosta→Versailles. Autostrada A40/A6.</description>
+          <styleUrl>#visita</styleUrl>
+          <Point>
+            <coordinates>4.8357,45.7640,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Parigi e dintorni</name>
+        <Placemark>
+          <name>Reggia di Versailles</name>
+          <description>Galleria degli Specchi + Giardini Le Nôtre. Prenotare online. Giorno 4 (lun 24 ago).</description>
+          <styleUrl>#visita</styleUrl>
+          <Point>
+            <coordinates>2.1204,48.8049,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Torre Eiffel</name>
+          <description>PRENOTARE MESI PRIMA. Salita 2° piano. Picnic Champ-de-Mars. Giorno 5 (mar 25 ago).</description>
+          <styleUrl>#visita</styleUrl>
+          <Point>
+            <coordinates>2.2945,48.8584,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Sainte-Chapelle</name>
+          <description>Vetrate gotiche XIII sec. Imperdibile con bambini. Giorno 5.</description>
+          <styleUrl>#visita</styleUrl>
+          <Point>
+            <coordinates>2.3450,48.8554,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Montmartre – Sacré-Cœur</name>
+          <description>Vista panoramica su Parigi. Artisti in Place du Tertre. Giorno 5.</description>
+          <styleUrl>#visita</styleUrl>
+          <Point>
+            <coordinates>2.3431,48.8867,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Normandia</name>
+        <Placemark>
+          <name>Bayeux — Arazzo XI sec.</name>
+          <description>70 metri di storia normanna. Cattedrale. Accessibile per bambini. Giorno 6 (mar 25 ago).</description>
+          <styleUrl>#visita</styleUrl>
+          <Point>
+            <coordinates>-0.7033,49.2764,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Omaha Beach</name>
+          <description>Spiaggia D-Day. Cimitero Americano Colleville-sur-Mer. Giorno 6.</description>
+          <styleUrl>#visita</styleUrl>
+          <Point>
+            <coordinates>-0.8611,49.3691,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Pointe du Hoc</name>
+          <description>Trincee e crateri intatti. I bambini restano affascinati. Giorno 6.</description>
+          <styleUrl>#visita</styleUrl>
+          <Point>
+            <coordinates>-0.9917,49.3964,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Scogliere di Étretat</name>
+          <description>Scogliere bianche più famose d'Europa. Passeggiata falaise 1h. Tramonto magico. Giorno 6 (pomeriggio).</description>
+          <styleUrl>#visita</styleUrl>
+          <Point>
+            <coordinates>0.2083,49.7083,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Porto di Honfleur (sosta)</name>
+          <description>Sosta caffè ~30 min. Vieux Bassin con case a graticcio colorate. Giorno 7 (mer 26 ago).</description>
+          <styleUrl>#visita</styleUrl>
+          <Point>
+            <coordinates>0.2333,49.4189,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Mont-Saint-Michel</name>
+          <description>Abbazia UNESCO. Maree enormi. Arrivare dopo le 17 (giorno 7). Parking da prenotare.</description>
+          <styleUrl>#visita</styleUrl>
+          <Point>
+            <coordinates>-1.5116,48.6359,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Cancale — Mercato delle Ostriche</name>
+          <description>Ostriche fresche al mercato. Vista sulla Baia del Mont-Saint-Michel. Giorno 8 (gio 27 ago).</description>
+          <styleUrl>#visita</styleUrl>
+          <Point>
+            <coordinates>-1.8500,48.6736,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Saint-Malo — Città intramuros</name>
+          <description>Città dei corsari. Giro sulle mura ~1h. Grand Plage. Centro storico medievale. Giorno 8 (gio 27 ago).</description>
+          <styleUrl>#visita</styleUrl>
+          <Point>
+            <coordinates>-1.9992,48.6493,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Valle della Loira</name>
+        <Placemark>
+          <name>Château de Chambord</name>
+          <description>Il più grande della Loira. Scala a doppia elica di Leonardo. Giorno 10 (dom 30 ago) ore 9:00-11:00.</description>
+          <styleUrl>#visita</styleUrl>
+          <Point>
+            <coordinates>1.5171,47.6161,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Château de Chenonceau</name>
+          <description>Castello sul fiume Cher. PRENOTARE ONLINE — code enormi in agosto. Giorno 10 ore 12:00-14:00.</description>
+          <styleUrl>#visita</styleUrl>
+          <Point>
+            <coordinates>1.0698,47.3248,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Campeggi consigliati</name>
+      <Placemark>
+        <name>Camping Tunnel — Courmayeur</name>
+        <description>G1 | **** | Prima notte · 110 km da Milano · familiarizzazione camper</description>
+        <styleUrl>#camp</styleUrl>
+        <Point>
+          <coordinates>6.9694,45.7969,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping Milleluci — Aosta</name>
+        <description>G1 alt | **** | Vista Alpi · vicino A5</description>
+        <styleUrl>#camp</styleUrl>
+        <Point>
+          <coordinates>7.3200,45.7369,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Huttopia Versailles</name>
+        <description>G2-3-4 | ***** | 3 notti (22-23-24 ago) · navette Reggia · PRENOTARE SUBITO</description>
+        <styleUrl>#camp</styleUrl>
+        <Point>
+          <coordinates>2.1500,48.8100,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping Sandaya Maisons-Laffitte</name>
+        <description>G3-4 alt | ***** | RER A diretta Parigi</description>
+        <styleUrl>#camp</styleUrl>
+        <Point>
+          <coordinates>2.1500,48.9500,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping Municipal d'Étretat</name>
+        <description>G5 | *** | Prato dietro le scogliere</description>
+        <styleUrl>#camp</styleUrl>
+        <Point>
+          <coordinates>0.2083,49.7083,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping Port'land — Port-en-Bessin</name>
+        <description>G5 alt | ***** | Sul porto · piscina coperta</description>
+        <styleUrl>#camp</styleUrl>
+        <Point>
+          <coordinates>-0.7500,49.3500,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping Haliotis — Pontorson</name>
+        <description>G6 | **** | 8 km Mont-Saint-Michel · navetta inclusa · PRENOTARE</description>
+        <styleUrl>#camp</styleUrl>
+        <Point>
+          <coordinates>-1.5031,48.5553,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping du Mont-Saint-Michel</name>
+        <description>G6 alt | **** | 2 km abbazia · vista spettacolare</description>
+        <styleUrl>#camp</styleUrl>
+        <Point>
+          <coordinates>-1.5000,48.6167,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping Les Ilots de Saint-Malo</name>
+        <description>G7 | **** | Vicino alla città intramuros · PRENOTARE</description>
+        <styleUrl>#camp</styleUrl>
+        <Point>
+          <coordinates>-1.9992,48.6493,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping La Cité d'Alet — Saint-Malo</name>
+        <description>G7 alt | *** | Vista sulla baia · a piedi dalla città</description>
+        <styleUrl>#camp</styleUrl>
+        <Point>
+          <coordinates>-2.0200,48.6400,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping Grenouillère — Bracieux</name>
+        <description>G8-9 | **** | 6 km da Chambord · ottima base Loira</description>
+        <styleUrl>#camp</styleUrl>
+        <Point>
+          <coordinates>1.5333,47.5667,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping Les Acacias — Ballan-Miré</name>
+        <description>G8-9 alt | **** | Zona Tours · vicino Chenonceau</description>
+        <styleUrl>#camp</styleUrl>
+        <Point>
+          <coordinates>0.6200,47.3500,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping Le Curtil — Chambéry</name>
+        <description>G10 | *** | 10a notte · 200 km da Milano via Fréjus</description>
+        <styleUrl>#camp</styleUrl>
+        <Point>
+          <coordinates>5.9200,45.5646,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping l'Île aux Cygnes — Chambéry</name>
+        <description>G10 alt | *** | Vista Alpi · vicino A43</description>
+        <styleUrl>#camp</styleUrl>
+        <Point>
+          <coordinates>5.9100,45.5700,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Aree sosta attrezzate (Aire)</name>
+      <description>SC=Scarico·AC=Acqua·EL=Elettricità·WC=Bagni·DU=Docce</description>
+      <Folder>
+        <name>Italia e confine</name>
+        <Placemark>
+          <name>Area Sosta Pont-Saint-Martin AO</name>
+          <description>SC · AC · WC | Gratuita · uscita A5</description>
+          <styleUrl>#area</styleUrl>
+          <Point>
+            <coordinates>7.7953,45.5994,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Area Sosta Ivrea</name>
+          <description>SC · AC · EL · WC | 60 km da Milano · ultimo scarico consigliato rientro</description>
+          <styleUrl>#area</styleUrl>
+          <Point>
+            <coordinates>7.8736,45.4669,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Aire — Aosta centro</name>
+          <description>SC · AC · WC | Centro città · G1</description>
+          <styleUrl>#area</styleUrl>
+          <Point>
+            <coordinates>7.3200,45.7369,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Aire de Chamonix</name>
+          <description>SC · AC · EL · WC · DU | Vista Monte Bianco · G2 percorso andata</description>
+          <styleUrl>#area</styleUrl>
+          <Point>
+            <coordinates>6.8694,45.9237,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Aire de Chambéry</name>
+          <description>SC · AC · EL · WC | G10 · 200 km da Milano</description>
+          <styleUrl>#area</styleUrl>
+          <Point>
+            <coordinates>5.9200,45.5646,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Percorso andata (Lione → Versailles)</name>
+        <Placemark>
+          <name>Aire de Lyon Sud</name>
+          <description>SC · AC · WC | Zona sud Lione · G2</description>
+          <styleUrl>#area</styleUrl>
+          <Point>
+            <coordinates>4.8357,45.7000,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Aire de Mâcon</name>
+          <description>SC · AC · EL · WC | Autostrada A6 · G3 sosta intermedia</description>
+          <styleUrl>#area</styleUrl>
+          <Point>
+            <coordinates>4.8300,46.3000,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Aire de Beaune / Digione</name>
+          <description>SC · AC · EL · WC | Sosta colazione G3 · A6</description>
+          <styleUrl>#area</styleUrl>
+          <Point>
+            <coordinates>4.8400,47.0300,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Parigi e dintorni</name>
+        <Placemark>
+          <name>Aire de Versailles</name>
+          <description>SC · AC · EL · WC | 2 km Reggia</description>
+          <styleUrl>#area</styleUrl>
+          <Point>
+            <coordinates>2.1204,48.8049,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Aire du Bois de Boulogne — Paris</name>
+          <description>SC · AC · WC | Unica area sosta dentro Parigi</description>
+          <styleUrl>#area</styleUrl>
+          <Point>
+            <coordinates>2.2400,48.8650,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Aire de Sèvres</name>
+          <description>SC · AC · EL · WC | RER C vicina</description>
+          <styleUrl>#area</styleUrl>
+          <Point>
+            <coordinates>2.2194,48.8236,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Normandia</name>
+        <Placemark>
+          <name>Aire Officielle Mont-Saint-Michel</name>
+          <description>SC · AC · EL · WC · DU | Ufficiale · navetta gratuita · PRENOTARE</description>
+          <styleUrl>#area</styleUrl>
+          <Point>
+            <coordinates>-1.5100,48.6200,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Aire de Pontorson</name>
+          <description>SC · AC · WC | Gratuita · 8 km Mont</description>
+          <styleUrl>#area</styleUrl>
+          <Point>
+            <coordinates>-1.5031,48.5553,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Aire de Bayeux</name>
+          <description>SC · AC · EL · WC | 500m Arazzo</description>
+          <styleUrl>#area</styleUrl>
+          <Point>
+            <coordinates>-0.7033,49.2764,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Aire de Port-en-Bessin</name>
+          <description>SC · AC · WC | Sul porto · gratuita</description>
+          <styleUrl>#area</styleUrl>
+          <Point>
+            <coordinates>-0.7500,49.3500,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Aire d'Étretat</name>
+          <description>SC · AC · WC | 200m scogliere · arrivare presto!</description>
+          <styleUrl>#area</styleUrl>
+          <Point>
+            <coordinates>0.2083,49.7083,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Aire de Honfleur</name>
+          <description>SC · AC · EL · WC | 10 min Vieux Bassin · sosta G8</description>
+          <styleUrl>#area</styleUrl>
+          <Point>
+            <coordinates>0.2333,49.4189,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Loira</name>
+        <Placemark>
+          <name>Aire de Chambord</name>
+          <description>SC · AC · WC | 500m dal castello · pagamento</description>
+          <styleUrl>#area</styleUrl>
+          <Point>
+            <coordinates>1.5171,47.6161,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Aire de Chenonceaux</name>
+          <description>SC · AC · WC | 300m dal castello</description>
+          <styleUrl>#area</styleUrl>
+          <Point>
+            <coordinates>1.0698,47.3248,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Aire de Blois</name>
+          <description>SC · AC · EL · WC | Vicina stazione Blois</description>
+          <styleUrl>#area</styleUrl>
+          <Point>
+            <coordinates>1.3361,47.5861,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Aire de Tours</name>
+          <description>SC · AC · EL · WC · DU | Grande capienza</description>
+          <styleUrl>#area</styleUrl>
+          <Point>
+            <coordinates>0.6900,47.3900,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Percorso completo</name>
+      <Placemark>
+        <name>Traccia finale — giro con rientro corretto</name>
+        <Style>
+          <LineStyle>
+            <color>ff0066ff</color>
+            <width>3</width>
+          </LineStyle>
+        </Style>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>9.1859,45.4654,0 7.3200,45.7369,0 2.1204,48.8049,0 -0.7033,49.2764,0 0.2083,49.7083,0 -1.5116,48.6359,0 -1.9992,48.6493,0 1.5333,47.5667,0 1.0698,47.3248,0 5.9200,45.5646,0 9.1859,45.4654,0</coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
