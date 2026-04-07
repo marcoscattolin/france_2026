@@ -64,16 +64,16 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>2 - Aosta (1ª notte)</name>
-        <description>Ven 21 ago | ~110 km. Prima notte corta per familiarizzare col camper.</description>
+        <name>2 - Courmayeur (1ª notte)</name>
+        <description>Ven 21 ago | ~140 km. Prima notte corta per familiarizzare col camper. A4→Torino→A5→Courmayeur.</description>
         <styleUrl>#tappa</styleUrl>
         <Point>
-          <coordinates>7.3200,45.7369,0</coordinates>
+          <coordinates>6.9694,45.7969,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>3 - Versailles (2ª notte)</name>
-        <description>Sab 22 ago | ~730 km. GIORNO DI ECCEZIONE. Aosta→Monte Bianco→Lione(pranzo)→Digione→Versailles.</description>
+        <description>Sab 22 ago | ~730 km. GIORNO DI ECCEZIONE. Courmayeur→Monte Bianco→Lione(pranzo)→Digione→Versailles.</description>
         <styleUrl>#tappa</styleUrl>
         <Point>
           <coordinates>2.1204,48.8049,0</coordinates>
@@ -609,7 +609,7 @@
         </Style>
         <LineString>
           <tessellate>1</tessellate>
-          <coordinates>9.1859,45.4654,0 7.3200,45.7369,0 2.1204,48.8049,0 -0.7033,49.2764,0 -0.8611,49.3691,0 -1.5116,48.6359,0 -1.9992,48.6493,0 1.5333,47.5667,0 1.0698,47.3248,0 5.9200,45.5646,0 9.1859,45.4654,0</coordinates>
+          <coordinates>9.1859,45.4654,0 6.9694,45.7969,0 2.1204,48.8049,0 -0.7033,49.2764,0 -0.8611,49.3691,0 -1.5116,48.6359,0 -1.9992,48.6493,0 1.5333,47.5667,0 1.0698,47.3248,0 5.9200,45.5646,0 9.1859,45.4654,0</coordinates>
         </LineString>
       </Placemark>
     </Folder>
