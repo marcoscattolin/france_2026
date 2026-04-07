@@ -26,13 +26,20 @@ jobs:
       issues: write
       id-token: write
     steps:
-      - name: Checkout repository        # <-- step aggiunto
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Debug working directory
+        run: |
+          echo "PWD: $(pwd)"
+          echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
+          ls -la
+          git status
 
       - name: Run Claude Code Action
         uses: anthropics/claude-code-action@v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
-  
