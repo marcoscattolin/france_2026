@@ -96,11 +96,11 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>6 - Étretat (5ª notte)</name>
-        <description>Mar 25 ago | ~260 km. Da Parigi A13→Caen→Bayeux + Omaha Beach + Pointe du Hoc + scogliere Étretat.</description>
+        <name>6 - Port-en-Bessin (5ª notte)</name>
+        <description>Mar 25 ago | ~250 km. Da Parigi A13→Caen→Bayeux + Omaha Beach + Memoriale D-Day + Pointe du Hoc.</description>
         <styleUrl>#tappa</styleUrl>
         <Point>
-          <coordinates>0.2083,49.7083,0</coordinates>
+          <coordinates>-0.7500,49.3500,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
@@ -243,11 +243,11 @@
           </Point>
         </Placemark>
         <Placemark>
-          <name>Scogliere di Étretat</name>
-          <description>Scogliere bianche più famose d'Europa. Passeggiata falaise 1h. Tramonto magico. Giorno 6 (pomeriggio).</description>
+          <name>Memoriale Nazionale D-Day</name>
+          <description>National D-Day Memorial. Museo all'aperto con installazioni emozionanti. Molto accessibile per bambini. Giorno 6 (pomeriggio).</description>
           <styleUrl>#visita</styleUrl>
           <Point>
-            <coordinates>0.2083,49.7083,0</coordinates>
+            <coordinates>-0.8600,49.3700,0</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -338,16 +338,8 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Camping Municipal d'Étretat</name>
-        <description>G5 | *** | Prato dietro le scogliere</description>
-        <styleUrl>#camp</styleUrl>
-        <Point>
-          <coordinates>0.2083,49.7083,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Camping Port'land — Port-en-Bessin</name>
-        <description>G5 alt | ***** | Sul porto · piscina coperta</description>
+        <description>G5 | ***** | Sul porto · piscina coperta · vicino Omaha</description>
         <styleUrl>#camp</styleUrl>
         <Point>
           <coordinates>-0.7500,49.3500,0</coordinates>
@@ -617,7 +609,7 @@
         </Style>
         <LineString>
           <tessellate>1</tessellate>
-          <coordinates>9.1859,45.4654,0 7.3200,45.7369,0 2.1204,48.8049,0 -0.7033,49.2764,0 0.2083,49.7083,0 -1.5116,48.6359,0 -1.9992,48.6493,0 1.5333,47.5667,0 1.0698,47.3248,0 5.9200,45.5646,0 9.1859,45.4654,0</coordinates>
+          <coordinates>9.1859,45.4654,0 7.3200,45.7369,0 2.1204,48.8049,0 -0.7033,49.2764,0 -0.8611,49.3691,0 -1.5116,48.6359,0 -1.9992,48.6493,0 1.5333,47.5667,0 1.0698,47.3248,0 5.9200,45.5646,0 9.1859,45.4654,0</coordinates>
         </LineString>
       </Placemark>
     </Folder>
