@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Francia in Camper — Agosto 2025</title>
+<title>Francia in Camper — Agosto 2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
@@ -11,36 +11,57 @@
 :root{
   --cream:#F5F0E8; --sand:#E8DCC8; --ink:#1A1612; --muted:#6B6256;
   --accent:#C4531A; --gold:#B8922A; --blue:#2A4B7C; --green:#2D6A4F;
-  --pink:#8B2252; --r:4px;
+  --pink:#8B2252; --bret:#1B5E7B; --r:4px;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--ink);font-size:15px;line-height:1.65}
 
-.hero{background:var(--ink);color:var(--cream);padding:.6rem 2rem .5rem;text-align:center;position:relative;overflow:hidden}
+/* HERO */
+.hero{background:var(--ink);color:var(--cream);padding:.8rem 2rem .9rem;text-align:center;position:relative;overflow:hidden}
 .hero::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(-45deg,transparent,transparent 40px,rgba(255,255,255,.015) 40px,rgba(255,255,255,.015) 41px)}
 .hero-eyebrow{font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:1.2rem;font-weight:500}
-.hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.6rem,7vw,5rem);font-weight:900;line-height:1.05;margin-bottom:1.5rem;position:relative}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,7vw,4.6rem);font-weight:900;line-height:1.05;margin-bottom:1rem;position:relative}
 .hero h1 em{font-style:italic;color:var(--gold)}
-.hero-sub{font-size:1rem;color:rgba(245,240,232,.65);max-width:580px;margin:0 auto 2.5rem;font-weight:300}
-.hero-pills{display:flex;flex-wrap:wrap;gap:.6rem;justify-content:center;margin-bottom:3rem}
-.pill{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:99px;padding:.35rem 1rem;font-size:.8rem;color:var(--cream)}
+.hero-sub{font-size:.95rem;color:rgba(245,240,232,.6);max-width:580px;margin:0 auto;font-weight:300}
+
+/* TAB BAR */
+.tab-bar{position:sticky;top:0;z-index:100;background:var(--ink);display:flex;border-bottom:2px solid rgba(255,255,255,.08)}
+.tab-btn{flex:1;background:transparent;border:none;border-bottom:3px solid transparent;color:rgba(245,240,232,.45);padding:.8rem 1rem;font-family:'DM Sans',sans-serif;cursor:pointer;transition:all .2s;text-align:center;margin-bottom:-2px}
+.tab-btn:hover{color:var(--cream);background:rgba(255,255,255,.04)}
+.tab-btn.active{color:var(--gold);border-bottom-color:var(--gold)}
+.tab-btn .tl{display:block;font-size:.84rem;font-weight:600;letter-spacing:.01em}
+.tab-btn .ts{display:block;font-size:.69rem;margin-top:2px;opacity:.6}
+.tab-btn.active .ts{opacity:.8}
+@media(max-width:520px){.tab-btn .ts{display:none}}
+
+/* OPTION PANEL */
+.option-panel{display:none}
+.option-panel.active{display:block}
+
+/* OPTION INFO BAR */
+.option-info{background:var(--ink);padding:.6rem 1.5rem .85rem;text-align:center;border-bottom:1px solid rgba(255,255,255,.07)}
+.badge-op{display:inline-block;color:#fff;font-size:.7rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;border-radius:99px;padding:.25rem .9rem;margin-bottom:.6rem}
+.badge-op1{background:var(--accent)}
+.badge-op2{background:var(--bret)}
+.option-pills{display:flex;flex-wrap:wrap;gap:.45rem;justify-content:center}
+.pill{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:99px;padding:.3rem .85rem;font-size:.77rem;color:var(--cream)}
 .pill strong{color:var(--gold)}
 
-.disney-banner{background:var(--pink);color:#fff;text-align:center;padding:.9rem 1.5rem;font-size:.9rem;font-weight:500}
-.disney-banner span{opacity:.7;font-weight:300;margin-left:.5rem}
-
-.route-strip{background:var(--ink);color:var(--cream);padding:2rem 1.5rem;display:flex;align-items:center;overflow-x:auto;scrollbar-width:none}
+/* ROUTE STRIP */
+.route-strip{background:var(--ink);color:var(--cream);padding:1.4rem 1.5rem;display:flex;align-items:center;overflow-x:auto;scrollbar-width:none}
 .route-strip::-webkit-scrollbar{display:none}
 .route-node{display:flex;flex-direction:column;align-items:center;text-align:center;flex-shrink:0;gap:.3rem}
 .route-dot{width:10px;height:10px;border-radius:50%;border:2px solid var(--gold);background:var(--gold)}
-.route-name{font-size:.68rem;color:rgba(245,240,232,.6);max-width:68px;line-height:1.2}
+.route-name{font-size:.68rem;color:rgba(245,240,232,.6);max-width:72px;line-height:1.2}
 .route-line{flex:1;height:1px;background:rgba(255,255,255,.2);min-width:20px;align-self:flex-start;margin-top:1.1rem}
 
+/* LAYOUT */
 .container{max-width:900px;margin:0 auto;padding:0 1.5rem}
 .section{padding:4rem 0 3rem}
 .section-label{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);font-weight:500;margin-bottom:.6rem}
 .section-title{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,4vw,2.6rem);font-weight:700;line-height:1.15;margin-bottom:2.5rem}
 
+/* DAYS ACCORDION */
 .days-grid{display:flex;flex-direction:column;gap:2px}
 .day-row{background:white;border-radius:var(--r);overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.06);transition:box-shadow .2s}
 .day-row:hover{box-shadow:0 4px 16px rgba(0,0,0,.1)}
@@ -59,13 +80,21 @@ body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--ink);f
 .dbc{font-size:.85rem;color:#3d3830;line-height:1.7}
 .camp-box{background:#f8f5ef;border-radius:var(--r);padding:.8rem 1rem;font-size:.8rem;color:var(--muted);margin-top:.4rem;grid-column:1/-1}
 .camp-box strong{color:var(--ink);font-weight:500}
+.poi-box{background:#f0f4f8;border-radius:var(--r);padding:.8rem 1rem;font-size:.8rem;color:#2d3a4a;margin-top:.4rem;grid-column:1/-1;border-left:3px solid var(--blue)}
+.poi-box strong{color:var(--blue);font-weight:500}
+.phares-box{background:#e8f4f8;border-radius:var(--r);padding:.8rem 1rem;font-size:.8rem;color:#1b3a4b;margin-top:.4rem;grid-column:1/-1;border-left:3px solid var(--bret)}
+.phares-box strong{color:var(--bret);font-weight:600}
 .warn{display:inline-block;font-size:.7rem;font-weight:500;background:#fff3cd;color:#7a5000;border-radius:3px;padding:1px 6px;margin-right:4px}
+.alert{display:inline-block;font-size:.7rem;font-weight:600;background:#f8d7da;color:#721c24;border-radius:3px;padding:1px 6px;margin-right:4px}
+.ok{display:inline-block;font-size:.7rem;font-weight:600;background:#d4edda;color:#155724;border-radius:3px;padding:1px 6px;margin-right:4px}
 .best{display:inline-block;font-size:.7rem;font-weight:600;background:#d4edda;color:#155724;border-radius:3px;padding:1px 6px;margin-left:6px}
 
+/* ZONE COLORS */
 .z-tra{background:#B8922A} .z-par{background:#2A4B7C}
-.z-dis{background:#8B2252} .z-nor{background:#1A4A72}
+.z-nor{background:#1A4A72} .z-bret{background:#1B5E7B}
 .z-loi{background:#2D6A4F} .z-ret{background:#7F3D1A}
 
+/* BOOKING CARDS */
 .book-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem}
 .book-card{background:white;border-radius:var(--r);padding:1.2rem 1.3rem;box-shadow:0 1px 4px rgba(0,0,0,.07);border-left:3px solid var(--accent);display:flex;flex-direction:column;gap:.4rem}
 .book-card h4{font-weight:500;font-size:.9rem;color:var(--ink)}
@@ -73,191 +102,503 @@ body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--ink);f
 .book-card a{margin-top:.3rem;font-size:.75rem;font-weight:500;color:var(--accent);text-decoration:none}
 .book-card a:hover{text-decoration:underline}
 .urgency{font-size:.65rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:white;background:var(--accent);border-radius:3px;padding:1px 6px;display:inline-block;width:fit-content}
-.urgency.med{background:var(--gold)}
+.urgency.med{background:var(--gold)} .urgency.ok{background:var(--green)} .urgency.bret{background:var(--bret)}
 
+/* TIPS */
 .tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem}
 .tip-card{background:white;border-radius:var(--r);padding:1.1rem 1.2rem;box-shadow:0 1px 3px rgba(0,0,0,.06)}
 .tip-icon{font-size:1.4rem;margin-bottom:.5rem}
 .tip-card h4{font-size:.85rem;font-weight:500;margin-bottom:.3rem}
 .tip-card p{font-size:.78rem;color:var(--muted);line-height:1.5}
 
+/* RIENTRO BOX */
 .rientro-box{background:var(--ink);color:var(--cream);border-radius:var(--r);padding:1.5rem 1.8rem;margin:2rem 0}
 .rientro-box h3{font-family:'Playfair Display',serif;font-size:1.2rem;color:var(--gold);margin-bottom:.8rem}
 .rientro-box p{font-size:.85rem;color:rgba(245,240,232,.75);line-height:1.7}
 .rientro-box strong{color:var(--cream)}
+
+/* SUMMARY TABLE */
+.summary-table{width:100%;border-collapse:collapse;font-size:.82rem;background:white;border-radius:var(--r);overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,.07)}
+.summary-table th{background:var(--ink);color:var(--cream);padding:.6rem .9rem;text-align:left;font-weight:500;font-size:.72rem;letter-spacing:.05em}
+.summary-table td{padding:.55rem .9rem;border-bottom:1px solid #f0ece4;color:#3d3830}
+.summary-table tr:last-child td{border-bottom:none;font-weight:600;background:#f8f5ef}
+.summary-table tr:hover td{background:#faf7f2}
+.dot-cell{display:flex;align-items:center;gap:.5rem}
+.sdot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
 
 footer{background:var(--ink);color:rgba(245,240,232,.5);text-align:center;padding:2.5rem 1.5rem;font-size:.78rem;margin-top:4rem}
 footer strong{color:var(--gold)}
 
 @keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
 .hero>*{animation:fadeUp .6s ease both}
-.hero-eyebrow{animation-delay:.1s}.hero h1{animation-delay:.2s}
-.hero-sub{animation-delay:.3s}.hero-pills{animation-delay:.4s}
+.hero-eyebrow{animation-delay:.1s}.hero h1{animation-delay:.2s}.hero-sub{animation-delay:.3s}
 </style>
 </head>
 <body>
 
 <header class="hero">
-  <p class="hero-eyebrow">Viaggio di gruppo · Estate 2025</p>
+  <p class="hero-eyebrow">Viaggio di gruppo · Estate 2026</p>
   <h1>Francia in <em>Camper</em></h1>
-  <p class="hero-sub">21–31 agosto 2025 · 4 famiglie · 10 notti · Milano → Courmayeur → Versailles → Parigi → Normandia → MSM → Saint-Malo → Loira → Chambéry → Milano</p>
-  <div class="hero-pills">
-    <span class="pill">ritiro <strong>ven 21 ore 15:00</strong></span>
-    <span class="pill"><strong>4</strong> camper</span>
-    <span class="pill"><strong>10</strong> notti</span>
-    <span class="pill"><strong>~2.600</strong> km totali</span>
-    <span class="pill">bambini <strong>8–10</strong> anni</span>
-    <span class="pill">consegna <strong>lun 31 ore 9:00</strong></span>
-  </div>
+  <p class="hero-sub">21–31 agosto 2026 · 4 famiglie · 11 giorni · Scegli la tua opzione di viaggio</p>
 </header>
 
-<div class="route-strip">
-  <div class="route-node"><div class="route-dot"></div><div class="route-name">Milano</div></div><div class="route-line"></div>
-  <div class="route-node"><div class="route-dot"></div><div class="route-name">Courmayeur</div></div><div class="route-line"></div>
-  <div class="route-node"><div class="route-dot" style="background:#2A4B7C;border-color:#2A4B7C"></div><div class="route-name">Versailles</div></div><div class="route-line"></div>
-  <div class="route-node"><div class="route-dot" style="background:#2A4B7C;border-color:#2A4B7C"></div><div class="route-name">Parigi</div></div><div class="route-line"></div>
-  <div class="route-node"><div class="route-dot" style="background:#1A4A72;border-color:#1A4A72"></div><div class="route-name">Omaha</div></div><div class="route-line"></div>
-  <div class="route-node"><div class="route-dot" style="background:#1A4A72;border-color:#1A4A72"></div><div class="route-name">Mont-Saint-Michel</div></div><div class="route-line"></div>
-  <div class="route-node"><div class="route-dot" style="background:#1A4A72;border-color:#1A4A72"></div><div class="route-name">Saint-Malo</div></div><div class="route-line"></div>
-  <div class="route-node"><div class="route-dot" style="background:#2D6A4F;border-color:#2D6A4F"></div><div class="route-name">Loira</div></div><div class="route-line"></div>
-  <div class="route-node"><div class="route-dot" style="background:#7F3D1A;border-color:#7F3D1A"></div><div class="route-name">Chambéry</div></div><div class="route-line"></div>
-  <div class="route-node"><div class="route-dot" style="background:#7F3D1A;border-color:#7F3D1A"></div><div class="route-name">Milano</div></div>
+<div class="tab-bar">
+  <button class="tab-btn active" id="tab1" onclick="selectTab(1)">
+    <span class="tl">Opzione 1 — Senza Brest</span>
+    <span class="ts">~2.700 km · consegna lun 31 ore 9:00</span>
+  </button>
+  <button class="tab-btn" id="tab2" onclick="selectTab(2)">
+    <span class="tl">Opzione 2 — Con Brest &amp; Route des Phares</span>
+    <span class="ts">~3.270 km · consegna lun 31 ~17:30</span>
+  </button>
 </div>
 
-<div class="container">
-<section class="section">
-  <div style="background:white;border-radius:var(--r);padding:1rem 1.3rem;box-shadow:0 1px 4px rgba(0,0,0,.07);border-left:3px solid var(--blue);display:flex;align-items:center;gap:1rem;margin-bottom:2rem">
-    <span style="font-size:1.4rem">🗺</span>
-    <div>
-      <div style="font-weight:500;font-size:.9rem;color:var(--ink)">Mappa condivisa del viaggio</div>
-      <div style="font-size:.78rem;color:var(--muted);margin-top:2px">Campeggi, aree sosta e tappe per tutto il gruppo</div>
+<!-- ==================== OPZIONE 1 ==================== -->
+<div id="panel1" class="option-panel active">
+
+  <div class="option-info">
+    <div class="badge-op badge-op1">Opzione 1 — Senza Brest</div>
+    <div class="option-pills">
+      <span class="pill">ritiro <strong>ven 21 ore 15:00</strong></span>
+      <span class="pill"><strong>4</strong> camper</span>
+      <span class="pill"><strong>11</strong> giorni</span>
+      <span class="pill"><strong>~2.700</strong> km totali</span>
+      <span class="pill">bambini <strong>8–12</strong> anni</span>
+      <span class="pill">consegna <strong>lun 31 ore 9:00</strong></span>
     </div>
-    <a href="https://www.google.com/maps/d/u/0/edit?mid=1u3lTuuaE7AyUXO6IVvgWgVRu3saqAQs&usp=sharing" target="_blank" style="margin-left:auto;white-space:nowrap;font-size:.78rem;font-weight:500;color:var(--accent);text-decoration:none">Apri la mappa ↗</a>
   </div>
-  <p class="section-label">Programma giorno per giorno</p>
-  <h2 class="section-title">L'itinerario</h2>
-  <div class="days-grid" id="days"></div>
 
-</section>
-
-<section class="section" style="padding-top:0">
-  <p class="section-label">Da fare subito</p>
-  <h2 class="section-title">Prenotazioni obbligatorie</h2>
-  <div class="book-grid">
-    <div class="book-card"><span class="urgency med">Presto</span><h4>⚓ Camping Saint-Malo</h4><p>I campeggi vicino a Saint-Malo si esauriscono in agosto. Prenotare con anticipo per giovedì 27.</p><a href="https://www.saint-malo-tourisme.com" target="_blank">saint-malo-tourisme.com ↗</a></div>
-    <div class="book-card"><span class="urgency">Urgentissimo</span><h4>⛺ Huttopia Versailles</h4><p>3 notti consecutive (22–24 ago). Il campeggio più richiesto zona Parigi — prenota subito.</p><a href="https://huttopia.com" target="_blank">huttopia.com ↗</a></div>
-    <div class="book-card"><span class="urgency">Urgente</span><h4>🗼 Torre Eiffel</h4><p>Biglietti esauriti mesi prima. Lunedì 24 agosto. Salita al 2° piano.</p><a href="https://www.toureiffel.paris" target="_blank">toureiffel.paris ↗</a></div>
-    <div class="book-card"><span class="urgency">Urgente</span><h4>👑 Reggia di Versailles</h4><p>Domenica 23 agosto. Biglietti online obbligatori con anticipo.</p><a href="https://www.chateauversailles.fr" target="_blank">chateauversailles.fr ↗</a></div>
-    <div class="book-card"><span class="urgency med">Presto</span><h4>🏰 Chenonceau</h4><p>Almeno 2 settimane prima. Code enormi in agosto senza prenotazione.</p><a href="https://www.chenonceau.com" target="_blank">chenonceau.com ↗</a></div>
-    <div class="book-card"><span class="urgency med">Presto</span><h4>🚌 Parking Mont-Saint-Michel</h4><p>Parcheggio camper da prenotare online. Navette gratuite incluse.</p><a href="https://www.visite-mont-saint-michel.com" target="_blank">visite-mont-saint-michel.com ↗</a></div>
-    <div class="book-card"><span class="urgency med">Presto</span><h4>⛺ Camping Haliotis</h4><p>8 km dal Mont-Saint-Michel. Navetta inclusa. Si esaurisce d'estate.</p><a href="https://www.camping-haliotis-mont-saint-michel.com" target="_blank">camping-haliotis ↗</a></div>
-    <div class="book-card"><span class="urgency med">Presto</span><h4>🎫 Sainte-Chapelle</h4><p>Vetrate gotiche XIII sec. — imperdibile con bambini. Biglietti online consigliati.</p><a href="https://www.sainte-chapelle.fr" target="_blank">sainte-chapelle.fr ↗</a></div>
+  <div class="route-strip">
+    <div class="route-node"><div class="route-dot"></div><div class="route-name">Milano</div></div><div class="route-line"></div>
+    <div class="route-node"><div class="route-dot"></div><div class="route-name">Courmayeur</div></div><div class="route-line"></div>
+    <div class="route-node"><div class="route-dot" style="background:#2A4B7C;border-color:#2A4B7C"></div><div class="route-name">Versailles</div></div><div class="route-line"></div>
+    <div class="route-node"><div class="route-dot" style="background:#2A4B7C;border-color:#2A4B7C"></div><div class="route-name">Parigi</div></div><div class="route-line"></div>
+    <div class="route-node"><div class="route-dot" style="background:#1A4A72;border-color:#1A4A72"></div><div class="route-name">Étretat</div></div><div class="route-line"></div>
+    <div class="route-node"><div class="route-dot" style="background:#1A4A72;border-color:#1A4A72"></div><div class="route-name">Omaha</div></div><div class="route-line"></div>
+    <div class="route-node"><div class="route-dot" style="background:#1A4A72;border-color:#1A4A72"></div><div class="route-name">Mont‑Saint‑Michel</div></div><div class="route-line"></div>
+    <div class="route-node"><div class="route-dot" style="background:#1A4A72;border-color:#1A4A72"></div><div class="route-name">Saint‑Malo</div></div><div class="route-line"></div>
+    <div class="route-node"><div class="route-dot" style="background:#2D6A4F;border-color:#2D6A4F"></div><div class="route-name">Chambord</div></div><div class="route-line"></div>
+    <div class="route-node"><div class="route-dot" style="background:#2D6A4F;border-color:#2D6A4F"></div><div class="route-name">Chenonceau</div></div><div class="route-line"></div>
+    <div class="route-node"><div class="route-dot" style="background:#7F3D1A;border-color:#7F3D1A"></div><div class="route-name">Chambéry</div></div><div class="route-line"></div>
+    <div class="route-node"><div class="route-dot" style="background:#7F3D1A;border-color:#7F3D1A"></div><div class="route-name">Milano</div></div>
   </div>
-</section>
 
-<section class="section" style="padding-top:0">
-  <p class="section-label">Logistica pratica</p>
-  <h2 class="section-title">Consigli per il gruppo</h2>
-  <div class="tips-grid">
-    <div class="tip-card"><div class="tip-icon">⛽</div><h4>Carburante</h4><p>Fare il pieno in Italia prima del traforo. In Francia rifornite alle uscite, non nelle aree autostradali.</p></div>
-    <div class="tip-card"><div class="tip-icon">🛂</div><h4>Pedaggi</h4><p>Fréjus ~€60/camper, Monte Bianco ~€50. Telepass funziona in Francia. Budget ~€150/camper A/R.</p></div>
-    <div class="tip-card"><div class="tip-icon">🚿</div><h4>Scarico WC</h4><p>Cercare aree SC ogni 2-3 giorni. Ultimo scarico consigliato ad Ivrea (A5) prima della consegna.</p></div>
-    <div class="tip-card"><div class="tip-icon">📱</div><h4>App utili</h4><p>Park4night (aree sosta), My Disney Experience (Lightning Lane), Google Maps offline, Météo-France.</p></div>
-    <div class="tip-card"><div class="tip-icon">🗓</div><h4>Bollini traffico</h4><p>Dom 30 agosto = bollino rosso. Partenza da Loira ore 6:30 obbligatoria. Sab 22 (andata): traffico moderato — partenza Aosta ore 7:00. Lun 31 tranquillo.</p></div>
-    <div class="tip-card"><div class="tip-icon">🌡</div><h4>Meteo agosto</h4><p>Normandia: 20-24°C, possibili piogge. Loira e Parigi: 25-30°C. K-way leggero sempre in camper.</p></div>
-    <div class="tip-card"><div class="tip-icon">💶</div><h4>Budget orientativo</h4><p>Campeggi: €30-60/notte. Pedaggi A/R: ~€150. Giverny: ~€15/pers. Ingressi vari: ~€150/famiglia.</p></div>
-    <div class="tip-card"><div class="tip-icon">📡</div><h4>Connettività</h4><p>SIM dati EU funziona in Francia senza costi extra. Hotspot dal telefono per navigazione camper.</p></div>
-  </div>
-</section>
+  <div class="container">
 
-<section class="section" style="padding-top:0">
-  <p class="section-label">Prima di partire</p>
-  <h2 class="section-title">Consigli per il ritiro</h2>
-  <div style="background:white;border-radius:var(--r);padding:1.4rem 1.6rem;box-shadow:0 1px 4px rgba(0,0,0,.07)">
-    <ul style="list-style:none;display:flex;flex-direction:column;gap:.9rem">
-      <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">📋</span><span><strong style="color:var(--ink)">Verbale di consegna</strong> — fotografare ogni graffio, ammaccatura e difetto già presente prima di firmare. Inviare le foto per email al noleggiatore subito, con data e ora visibili.</span></li>
-      <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">🔑</span><span><strong style="color:var(--ink)">Test di tutti i sistemi</strong> — verificare sul posto: motore, riscaldamento, acqua calda, frigo, fornelli, WC chimico, tenda/veranda se presente. Non uscire dal piazzale senza aver provato tutto.</span></li>
-      <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">⛽</span><span><strong style="color:var(--ink)">Livello carburante e AdBlue</strong> — annotare il livello esatto indicato nel verbale. Chiedere se il mezzo usa AdBlue (comune sui diesel Euro 6) e dove si rifornisce.</span></li>
-      <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">🛞</span><span><strong style="color:var(--ink)">Pneumatici e ruota di scorta</strong> — controllare lo stato delle gomme e chiedere dove si trova la ruota di scorta (o il kit antiforatura). Verificare la presenza del triangolo e del giubbotto catarifrangente.</span></li>
-      <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">📐</span><span><strong style="color:var(--ink)">Altezza e larghezza</strong> — annotare le misure esatte del camper (altezza con climatizzatore sul tetto incluso). Indispensabile per parcheggi coperti, tunnel e traghetti.</span></li>
-      <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">🪝</span><span><strong style="color:var(--ink)">Kit e dotazioni a bordo</strong> — farsi mostrare: cavo elettrico 220V, adattatori, tubo scarico acque grigie, tubo carico acqua, livellatori, cassetto porta-documenti. Spuntare tutto sul verbale.</span></li>
-      <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">📱</span><span><strong style="color:var(--ink)">Numero di emergenza</strong> — salvare in rubrica il numero di assistenza stradale del noleggiatore. Chiedere la procedura in caso di guasto all'estero.</span></li>
-      <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">🛏</span><span><strong style="color:var(--ink)">Letto automatico</strong> — provare ad alzare e abbassare il letto fino a fine corsa, in entrambe le direzioni. Verificare che il meccanismo non si inceppi e che il materasso sia stabile in posizione sollevata.</span></li>
-      <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">🔐</span><span><strong style="color:var(--ink)">Franchigia e assicurazione</strong> — verificare l'importo della franchigia e se è stato acquistato il pacchetto riduzione franchigia. Chiedere conferma della copertura in Francia.</span></li>
-    </ul>
+    <section class="section">
+      <p class="section-label">Programma giorno per giorno</p>
+      <h2 class="section-title">L'itinerario</h2>
+      <div class="days-grid" id="days1"></div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <p class="section-label">Panoramica</p>
+      <h2 class="section-title">Riepilogo chilometrico</h2>
+      <table class="summary-table">
+        <thead><tr><th>#</th><th>Data</th><th>Tratta</th><th>Km</th><th>Partenza</th></tr></thead>
+        <tbody id="summary1"></tbody>
+      </table>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <p class="section-label">Da fare subito</p>
+      <h2 class="section-title">Prenotazioni obbligatorie</h2>
+      <div class="book-grid">
+        <div class="book-card"><span class="urgency">Urgentissimo</span><h4>⛺ Huttopia Versailles</h4><p>3 notti consecutive (22–24 ago). Il campeggio più richiesto della zona Parigi — prenota subito, si esaurisce mesi prima.</p><a href="https://huttopia.com" target="_blank">huttopia.com ↗</a></div>
+        <div class="book-card"><span class="urgency">Urgente</span><h4>🏰 Disneyland Paris</h4><p>Biglietti e Lightning Lane per lunedì 24 agosto. Prenotare con mesi di anticipo su app Disneyland Paris.</p><a href="https://www.disneylandparis.com" target="_blank">disneylandparis.com ↗</a></div>
+        <div class="book-card"><span class="urgency">Urgente</span><h4>🗼 Torre Eiffel</h4><p>I biglietti si esauriscono mesi prima in agosto. Domenica 23 agosto. Salita al 2° piano consigliata con bambini.</p><a href="https://www.toureiffel.paris" target="_blank">toureiffel.paris ↗</a></div>
+        <div class="book-card"><span class="urgency">Urgente</span><h4>👑 Reggia di Versailles</h4><p>Domenica 23 agosto. Biglietti online obbligatori, inclusi giardini e Trianon. Code enormi senza prenotazione.</p><a href="https://www.chateauversailles.fr" target="_blank">chateauversailles.fr ↗</a></div>
+        <div class="book-card"><span class="urgency med">Presto</span><h4>⚓ Camping Saint-Malo</h4><p>Per giovedì 27 agosto: Camping Cité d'Alet o Les Nielles. Si esauriscono in alta stagione.</p><a href="https://www.saint-malo-tourisme.com" target="_blank">saint-malo-tourisme.com ↗</a></div>
+        <div class="book-card"><span class="urgency med">Presto</span><h4>⛺ Camping Haliotis (MSM)</h4><p>8 km dal Mont-Saint-Michel, navetta inclusa. Molto richiesto: prenotare con anticipo per giovedì 27.</p><a href="https://www.camping-haliotis-mont-saint-michel.com" target="_blank">camping-haliotis ↗</a></div>
+        <div class="book-card"><span class="urgency med">Presto</span><h4>🚌 Parcheggio Mont-Saint-Michel</h4><p>Il parcheggio camper va prenotato online. Navette gratuite incluse. Obbligatorio in agosto.</p><a href="https://www.visite-mont-saint-michel.com" target="_blank">visite-mont-saint-michel.com ↗</a></div>
+        <div class="book-card"><span class="urgency med">Presto</span><h4>🏰 Château de Chenonceau</h4><p>Sabato 29 agosto. Code enormi senza prenotazione. Biglietti online almeno 2 settimane prima.</p><a href="https://www.chenonceau.com" target="_blank">chenonceau.com ↗</a></div>
+        <div class="book-card"><span class="urgency med">Presto</span><h4>🏰 Château de Chambord</h4><p>Sabato 29 agosto mattina. Molto affollato nei weekend. Prenotare online l'ingresso.</p><a href="https://www.chambord.org" target="_blank">chambord.org ↗</a></div>
+        <div class="book-card"><span class="urgency ok">Consigliato</span><h4>🎫 Sainte-Chapelle</h4><p>Domenica 23 agosto. Vetrate gotiche XIII sec. — imperdibile con bambini. Biglietti online consigliati.</p><a href="https://www.sainte-chapelle.fr" target="_blank">sainte-chapelle.fr ↗</a></div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <p class="section-label">Logistica pratica</p>
+      <h2 class="section-title">Consigli per il gruppo</h2>
+      <div class="tips-grid">
+        <div class="tip-card"><div class="tip-icon">⛽</div><h4>Carburante</h4><p>Fare il pieno in Italia prima del traforo. In Francia rifornire alle uscite autostradali, mai nelle aree di servizio in autostrada (più care del 20%).</p></div>
+        <div class="tip-card"><div class="tip-icon">🛂</div><h4>Pedaggi</h4><p>Monte Bianco ~€50/camper (andata). Fréjus ~€60 (ritorno). Pedaggi Francia A/R ~€80. Budget totale pedaggi: ~€190/camper.</p></div>
+        <div class="tip-card"><div class="tip-icon">🚿</div><h4>Scarico WC chimico</h4><p>Pianificare scarico ogni 2–3 giorni. Ultimo scarico consigliato a Bardonecchia (area sosta) prima della consegna a Milano.</p></div>
+        <div class="tip-card"><div class="tip-icon">📱</div><h4>App utili</h4><p>Park4night (aree sosta), My Disney Experience (Lightning Lane), Google Maps offline scaricato prima, Météo-France per la Normandia.</p></div>
+        <div class="tip-card"><div class="tip-icon">🗓</div><h4>Bollini traffico Francia</h4><p><span class="warn">⚠ Dom 30 ago = ROSSO</span> — partenza da Chenonceau ore 8:00 obbligatoria. Sab 22 (andata): arancione — partenza Courmayeur ore 7:00. Lun 31: verde, tranquillo.</p></div>
+        <div class="tip-card"><div class="tip-icon">🌡</div><h4>Meteo agosto</h4><p>Normandia: 19–23°C con possibili piogge (k-way sempre nel camper). Valle della Loira e Parigi: 26–30°C soleggiato. Courmayeur: 18–22°C.</p></div>
+        <div class="tip-card"><div class="tip-icon">💶</div><h4>Budget orientativo</h4><p>Campeggi: €35–65/notte/camper. Pedaggi A/R: ~€190. Disneyland: ~€80–100/persona. Ingressi castelli Loira: ~€60/famiglia.</p></div>
+        <div class="tip-card"><div class="tip-icon">📡</div><h4>Connettività</h4><p>SIM dati UE senza costi extra. Scaricare mappe offline di tutta la Francia prima di partire. Hotspot dal telefono per il navigatore del camper.</p></div>
+        <div class="tip-card"><div class="tip-icon">🍽</div><h4>Spesa e pasti</h4><p>Supermercati Leclerc e Intermarché ottimo rapporto qualità/prezzo. Mercati locali il mattino per frutta e formaggi. Picnic consigliato a Chambord e MSM.</p></div>
+        <div class="tip-card"><div class="tip-icon">🦺</div><h4>Sicurezza camper</h4><p>Giubbotti catarifrangenti (1 per posto) e triangolo obbligatori in Francia. Etilometro usa-e-getta (acquistabile in autogrill). Vietato superare 90 km/h su autostrada con camper >3,5t.</p></div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <p class="section-label">Prima di partire</p>
+      <h2 class="section-title">Check-list ritiro camper</h2>
+      <div style="background:white;border-radius:var(--r);padding:1.4rem 1.6rem;box-shadow:0 1px 4px rgba(0,0,0,.07)">
+        <ul style="list-style:none;display:flex;flex-direction:column;gap:.9rem">
+          <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">📋</span><span><strong style="color:var(--ink)">Verbale di consegna</strong> — Fotografare ogni graffio e ammaccatura prima di firmare. Inviare le foto per email al noleggiatore con data e ora visibili.</span></li>
+          <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">🔑</span><span><strong style="color:var(--ink)">Test di tutti i sistemi</strong> — Motore, riscaldamento, acqua calda, frigo, fornelli, WC chimico, tenda. Non uscire dal piazzale senza aver provato tutto.</span></li>
+          <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">⛽</span><span><strong style="color:var(--ink)">Carburante e AdBlue</strong> — Annotare il livello sul verbale. Chiedere se il mezzo usa AdBlue (comune sui diesel Euro 6) e dove rifornirsi.</span></li>
+          <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">📐</span><span><strong style="color:var(--ink)">Altezza e larghezza</strong> — Annotare le misure esatte (incluso climatizzatore sul tetto). Indispensabile per parcheggi coperti e trafori.</span></li>
+          <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">🪝</span><span><strong style="color:var(--ink)">Kit a bordo</strong> — Cavo elettrico 220V, tubo scarico acque grigie, tubo carico acqua, livellatori, adattatori europei. Spuntare tutto sul verbale.</span></li>
+          <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">🛏</span><span><strong style="color:var(--ink)">Letto elettrico</strong> — Provare il meccanismo a fine corsa in entrambe le direzioni. Verificare che non si inceppi.</span></li>
+          <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">🔐</span><span><strong style="color:var(--ink)">Franchigia e assicurazione</strong> — Verificare importo franchigia e copertura in Francia. Considerare il pacchetto riduzione franchigia se disponibile.</span></li>
+          <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">📱</span><span><strong style="color:var(--ink)">Numero emergenze</strong> — Salvare il numero di assistenza stradale del noleggiatore. Chiedere la procedura per guasto all'estero.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <p class="section-label">Ultimo giorno</p>
+      <h2 class="section-title">Rientro e consegna</h2>
+      <div class="rientro-box">
+        <h3>⏰ Lunedì 31 Agosto — Partenza ore 05:00 da Chambéry</h3>
+        <p>Il giorno 11 è critico: consegna a Milano entro le <strong>09:00</strong>. Percorso: A43 Chambéry → <strong>Traforo del Fréjus</strong> (~€60, pedaggio notturno ridotto) → A32 Bardonecchia → Torino → A4 Milano. ~293 km, arrivo stimato <strong>08:55</strong>.</p>
+        <p style="margin-top:.8rem"><span style="color:var(--gold)">⚠</span> Il 31 agosto è <strong>lunedì di controesodo</strong>: l'A4 Torino–Milano congestionata dalle 07:30. Partendo alle 05:00 si passa Torino intorno alle 07:10 — prima delle code.</p>
+        <p style="margin-top:.8rem">Prima di consegnare: <strong>svuotare il WC chimico</strong> (area sosta Bardonecchia), fare il <strong>pieno di carburante</strong>, pulire l'interno, fotografare gli esterni del camper.</p>
+      </div>
+    </section>
+
   </div>
-</section>
-</div>
+</div><!-- /panel1 -->
+
+<!-- ==================== OPZIONE 2 ==================== -->
+<div id="panel2" class="option-panel">
+
+  <div class="option-info">
+    <div class="badge-op badge-op2">Opzione 2 — Con Brest &amp; Route des Phares</div>
+    <div class="option-pills">
+      <span class="pill">ritiro <strong>ven 21 ore 15:00</strong></span>
+      <span class="pill"><strong>4</strong> camper</span>
+      <span class="pill"><strong>11</strong> giorni</span>
+      <span class="pill"><strong>~3.270</strong> km totali</span>
+      <span class="pill">bambini <strong>8–12</strong> anni</span>
+      <span class="pill">consegna <strong>lun 31 ~17:30</strong></span>
+    </div>
+  </div>
+
+  <div class="route-strip">
+    <div class="route-node"><div class="route-dot"></div><div class="route-name">Milano</div></div><div class="route-line"></div>
+    <div class="route-node"><div class="route-dot"></div><div class="route-name">Courmayeur</div></div><div class="route-line"></div>
+    <div class="route-node"><div class="route-dot" style="background:#2A4B7C;border-color:#2A4B7C"></div><div class="route-name">Versailles</div></div><div class="route-line"></div>
+    <div class="route-node"><div class="route-dot" style="background:#2A4B7C;border-color:#2A4B7C"></div><div class="route-name">Parigi</div></div><div class="route-line"></div>
+    <div class="route-node"><div class="route-dot" style="background:#1A4A72;border-color:#1A4A72"></div><div class="route-name">Étretat</div></div><div class="route-line"></div>
+    <div class="route-node"><div class="route-dot" style="background:#1A4A72;border-color:#1A4A72"></div><div class="route-name">Omaha</div></div><div class="route-line"></div>
+    <div class="route-node"><div class="route-dot" style="background:#1A4A72;border-color:#1A4A72"></div><div class="route-name">Mont‑Saint‑Michel</div></div><div class="route-line"></div>
+    <div class="route-node"><div class="route-dot" style="background:#1A4A72;border-color:#1A4A72"></div><div class="route-name">Saint‑Malo</div></div><div class="route-line"></div>
+    <div class="route-node"><div class="route-dot" style="background:#1B5E7B;border-color:#1B5E7B"></div><div class="route-name">Brignogan</div></div><div class="route-line"></div>
+    <div class="route-node"><div class="route-dot" style="background:#1B5E7B;border-color:#1B5E7B"></div><div class="route-name">Brest</div></div><div class="route-line"></div>
+    <div class="route-node"><div class="route-dot" style="background:#2D6A4F;border-color:#2D6A4F"></div><div class="route-name">Chambord</div></div><div class="route-line"></div>
+    <div class="route-node"><div class="route-dot" style="background:#2D6A4F;border-color:#2D6A4F"></div><div class="route-name">Chenonceau</div></div><div class="route-line"></div>
+    <div class="route-node"><div class="route-dot" style="background:#7F3D1A;border-color:#7F3D1A"></div><div class="route-name">Milano</div></div>
+  </div>
+
+  <div class="container">
+
+    <section class="section">
+      <p class="section-label">Programma giorno per giorno</p>
+      <h2 class="section-title">L'itinerario</h2>
+      <div class="days-grid" id="days2"></div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <p class="section-label">Panoramica</p>
+      <h2 class="section-title">Riepilogo chilometrico</h2>
+      <table class="summary-table">
+        <thead><tr><th>#</th><th>Data</th><th>Tratta</th><th>Km</th><th>Note</th></tr></thead>
+        <tbody id="summary2"></tbody>
+      </table>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <p class="section-label">Da fare subito</p>
+      <h2 class="section-title">Prenotazioni obbligatorie</h2>
+      <div class="book-grid">
+        <div class="book-card"><span class="urgency">Urgentissimo</span><h4>⛺ Huttopia Versailles</h4><p>3 notti consecutive (22–24 ago). Il campeggio più richiesto della zona Parigi — prenota subito, si esaurisce mesi prima.</p><a href="https://huttopia.com" target="_blank">huttopia.com ↗</a></div>
+        <div class="book-card"><span class="urgency">Urgente</span><h4>🏰 Disneyland Paris</h4><p>Biglietti e Lightning Lane per lunedì 24 agosto. Prenotare con mesi di anticipo su app Disneyland Paris.</p><a href="https://www.disneylandparis.com" target="_blank">disneylandparis.com ↗</a></div>
+        <div class="book-card"><span class="urgency">Urgente</span><h4>🗼 Torre Eiffel</h4><p>Biglietti esauriti mesi prima. Domenica 23 agosto. Salita al 2° piano consigliata con bambini.</p><a href="https://www.toureiffel.paris" target="_blank">toureiffel.paris ↗</a></div>
+        <div class="book-card"><span class="urgency">Urgente</span><h4>👑 Reggia di Versailles</h4><p>Domenica 23 agosto. Biglietti online obbligatori — code enormi senza prenotazione.</p><a href="https://www.chateauversailles.fr" target="_blank">chateauversailles.fr ↗</a></div>
+        <div class="book-card"><span class="urgency med">Presto</span><h4>⚓ Camping Saint-Malo</h4><p>Per giovedì 27 agosto. Camping Cité d'Alet o des Nielles. Si esauriscono in alta stagione.</p><a href="https://www.saint-malo-tourisme.com" target="_blank">saint-malo-tourisme.com ↗</a></div>
+        <div class="book-card"><span class="urgency med">Presto</span><h4>⛺ Camping Haliotis (MSM)</h4><p>8 km dal Mont-Saint-Michel, navetta inclusa. Prenotare con anticipo per giovedì 27.</p><a href="https://www.camping-haliotis-mont-saint-michel.com" target="_blank">camping-haliotis ↗</a></div>
+        <div class="book-card"><span class="urgency med">Presto</span><h4>🚌 Parcheggio Mont-Saint-Michel</h4><p>Il parcheggio camper va prenotato online. Navette gratuite incluse. Obbligatorio in agosto.</p><a href="https://www.visite-mont-saint-michel.com" target="_blank">visite-mont-saint-michel.com ↗</a></div>
+        <div class="book-card"><span class="urgency bret">Bretagna</span><h4>🏕 Camping Brignogan</h4><p>Venerdì 28 agosto. Camping du Phare de Pontusval — molto richiesto in agosto sul mare bretone.</p><a href="https://www.camping-pontusval.com" target="_blank">camping-pontusval.com ↗</a></div>
+        <div class="book-card"><span class="urgency med">Presto</span><h4>🏰 Château de Chenonceau</h4><p>Domenica 30 agosto. Code enormi senza prenotazione online. Almeno 2 settimane prima.</p><a href="https://www.chenonceau.com" target="_blank">chenonceau.com ↗</a></div>
+        <div class="book-card"><span class="urgency ok">Consigliato</span><h4>🎫 Sainte-Chapelle</h4><p>Domenica 23 agosto. Vetrate gotiche XIII sec. — imperdibile con bambini. Biglietti online consigliati.</p><a href="https://www.sainte-chapelle.fr" target="_blank">sainte-chapelle.fr ↗</a></div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <p class="section-label">Logistica pratica</p>
+      <h2 class="section-title">Consigli per il gruppo</h2>
+      <div class="tips-grid">
+        <div class="tip-card"><div class="tip-icon">⛽</div><h4>Carburante</h4><p>Fare il pieno in Italia prima del traforo. In Francia rifornire alle uscite autostradali. <b>Attenzione giorno 9</b>: fare il pieno a Brest prima della lunga tratta verso Chambord (~500 km).</p></div>
+        <div class="tip-card"><div class="tip-icon">🛂</div><h4>Pedaggi</h4><p>Monte Bianco ~€50/camper (andata). Fréjus ~€60 (ritorno). Pedaggi Francia ~€90 A/R. Budget totale: ~€200/camper. Nota: questa opzione ha ~570 km in più rispetto all'opzione 1.</p></div>
+        <div class="tip-card"><div class="tip-icon">🌊</div><h4>Bretagna &amp; Fari</h4><p>Il giorno 9 (Route des Phares) è la tappa più lunga: 615 km con partenza alle 05:30. Preparare snack, musica e intrattenimento per i bambini. Le strade bretoni sono strette — guida attenta.</p></div>
+        <div class="tip-card"><div class="tip-icon">📱</div><h4>App utili</h4><p>Park4night (aree sosta), My Disney Experience (Lightning Lane), Google Maps offline, Météo-France (la Bretagna è ventosa!), Phares &amp; Balises (app sui fari bretoni).</p></div>
+        <div class="tip-card"><div class="tip-icon">🗓</div><h4>Bollini traffico</h4><p><span class="warn">⚠ Dom 30 ago = ARANCIONE</span> — partenza da Chambord ore 9:00. Sab 22 (andata) e Sab 29 (da Brest): traffico moderato. Lun 31: verde, tranquillo in mattinata.</p></div>
+        <div class="tip-card"><div class="tip-icon">🌡</div><h4>Meteo agosto</h4><p>Bretagna: 18–22°C, vento costante e possibili piogge (k-way sempre nel camper!). Normandia: 19–23°C. Parigi e Loira: 26–30°C soleggiato.</p></div>
+        <div class="tip-card"><div class="tip-icon">💶</div><h4>Budget orientativo</h4><p>Campeggi: €35–65/notte/camper. Pedaggi A/R: ~€200. Disneyland: ~€80–100/persona. Fari bretoni: gratuiti (esterni). Ingressi castelli Loira: ~€60/famiglia.</p></div>
+        <div class="tip-card"><div class="tip-icon">🚿</div><h4>Scarico WC chimico</h4><p>Pianificare scarico ogni 2–3 giorni. A Brignogan (giorno 8) verificare la disponibilità dell'aire comunale. Ultima sosta consigliata: Modane o Bardonecchia.</p></div>
+        <div class="tip-card"><div class="tip-icon">🍽</div><h4>Specialità locali</h4><p>Bretagna: galettes di grano saraceno, ostriche a Cancale, kouign-amann (dolce burroso tipico). Normandia: camembert, sidro, calvados. Loira: rillettes de Tours, vini Vouvray.</p></div>
+        <div class="tip-card"><div class="tip-icon">🦺</div><h4>Sicurezza camper</h4><p>Giubbotti e triangolo obbligatori in Francia. Etilometro usa-e-getta. Le strade bretoni (D-roads) sono spesso strette e tortuose — verificare l'altezza del camper prima di entrare nei villaggi.</p></div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <p class="section-label">Prima di partire</p>
+      <h2 class="section-title">Check-list ritiro camper</h2>
+      <div style="background:white;border-radius:var(--r);padding:1.4rem 1.6rem;box-shadow:0 1px 4px rgba(0,0,0,.07)">
+        <ul style="list-style:none;display:flex;flex-direction:column;gap:.9rem">
+          <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">📋</span><span><strong style="color:var(--ink)">Verbale di consegna</strong> — Fotografare ogni graffio e ammaccatura prima di firmare. Inviare le foto per email al noleggiatore con data e ora visibili.</span></li>
+          <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">🔑</span><span><strong style="color:var(--ink)">Test di tutti i sistemi</strong> — Motore, riscaldamento, acqua calda, frigo, fornelli, WC chimico, tenda. Non uscire dal piazzale senza aver provato tutto.</span></li>
+          <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">⛽</span><span><strong style="color:var(--ink)">Carburante e AdBlue</strong> — Annotare il livello sul verbale. Chiedere se usa AdBlue. Il giorno 9 è una tappa da 615 km — serbatoio pieno obbligatorio la sera prima.</span></li>
+          <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">📐</span><span><strong style="color:var(--ink)">Altezza e larghezza</strong> — Annotare le misure esatte incluso il climatizzatore. Fondamentale per i villaggi bretoni con strade strette.</span></li>
+          <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">🪝</span><span><strong style="color:var(--ink)">Kit a bordo</strong> — Cavo elettrico 220V, tubo scarico acque grigie, tubo carico acqua, livellatori, adattatori. Spuntare tutto sul verbale.</span></li>
+          <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">🛏</span><span><strong style="color:var(--ink)">Letto elettrico</strong> — Provare il meccanismo a fine corsa in entrambe le direzioni. Verificare che non si inceppi.</span></li>
+          <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">🔐</span><span><strong style="color:var(--ink)">Franchigia e assicurazione</strong> — Verificare importo franchigia e copertura in Francia. Considerare il pacchetto riduzione franchigia.</span></li>
+          <li style="display:flex;gap:.8rem;font-size:.85rem;color:#3d3830;line-height:1.6"><span style="flex-shrink:0;font-size:1rem">📱</span><span><strong style="color:var(--ink)">Numero emergenze</strong> — Salvare il numero di assistenza stradale del noleggiatore. Chiedere la procedura per guasto all'estero.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <p class="section-label">Ultimo giorno</p>
+      <h2 class="section-title">Rientro e consegna</h2>
+      <div class="rientro-box">
+        <h3>🏠 Lunedì 31 Agosto — Partenza ore 06:00 da Chenonceau</h3>
+        <p>Il giorno 11 è una tappa lunga: <strong>~813 km</strong> da Chenonceau a Milano. Percorso: A71 → Clermont-Ferrand → A89 → Lione → A43 → Chambéry → <strong>Traforo del Fréjus</strong> (~€60) → A32 Torino → A4 Milano. Arrivo stimato <strong>~17:20</strong>.</p>
+        <p style="margin-top:.8rem"><span style="color:var(--gold)">ℹ</span> In questa opzione <strong>non c'è un vincolo di consegna alle 09:00</strong>: si parte con calma alle 06:00 e si arriva a Milano nel tardo pomeriggio. Tempo libero per soste e pranzo lungo il percorso.</p>
+        <p style="margin-top:.8rem"><span style="color:var(--gold)">⚠</span> Il 31 agosto è <strong>lunedì di controesodo</strong>: passare il Fréjus entro le <strong>14:00</strong> e raggiungere Torino prima delle 16:00 per evitare code sull'A4 Torino–Milano.</p>
+        <p style="margin-top:.8rem">Prima della consegna: <strong>svuotare il WC chimico</strong> (Modane o Bardonecchia), fare il <strong>pieno di carburante</strong>, pulire l'interno, fotografare gli esterni.</p>
+      </div>
+    </section>
+
+  </div>
+</div><!-- /panel2 -->
 
 <footer>
-  <p>Francia in Camper · Agosto 2025 · Viaggio di gruppo privato</p>
-  <p style="margin-top:.5rem">Creato con <strong>Claude</strong> · Versione finale</p>
+  <p>Francia in Camper · Agosto 2026 · Viaggio di gruppo privato</p>
+  <p style="margin-top:.5rem">Creato con <strong>Claude</strong></p>
 </footer>
 
 <script>
-const days=[
-  {n:1,date:"Ven 21",z:"z-tra",t:"Milano → Courmayeur",s:"Partenza ore 19:00 · Mont Blanc · Prima notte corta",km:"~270 km",
-   mat:"Ritiro camper ore 15:00 — verificare tutto sul posto. Partenza ore 19:00 da Milano. A4 → Torino → A5 → Aosta → <b>Courmayeur</b>. Guida tranquilla per familiarizzare con il camper senza stress.",
-   pom:"Arrivo Courmayeur ~21:30. Prima sistemazione camper, cena di gruppo. I bambini esplorano il camper! Notte rilassata — domani grande trasferimento attraverso il <b>Traforo del Monte Bianco</b>.",
-   camp:"Camping Tunnel — Courmayeur ★★★★ · Alt: Camping Gran Paradiso — Villeneuve AO ★★★★"},
-  {n:2,date:"Sab 22",z:"z-tra",t:"Courmayeur → Versailles",s:"Grande trasferimento · giorno di eccezione · Monte Bianco",km:"~730 km",
-   mat:"<span class='warn'>⚠ Partenza ore 7:00 — giorno di eccezione</span>. A5 → <b>Traforo Monte Bianco</b> (~€50/camper) → Chamonix → A40 → <b>Lione</b> (sosta pranzo ~1h). Poi A6 direzione nord.",
-   pom:"<b>Digione</b> (sosta caffè, ~30 min) → A6/A10 → Versailles. Arrivo Huttopia ~17:00–18:00. Sistemazione camper, cena di gruppo. Domani la Reggia — meritata dopo oggi!",
-   camp:"<b>⚠ Huttopia Versailles</b> ★★★★★ — navette per la Reggia incluse. PRENOTARE SUBITO (3 notti: 22-23-24 ago)"},
-  {n:3,date:"Dom 23",z:"z-par",t:"Reggia di Versailles",s:"Galleria degli Specchi · giardini · Trianon",km:"~0 km",
-   mat:"<b>Reggia di Versailles</b> (9:00–13:00): Galleria degli Specchi, appartamenti reali, Cappella Reale. Domenica i giardini sono splendidi, biglietti online obbligatori.",
-   pom:"<b>Giardini Le Nôtre</b> nel pomeriggio: fontane, labirinto, <b>Petit Trianon</b> (Marie Antoinette), Grand Trianon. Rimanere fino alla chiusura per la luce del tardo pomeriggio.",
-   camp:"Huttopia Versailles ★★★★★ (2ª notte)"},
-  {n:4,date:"Lun 24",z:"z-par",t:"Parigi",s:"Torre Eiffel · Sainte-Chapelle · Montmartre",km:"~25 km",
-   mat:"<b>RER C</b> da Versailles → Parigi. <b>Torre Eiffel</b> (prenotare mesi prima!) + picnic al Champ-de-Mars. <b>Sainte-Chapelle</b>: vetrate gotiche XIII sec. — imperdibile con i bambini.",
-   pom:"<b>Notre-Dame</b> (restauro in corso, esterno) → <b>Montmartre</b> + Sacré-Cœur: vista panoramica su tutta Parigi, artisti in Place du Tertre. Rientro RER in serata.",
-   camp:"Huttopia Versailles ★★★★★ (3ª notte)"},
-  {n:5,date:"Mar 25",z:"z-nor",t:"Bayeux + Omaha Beach",s:"Ingresso in Normandia · storia e D-Day",km:"~250 km",
-   mat:"<span class='warn'>Partenza ore 7:00</span>. A13 → Caen → <b>Bayeux</b> (~2h30): Arazzo XI sec. (70m, 1h), cattedrale. Pranzo a Port-en-Bessin (porto peschereccio, ottimo pesce fresco).",
-   pom:"<b>Omaha Beach</b> + <b>Memoriale Nazionale D-Day</b> (National D-Day Memorial): museo all'aperto, installazioni emozionanti — molto accessibile per i bambini. <b>Cimitero Americano</b> di Colleville-sur-Mer. <b>Pointe du Hoc</b>: trincee e crateri intatti.",
-   camp:"Camping Port'land — Port-en-Bessin ★★★★★ (sul porto · piscina coperta) · Alt: Camping de Bayeux ★★★★"},
-  {n:6,date:"Mer 26",z:"z-nor",t:"→ Mont-Saint-Michel",s:"Trasferimento diretto · arrivo MSM al tramonto",km:"~170 km",
-   mat:"Partenza da Port-en-Bessin. D514 → Isigny-sur-Mer → A84 → <b>Mont-Saint-Michel</b>. ~2h di guida. Percorso costiero panoramico fino ad Avranches, poi discesa verso la baia.",
-   pom:"<span class='warn'>Arrivare dopo le 17</span> — luce magica sull'abbazia, folla ridotta. Parcheggio camper nel parking continentale (<b>prenotare online</b>). Navette gratuite. Prima impressione al tramonto.",
-   camp:"Camping Haliotis — Pontorson ★★★★ (8 km, navetta inclusa) — PRENOTARE"},
-  {n:7,date:"Gio 27",z:"z-nor",t:"Cancale + Saint-Malo",s:"Ostriche sulla costa · città corsara medievale",km:"~50 km",
-   mat:"<b>Cancale</b> (9:00–11:00, ~20 km da Pontorson): il villaggio delle ostriche. Passeggiata sulla diga, ostriche fresche al mercato, vista sulla Baia del Mont-Saint-Michel. I bambini adorano i banchi delle ostreiche.",
-   pom:"<b>Saint-Malo</b> (12:00–17:00, ~15 km): città intramuros dei corsari. Giro completo sulle mura (~1h), spiaggia del Grande Plage, centro storico. Cena di pesce nel porto.",
-   camp:"Camping Les Ilots de Saint-Malo ★★★★ · Alt: Camping La Cité d'Alet — Saint-Malo ★★★"},
-  {n:8,date:"Ven 28",z:"z-nor",t:"Saint-Malo → Loira",s:"Trasferimento verso i castelli",km:"~350 km",
-   mat:"Partenza da Saint-Malo ore 8:00. N137 → Rennes → A11 → Le Mans → A85 → Blois. ~3h30 di guida. Sosta pranzo a Rennes o Le Mans.",
-   pom:"Arrivo area <b>Chambord/Bracieux</b> nel pomeriggio. Sistemazione, ricognizione zona, cena tranquilla — domani i due castelli più belli della Loira.",
-   camp:"Camping Grenouillère — Bracieux ★★★★ (6 km da Chambord) · Alt: Camping Les Acacias — Ballan-Miré ★★★★"},
-  {n:9,date:"Sab 29",z:"z-loi",t:"Chambord + Chenonceau",s:"I due castelli imperdibili della Loira · giornata dedicata",km:"~60 km",
-   mat:"<b>Château de Chambord</b> (9:00–11:30): il più grande della Loira, scala a doppia elica di Leonardo. Arrivare entro le 9:30 per evitare le code del sabato. Picnic nei giardini.",
-   pom:"<b>Château de Chenonceau</b> (14:00–16:30, ~45 km): il castello sul fiume Cher, il più fotografato di Francia. <span class='warn'>PRENOTARE ONLINE</span>. <b>Ultima cena di gruppo all'estero!</b>",
-   camp:"Camping Les Acacias — Ballan-Miré (zona Tours) ★★★★ · Alt: Camping Grenouillère — Bracieux ★★★★"},
-  {n:10,date:"Dom 30",z:"z-ret",t:"Loira → Chambéry",s:"Rientro verso Italia · giorno di eccezione",km:"~490 km",
-   mat:"<span class='warn'>⚠ PARTENZA ORE 6:30 — bollino rosso domenicale</span>. A71 → A6 → <b>Digione</b> (sosta colazione) → A31/A36 → A43 → Chambéry. ~5h di guida.",
-   pom:"Arrivo Chambéry pomeriggio. Sistemazione, cena leggera. Domani: Fréjus e poi Milano. <b>Solo 200 km dalla consegna!</b>",
-   camp:"Camping Le Curtil — Chambéry ★★★ · Alt: Camping l'Île aux Cygnes — Chambéry ★★★"},
-  {n:11,date:"Lun 31",z:"z-ret",t:"Chambéry → Milano · Consegna ✅",s:"Partenza ore 6:30 · Fréjus · consegna ore 9:00",km:"~200 km",
-   mat:"Partenza Chambéry ore 6:30. A43 → <b>Traforo del Fréjus</b> (~€60/camper) → A32 Torino → A4 Milano: 200 km, arrivo ore 8:30–9:00. Prima di consegnare: svuotare WC, fare il pieno, pulire interno, fotografare esterni.",
-   pom:"✅ <b>Consegna camper ore 9:00 a Milano.</b> Arrivo puntuale garantito.",
-   camp:"— (notte precedente a Chambéry)"},
+function selectTab(n) {
+  document.getElementById('tab1').classList.toggle('active', n === 1);
+  document.getElementById('tab2').classList.toggle('active', n === 2);
+  document.getElementById('panel1').classList.toggle('active', n === 1);
+  document.getElementById('panel2').classList.toggle('active', n === 2);
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+const zoneColors = {
+  'z-tra':'#B8922A','z-par':'#2A4B7C','z-nor':'#1A4A72',
+  'z-bret':'#1B5E7B','z-loi':'#2D6A4F','z-ret':'#7F3D1A'
+};
+
+function buildGrid(days, gridId, prefix, summaryId) {
+  const grid = document.getElementById(gridId);
+  days.forEach((d, i) => {
+    const poiBox = d.poi ? `<div class="poi-box"><strong>📍 Punti di interesse:</strong> ${d.poi}</div>` : '';
+    const phBox  = d.phares ? `<div class="phares-box"><strong>🏮 Route des Phares:</strong> ${d.phares}</div>` : '';
+    const el = document.createElement('div');
+    el.className = 'day-row';
+    el.innerHTML = `
+      <div class="day-header" onclick="toggleDay('${prefix}',${i})">
+        <div class="day-num ${d.z}">${d.n}<small>${d.date}</small></div>
+        <div class="day-info"><div class="day-title">${d.t}</div><div class="day-sub">${d.s}</div></div>
+        <div class="day-km"><strong>${d.km}</strong>espandi ↓</div>
+      </div>
+      <div class="day-body" id="${prefix}${i}">
+        <div><div class="dbt">Mattina</div><div class="dbc">${d.mat}</div></div>
+        <div><div class="dbt">Pomeriggio / Sera</div><div class="dbc">${d.pom}</div></div>
+        <div class="camp-box"><strong>🏕 Campeggio:</strong> ${d.camp}</div>
+        ${poiBox}${phBox}
+      </div>`;
+    grid.appendChild(el);
+  });
+  if (summaryId) {
+    const tbody = document.getElementById(summaryId);
+    let total = 0;
+    days.forEach(d => {
+      const km = parseInt(d.km.replace(/[^0-9]/g, '')) || 0;
+      total += km;
+      const color = zoneColors[d.z] || '#888';
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${d.n}</td>
+        <td><div class="dot-cell"><span class="sdot" style="background:${color}"></span>${d.date} Ago</div></td>
+        <td>${d.t}</td>
+        <td>${d.km}</td>
+        <td style="font-size:.75rem;color:var(--muted)">${d.s.split('·')[0].replace(/⚠/g,'').trim()}</td>`;
+      tbody.appendChild(tr);
+    });
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td colspan="3" style="font-weight:600">Totale</td><td>~${total.toLocaleString('it-IT')} km</td><td></td>`;
+    tbody.appendChild(tr);
+  }
+}
+
+function toggleDay(prefix, i) {
+  const body = document.getElementById(prefix + i);
+  body.classList.toggle('open');
+  const btn = body.previousElementSibling.querySelector('.day-km');
+  btn.lastChild.textContent = body.classList.contains('open') ? 'chiudi ↑' : 'espandi ↓';
+}
+
+/* ---- OPZIONE 1 ---- */
+const days1 = [
+  {n:1, date:"Ven 21", z:"z-tra", t:"Milano → Courmayeur", s:"Partenza serale ore 19:00 · prima notte in Valle d'Aosta", km:"~145 km",
+   mat:"Ritiro camper ore 15:00 — verificare tutto prima di firmare. <span class='warn'>Partenza ore 19:00</span> da Milano (traffico ridotto). A4 → Torino → A5 → Aosta → <b>Courmayeur</b>. ~2h20 inclusa 1 sosta.",
+   pom:"Arrivo Courmayeur <b>~21:20</b>. Prima sistemazione dei camper, cena di gruppo veloce. I punti di interesse (Skyway Monte Bianco, Val Ferret) si visitano domani mattina prima di ripartire alle 07:00.",
+   camp:"<b>Camping Arc-en-Ciel</b> · Via della Vittoria, Courmayeur — nel cuore del borgo, ottimi servizi. Alt: <b>Camping Grandes Jorasses</b> · Loc. La Saxe — vista Monte Bianco.",
+   poi:"Skyway Monte Bianco (3.466 m) · Val Ferret · Terme di Pré-Saint-Didier · Centro di Courmayeur"},
+
+  {n:2, date:"Sab 22", z:"z-tra", t:"Courmayeur → Versailles", s:"Grande trasferimento · Monte Bianco · Borgogna · ~855 km", km:"~855 km",
+   mat:"<span class='warn'>⚠ Partenza tassativa ore 07:00</span>. A5 → <b>Traforo Monte Bianco</b> (~€50/camper) → Chamonix → A40 → A6 Nord. Sosta pranzo a <b>Mâcon</b> (~12:00) nella capitale del Beaujolais.",
+   pom:"A6/A5/A10 → <b>Versailles</b>. Arrivo Huttopia Versailles ~<b>20:00</b>. Sistemazione camper, cena di gruppo — domani la Reggia! NB: sabato 22 agosto = bollino arancione, traffico in diminuzione dal pomeriggio.",
+   camp:"<b>⭐ Huttopia Versailles</b> · 31 Rue Berthelot, Versailles — navette per la Reggia incluse. <span style='color:var(--accent);font-weight:600'>PRENOTARE SUBITO</span> (3 notti: 22–23–24 ago). Struttura moderna con piscina.",
+   poi:"Traforo del Monte Bianco · Chamonix · Lac du Bourget (Aix-les-Bains) · Vigneti Borgogna"},
+
+  {n:3, date:"Dom 23", z:"z-par", t:"Reggia di Versailles + Parigi", s:"Galleria degli Specchi · Torre Eiffel · Montmartre", km:"~25 km",
+   mat:"<b>Reggia di Versailles</b> (09:00–13:00): Galleria degli Specchi, appartamenti reali, Cappella Reale. Domenica i giardini sono magnifici. <b>Biglietti online obbligatori.</b> Navetta dall'Huttopia inclusa.",
+   pom:"<b>Parigi in RER C</b> (~35 min da Versailles): <b>Torre Eiffel</b> + picnic al Champ-de-Mars · <b>Sainte-Chapelle</b> (vetrate XIII sec.) · <b>Montmartre</b> + Sacré-Cœur. Rientro RER in serata.",
+   camp:"<b>Huttopia Versailles</b> ★★★★★ (2ª notte) — base ideale, non spostare i camper.",
+   poi:"Reggia di Versailles · Giardini Le Nôtre · Torre Eiffel · Sainte-Chapelle · Montmartre · Île Saint-Louis (gelato Berthillon)"},
+
+  {n:4, date:"Lun 24", z:"z-par", t:"Disneyland Paris", s:"Giornata intera al parco · Lightning Lane · parata serale", km:"~45 km",
+   mat:"<span class='warn'>Partenza ore 07:30</span> per arrivare all'apertura (~09:00). <b>Opzione camper:</b> parcheggio ufficiale Disneyland (~€25/camper). <b>Opzione RER A</b> da Versailles Chantiers (cambio a Châtelet). Attivare subito i Lightning Lane sull'app.",
+   pom:"<b>Disneyland Park:</b> Big Thunder Mountain, Space Mountain, Phantom Manor, Pirates of the Caribbean. <b>Walt Disney Studios:</b> Avengers Campus, Toy Story. <b>Parata</b> nel pomeriggio · <b>Disney Illuminations</b> in chiusura. Rientro all'Huttopia in serata.",
+   camp:"<b>Huttopia Versailles</b> ★★★★★ (3ª notte) — rientro serale dopo la serata Disney.",
+   poi:"Disneyland Park · Walt Disney Studios · Parata Disney · Disney Illuminations · Disney Village (libero)"},
+
+  {n:5, date:"Mar 25", z:"z-nor", t:"Parigi → Étretat → Bayeux", s:"Ingresso in Normandia · scogliere iconiche · storia medievale", km:"~300 km",
+   mat:"<span class='warn'>Partenza ore 07:30</span>. A13 → Rouen → A29 → <b>Étretat</b> (~10:00). Le scogliere più fotografate di Francia — arco naturale Porte d'Aval, sentiero panoramico (20 min). Immortalate da Monet. Spiaggia di ciottoli per i bambini.",
+   pom:"D940 costiera → <b>Bayeux</b> (~13:30): <b>Arazzo di Bayeux</b> (UNESCO, 70m ricamati dell'XI sec.) + cattedrale gotica. Pranzo in centro. Poi sistemazione campeggio in zona Bayeux/Port-en-Bessin.",
+   camp:"<b>Camping Port'land</b> · Port-en-Bessin ★★★★★ (sul porto, piscina coperta) · Alt: <b>Camping Reine Mathilde</b> · Bayeux (piscina riscaldata, parco giochi).",
+   poi:"Falaises d'Étretat · Jardin d'Étretat · Arazzo di Bayeux (UNESCO) · Cattedrale di Bayeux · Memorial de Normandie"},
+
+  {n:6, date:"Mer 26", z:"z-nor", t:"Omaha Beach e il D-Day", s:"Cimitero americano · Pointe du Hoc · Arromanches", km:"~50 km",
+   mat:"<span class='ok'>Partenza ore 09:00</span> — tappa breve, giornata di visita intensa. <b>Omaha Beach</b>: la spiaggia più simbolica dello sbarco del 6 giugno 1944. <b>Cimitero Americano</b> di Colleville-sur-Mer: 9.000 croci bianche sulla scogliera — ingresso gratuito, centro visitatori.",
+   pom:"<b>Pointe du Hoc</b> (~15 km): crateri e bunker tedeschi intatti, sito di grande impatto visivo per i bambini. <b>Arromanches</b>: resti del porto artificiale Mulberry ancora visibili in mare + Museo 360° con filmati d'epoca.",
+   camp:"<b>Camping Omaha Beach</b> · Vierville-sur-Mer — direttamente sulla costa storica. Alt: <b>Camping Port'land</b> · Port-en-Bessin ★★★★★.",
+   poi:"Omaha Beach · Normandy American Cemetery · Pointe du Hoc · Porto Mulberry di Arromanches · Utah Beach Museum"},
+
+  {n:7, date:"Gio 27", z:"z-nor", t:"Mont-Saint-Michel → Cancale → Saint-Malo", s:"Abbazia sulle maree · ostriche · città corsara", km:"~205 km",
+   mat:"<span class='warn'>Partenza ore 07:30</span>. N175 → <b>Mont-Saint-Michel</b> (~09:30). Parcheggio camper nel parking continentale (<b>prenotare online!</b>), navette gratuite. Visita abbazia (2h) + bastioni + omelette Mère Poulard.",
+   pom:"<b>Cancale</b> (~13:00): mercato delle ostriche sul porto — comprare e mangiare sul posto. Vista sulla baia del MSM. Poi <b>Saint-Malo</b> (~15:00): giro completo sui remparts medievali, centro intramuros, cena di pesce nel porto.",
+   camp:"<b>Camping Cité d'Alet</b> · Saint-Malo ★★★★ — 10 min a piedi dall'intramuros, vista mare. Alt: <b>Camping des Nielles</b> · Saint-Malo (vicino spiaggia del Sillon).",
+   poi:"Abbazia del Mont-Saint-Michel · Baie du MSM · Mercato ostriche di Cancale · Saint-Malo intramuros · Fort National (bassa marea) · Grand Aquarium de Saint-Malo"},
+
+  {n:8, date:"Ven 28", z:"z-loi", t:"Saint-Malo → Chambord", s:"Trasferimento verso la Valle della Loira · ~350 km", km:"~350 km",
+   mat:"<span class='warn'>Partenza ore 08:00</span>. N137 → <b>Rennes</b> (~09:00, eventuale sosta caffè) → A11 → Le Mans → A85 → Blois → <b>Chambord</b>. ~3h30 effettivi di guida.",
+   pom:"Arrivo area <b>Chambord/Bracieux</b> ~<b>14:00</b>. Pomeriggio libero: ricognizione del Domaine, passeggiata o giro in bici nella foresta, visita facoltativa al <b>Château de Cheverny</b> (15 km) — ispirò il castello di Moulinsart di Tintin.",
+   camp:"<b>Camping des Châteaux – Bracieux</b> ★★★★ (8 km da Chambord) — piscina, ristorante, in cuore della Loira. Alt: <b>Camping Caravaning de Blois</b> (lungo la Loira).",
+   poi:"Château de Chambord (prenotare!) · Domaine de Chambord (bici/passeggiate) · Château de Cheverny (Tintin!) · Blois centro storico · Forêt de Chambord"},
+
+  {n:9, date:"Sab 29", z:"z-loi", t:"Chambord + Chenonceau", s:"I due castelli più belli della Loira · giornata magica", km:"~45 km",
+   mat:"<b>Château de Chambord</b> (09:00–11:30): il più grande della Loira, doppia scala elicoidale di Leonardo da Vinci. <b>Arrivare entro le 9:30</b> — sabato di alta stagione, code aumentano rapidamente. Picnic nei giardini.",
+   pom:"<b>Château de Chenonceau</b> (13:30–17:00, ~45 km): il castello sul fiume Cher, il più fotografato di Francia. Giardini di Caterina de' Medici, labirinto per i bambini, eventuale gita in barca sul Cher. <span class='warn'>PRENOTARE ONLINE.</span> <b>Ultima cena di gruppo all'estero!</b>",
+   camp:"<b>Camping du Moulin Fort</b> · Francueil ★★★★ (2 km da Chenonceau, spiaggia sul Cher) · Alt: <b>Camping des Châteaux – Chenonceaux</b> (500m dal castello).",
+   poi:"Château de Chambord · Château de Chenonceau · Clos Lucé di Amboise (Leonardo da Vinci) · Château de Chaumont-sur-Loire · Montrichard (borgo medievale)"},
+
+  {n:10, date:"Dom 30", z:"z-ret", t:"Chenonceau → Chambéry", s:"Rientro verso le Alpi · giornata di eccezione", km:"~440 km",
+   mat:"<span class='warn'>⚠ PARTENZA ORE 08:00 — bollino arancione domenicale</span>. A71 → A6 → <b>Lione</b> (sosta pranzo ~1h, ~12:45) → A43 → <b>Chambéry</b>. Attraversamento della valle del Rodano con le Alpi visibili all'orizzonte.",
+   pom:"Arrivo Chambéry ~<b>15:00</b>. Sistemazione e ultima cena rilassata. Domani: Fréjus e rientro a Milano. <b>Solo 293 km dalla consegna — ce la facciamo!</b> Preparare tutto per la mattina: carburante, WC da svuotare, camper da pulire.",
+   camp:"<b>Camping International du Lac</b> · Aix-les-Bains ★★★★ (sul Lac du Bourget, spiaggia) · Alt: <b>Camping Belle Époque</b> · Le Bourget-du-Lac ★★★★.",
+   poi:"Chambéry centro storico · Fontana degli Elefanti · Lac du Bourget · Aix-les-Bains · Abbaye de Hautecombe"},
+
+  {n:11, date:"Lun 31", z:"z-ret", t:"Chambéry → Milano · Consegna ✅", s:"Partenza ore 05:00 · Fréjus · consegna ore 9:00", km:"~293 km",
+   mat:"<span class='warn'>⚠ Sveglia ore 04:30 — partenza ore 05:00!</span> A43 → <b>Traforo del Fréjus</b> (~€60, passaggio ~06:30) → A32 Bardonecchia → Torino (~07:10). Sosta colazione a Bardonecchia — prima città italiana.",
+   pom:"A4 Torino → <b>Milano</b>: arrivo stimato <b>08:55 ✅</b>. Prima della consegna: svuotare WC (area sosta Bardonecchia), fare pieno di carburante, pulire interno camper, fotografare esterni. <b>Fine del viaggio — 11 giorni, ~2.700 km, 4 famiglie!</b>",
+   camp:"— (notte a Chambéry, consegna camper a Milano ore 9:00)",
+   poi:"Traforo del Fréjus · Bardonecchia (sosta colazione) · Sacra di San Michele (visibile da A32) · Torino (eventuale sosta)"},
 ];
-const grid=document.getElementById('days');
-days.forEach((d,i)=>{
-  const el=document.createElement('div');
-  el.className='day-row';
-  el.innerHTML=`<div class="day-header" onclick="toggle(${i})">
-    <div class="day-num ${d.z}">${d.n}<small>${d.date}</small></div>
-    <div class="day-info"><div class="day-title">${d.t}</div><div class="day-sub">${d.s}</div></div>
-    <div class="day-km"><strong>${d.km}</strong>espandi</div>
-  </div>
-  <div class="day-body" id="b${i}">
-    <div><div class="dbt">Mattina</div><div class="dbc">${d.mat}</div></div>
-    <div><div class="dbt">Pomeriggio / Sera</div><div class="dbc">${d.pom}</div></div>
-    <div class="camp-box"><strong>Campeggio:</strong> ${d.camp}</div>
-  </div>`;
-  grid.appendChild(el);
-});
-function toggle(i){document.getElementById('b'+i).classList.toggle('open')}
+
+/* ---- OPZIONE 2 ---- */
+const days2 = [
+  {n:1, date:"Ven 21", z:"z-tra", t:"Milano → Courmayeur", s:"Partenza serale ore 19:00 · prima notte in Valle d'Aosta", km:"~145 km",
+   mat:"Ritiro camper ore 15:00 — verificare tutto prima di firmare. <span class='warn'>Partenza ore 19:00</span> da Milano (traffico ridotto). A4 → Torino → A5 → Aosta → <b>Courmayeur</b>. ~2h20 inclusa 1 sosta.",
+   pom:"Arrivo Courmayeur <b>~21:20</b>. Prima sistemazione dei camper, cena di gruppo veloce. I punti di interesse (Skyway Monte Bianco, Val Ferret) si visitano domani mattina prima di ripartire alle 07:00.",
+   camp:"<b>Camping Arc-en-Ciel</b> · Via della Vittoria, Courmayeur — nel cuore del borgo, ottimi servizi. Alt: <b>Camping Grandes Jorasses</b> · Loc. La Saxe — vista Monte Bianco.",
+   poi:"Skyway Monte Bianco (3.466 m) · Val Ferret · Terme di Pré-Saint-Didier · Centro di Courmayeur",
+   phares:""},
+
+  {n:2, date:"Sab 22", z:"z-tra", t:"Courmayeur → Versailles", s:"Grande trasferimento · Monte Bianco · Borgogna · ~855 km", km:"~855 km",
+   mat:"<span class='warn'>⚠ Partenza tassativa ore 07:00</span>. A5 → <b>Traforo Monte Bianco</b> (~€50/camper) → Chamonix → A40 → A6 Nord. Sosta pranzo a <b>Mâcon</b> (~12:00).",
+   pom:"A6/A5/A10 → <b>Versailles</b>. Arrivo Huttopia Versailles ~<b>20:00</b>. Sistemazione camper, cena di gruppo. Sabato 22 = bollino arancione — traffico in calo dal pomeriggio.",
+   camp:"<b>⭐ Huttopia Versailles</b> · 31 Rue Berthelot, Versailles — navette per la Reggia incluse. <span style='color:var(--accent);font-weight:600'>PRENOTARE SUBITO</span> (3 notti: 22–23–24 ago). Struttura moderna con piscina.",
+   poi:"Traforo del Monte Bianco · Chamonix · Lac du Bourget (Aix-les-Bains) · Vigneti Borgogna",
+   phares:""},
+
+  {n:3, date:"Dom 23", z:"z-par", t:"Reggia di Versailles + Parigi", s:"Galleria degli Specchi · Torre Eiffel · Montmartre", km:"~25 km",
+   mat:"<b>Reggia di Versailles</b> (09:00–13:00): Galleria degli Specchi, appartamenti reali, Cappella Reale. <b>Biglietti online obbligatori.</b> Navetta dall'Huttopia inclusa.",
+   pom:"<b>Parigi in RER C</b> (~35 min): <b>Torre Eiffel</b> + picnic al Champ-de-Mars · <b>Sainte-Chapelle</b> (vetrate XIII sec.) · <b>Montmartre</b> + Sacré-Cœur. Rientro RER in serata.",
+   camp:"<b>Huttopia Versailles</b> ★★★★★ (2ª notte).",
+   poi:"Reggia di Versailles · Giardini Le Nôtre · Torre Eiffel · Sainte-Chapelle · Montmartre · Île Saint-Louis",
+   phares:""},
+
+  {n:4, date:"Lun 24", z:"z-par", t:"Disneyland Paris", s:"Giornata intera al parco · Lightning Lane · parata serale", km:"~45 km",
+   mat:"<span class='warn'>Partenza ore 07:30</span> per arrivare all'apertura (~09:00). <b>Opzione camper:</b> parcheggio ufficiale Disneyland (~€25/camper). <b>Opzione RER A</b> da Versailles Chantiers. Attivare subito i Lightning Lane sull'app.",
+   pom:"<b>Disneyland Park:</b> Big Thunder Mountain, Space Mountain, Phantom Manor, Pirates. <b>Walt Disney Studios:</b> Avengers Campus, Toy Story. <b>Parata</b> pomeriggio · <b>Disney Illuminations</b> in chiusura.",
+   camp:"<b>Huttopia Versailles</b> ★★★★★ (3ª notte).",
+   poi:"Disneyland Park · Walt Disney Studios · Parata Disney · Disney Illuminations · Disney Village",
+   phares:""},
+
+  {n:5, date:"Mar 25", z:"z-nor", t:"Parigi → Étretat → Bayeux", s:"Ingresso in Normandia · scogliere iconiche · storia medievale", km:"~300 km",
+   mat:"<span class='warn'>Partenza ore 07:30</span>. A13 → Rouen → A29 → <b>Étretat</b> (~10:00). Le scogliere più fotografate di Francia — arco naturale Porte d'Aval, sentiero panoramico (20 min). Spiaggia di ciottoli per i bambini.",
+   pom:"D940 costiera → <b>Bayeux</b> (~13:30): <b>Arazzo di Bayeux</b> (UNESCO, 70m ricamati dell'XI sec.) + cattedrale gotica. Pranzo in centro. Sistemazione campeggio zona Bayeux.",
+   camp:"<b>Camping Port'land</b> · Port-en-Bessin ★★★★★ (sul porto, piscina). Alt: <b>Camping Reine Mathilde</b> · Bayeux (piscina riscaldata).",
+   poi:"Falaises d'Étretat · Jardin d'Étretat · Arazzo di Bayeux (UNESCO) · Cattedrale di Bayeux · Memorial de Normandie",
+   phares:""},
+
+  {n:6, date:"Mer 26", z:"z-nor", t:"Omaha Beach e il D-Day", s:"Cimitero americano · Pointe du Hoc · Arromanches", km:"~50 km",
+   mat:"<span class='ok'>Partenza ore 09:00</span>. <b>Omaha Beach</b>: la spiaggia più simbolica dello sbarco del 6 giugno 1944. <b>Cimitero Americano</b> di Colleville: 9.000 croci bianche — ingresso gratuito, centro visitatori.",
+   pom:"<b>Pointe du Hoc</b>: crateri e bunker tedeschi intatti — grande impatto per i bambini. <b>Arromanches</b>: resti del porto artificiale Mulberry in mare + Museo 360° con filmati d'epoca.",
+   camp:"<b>Camping Omaha Beach</b> · Vierville-sur-Mer — sulla costa storica. Alt: <b>Camping Port'land</b> · Port-en-Bessin ★★★★★.",
+   poi:"Omaha Beach · Normandy American Cemetery · Pointe du Hoc · Porto Mulberry di Arromanches · Utah Beach Museum",
+   phares:""},
+
+  {n:7, date:"Gio 27", z:"z-nor", t:"Mont-Saint-Michel → Cancale → Saint-Malo", s:"Abbazia sulle maree · ostriche · città corsara", km:"~205 km",
+   mat:"<span class='warn'>Partenza ore 07:30</span>. N175 → <b>Mont-Saint-Michel</b> (~09:30). Parcheggio camper (<b>prenotare online!</b>), navette. Visita abbazia + bastioni + omelette Mère Poulard.",
+   pom:"<b>Cancale</b> (~13:00): mercato delle ostriche sul porto. Poi <b>Saint-Malo</b> (~15:00): giro completo sui remparts medievali, intramuros, cena di pesce nel porto.",
+   camp:"<b>Camping Cité d'Alet</b> · Saint-Malo ★★★★ — 10 min a piedi dall'intramuros. Alt: <b>Camping des Nielles</b> (vicino spiaggia del Sillon).",
+   poi:"Abbazia del Mont-Saint-Michel · Baie du MSM · Mercato ostriche Cancale · Saint-Malo intramuros · Fort National · Grand Aquarium",
+   phares:""},
+
+  {n:8, date:"Ven 28", z:"z-bret", t:"Saint-Malo → Brignogan-Plages", s:"Costa bretone · granito rosa · fari e megaliti", km:"~205 km",
+   mat:"<span class='warn'>Partenza ore 08:30</span>. Via la costa della Bretagna nord verso la <b>Côte de Granit Rose</b> (Perros-Guirec / Ploumanac'h, ~130 km): formazioni rocciose di granito rosa uniche al mondo, sentiero dei doganieri GR34, <b>Phare de Mean Ruz</b>.",
+   pom:"Da Perros-Guirec proseguire verso <b>Brignogan-Plages</b> (~75 km): spiagge di sabbia bianca con <b>menhir preistorici</b> (Men Marz, 8m) ai bordi del mare. <b>Phare de Pontusval</b> sulle rocce granitiche al tramonto. Ambiente selvaggio e autentico.",
+   camp:"<b>Camping du Phare de Pontusval</b> · Brignogan-Plages — vicino al faro e alla spiaggia, molto apprezzato. Alt: <b>Camping de la Côte des Légendes</b> · Brignogan.",
+   poi:"Côte de Granit Rose · Phare de Mean Ruz (Ploumanac'h) · Sentiero GR34 · Brignogan-Plages · Menhir Men Marz (8m) · Phare de Pontusval",
+   phares:"⚪ Fari del giorno: Phare de Mean Ruz (Ploumanac'h) · Phare de Pontusval (Brignogan)"},
+
+  {n:9, date:"Sab 29", z:"z-bret", t:"Route des Phares → Brest → Chambord", s:"⚠ Tappa più lunga del viaggio · ~615 km · partenza ore 05:30", km:"~615 km",
+   mat:"<span class='alert'>⚠ PARTENZA ORE 05:30 — tappa lunga 615 km!</span> Brignogan → <b>Phare de l'Île Vierge</b> (Plouguerneau, ~20 km): faro più alto d'Europa in pietra, 82,5 m. → <b>Phare de Kermorvan</b> (Le Conquet) → <b>Phare de Saint-Mathieu</b> + rovine abbazia benedettina → <b>Pointe de Pen-Hir</b> (panorama mozzafiato). → <b>Brest</b> (~10:30): Oceanopolis (acquario, 2h) + Château de Brest.",
+   pom:"Da Brest ore ~<b>12:30</b>: N165/A11 verso est. ~500 km fino a <b>Chambord</b>. Sosta pranzo + carburante a Nantes (~1h). Arrivo Chambord <b>~17:30–18:30</b>. Cena e riposo: domani due castelli iconici.",
+   camp:"<b>Camping des Châteaux</b> · Bracieux / Cheverny (10 km da Chambord) — nel cuore della Loira. Alt: <b>Camping Municipal de Chambord</b>.",
+   poi:"Phare de l'Île Vierge (82,5m, il più alto in pietra d'Europa) · Phare de Kermorvan · Phare de Saint-Mathieu · Pointe de Pen-Hir · Oceanopolis Brest · Château de Brest",
+   phares:"🏮 Route des Phares: Phare de Pontusval → Phare de l'Île Vierge → Phare de Kermorvan → Phare de Saint-Mathieu → Phare du Petit Minou"},
+
+  {n:10, date:"Dom 30", z:"z-loi", t:"Chambord + Chenonceau", s:"I due castelli più belli della Loira · giornata magica", km:"~50 km",
+   mat:"<span class='ok'>Partenza ore 09:00</span>. <b>Château de Chambord</b> (09:00–11:30): il più grande della Loira, 440 stanze, scala elicoidale di Leonardo. <b>Arrivare entro le 9:30</b> — domenica, code in aumento. Picnic nei giardini.",
+   pom:"<b>Château de Chenonceau</b> (13:30–17:00, ~50 km): il castello sul fiume Cher, il più fotografato di Francia. Giardini di Caterina de' Medici, labirinto per i bambini. <span class='warn'>PRENOTARE ONLINE.</span> <b>Ultima cena di gruppo all'estero!</b>",
+   camp:"<b>Camping du Moulin Fort</b> · Francueil ★★★★ (2 km da Chenonceau, spiaggia sul Cher). Alt: <b>Camping des Châteaux – Chenonceaux</b> (500m dal castello).",
+   poi:"Château de Chambord · Château de Chenonceau · Château de Cheverny (Tintin) · Clos Lucé Amboise (Leonardo da Vinci) · Château de Chaumont-sur-Loire",
+   phares:""},
+
+  {n:11, date:"Lun 31", z:"z-ret", t:"Chenonceau → Milano", s:"Partenza ore 06:00 · A71 → Fréjus · arrivo ~17:20", km:"~813 km",
+   mat:"<span class='ok'>Partenza ore 06:00</span> da Chenonceau. A71 → <b>Clermont-Ferrand</b> (~08:45) → A89 → <b>Lione</b>: pausa pranzo ~30 min (~11:22). A43 → <b>Chambéry</b> (~12:37) → Modane → <b>Traforo del Fréjus</b> (~€60, passaggio ~14:04).",
+   pom:"A32 → <b>Torino</b> (~15:19) → A4 → <b>Milano</b>: arrivo stimato <b>~17:20</b>. Prima della consegna: svuotare WC (Modane o Bardonecchia), fare il pieno, pulire camper, fotografare esterni. <b>Fine del viaggio — 11 giorni, ~3.270 km, 4 famiglie!</b>",
+   camp:"— (consegna camper a Milano ~17:30)",
+   poi:"Clermont-Ferrand (cattedrale vulcanica) · Vieux-Lyon · Chambéry · Traforo del Fréjus · Bardonecchia · Sacra di San Michele (visibile da A32)",
+   phares:""},
+];
+
+buildGrid(days1, 'days1', 'b1_', 'summary1');
+buildGrid(days2, 'days2', 'b2_', 'summary2');
 </script>
 </body>
 </html>
