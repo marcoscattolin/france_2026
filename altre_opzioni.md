@@ -20,8 +20,8 @@ OPZIONE 2 [NO BREST]
 25 Agosto - parigi - etretat - bayeux
 26 Agosto - bayeux - omaha
 27 Agosto - omaha - mont saint michel - cancale - saint malo
-28 Agosto - saint malo - brest
-29 Agosto - brest - chambord
+28 Agosto - saint malo - brignogan
+29 Agosto - brignogan - brest - chambord (percorrendo la strada dei fari)
 30 Agosto - chambord - chenonceau
 31 Agosto - chenonceau - milano
 
