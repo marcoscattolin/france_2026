@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(py --version)",
+      "Bash(where python:*)",
+      "Bash(where py:*)",
+      "Bash(ls -la template/*.kml)",
+      "Bash(pandoc --version)",
+      "Bash(python)"
+    ]
+  }
+}
