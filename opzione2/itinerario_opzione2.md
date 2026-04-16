@@ -11,7 +11,7 @@
 | # | Tappa | Distanza dalla precedente |
 |---|-------|--------------------------|
 | 1 | Milano (partenza) | — |
-| 2 | Courmayeur | ~145 km |
+| 2 | Courmayeur | ~220 km |
 
 ---
 
@@ -19,7 +19,7 @@
 
 | Tratta | Distanza | Durata stimata (80 km/h) | Soste previste | Ora arrivo stimata |
 |--------|----------|--------------------------|----------------|--------------------|
-| Milano → Courmayeur | 145 km | ~1h 50min | 1 sosta autogrill (~30 min) | ~21:20 |
+| Milano → Courmayeur | 220 km | 2h 30m | 1 sosta autogrill (~30 min) | ~22:00 |
 
 > Nota: il percorso segue l'A4 Milano–Torino poi la A5 Torino–Aosta fino a Courmayeur. La strada è in buona parte autostrada ma il tratto finale sale in quota. Partendo alle 19:00 si evita il traffico cittadino e si arriva a destinazione in serata. I punti di interesse si visiteranno il mattino del giorno 2 prima di ripartire.
 
@@ -74,7 +74,7 @@
 
 ## Ora di partenza
 
-**07:00** — Tappa lunga (~870 km), è fondamentale partire molto presto. Con bambini a bordo è preferibile essere in strada prima del traffico mattutino.
+**07:00** — Tappa lunga (~641 km), è fondamentale partire molto presto. Con bambini a bordo è preferibile essere in strada prima del traffico mattutino.
 
 ---
 
@@ -83,9 +83,9 @@
 | # | Tappa | Distanza dalla precedente |
 |---|-------|--------------------------|
 | 1 | Courmayeur (partenza) | — |
-| 2 | Traforo Monte Bianco / Chamonix (FR) | ~15 km |
-| 3 | Mâcon (sosta pranzo) | ~350 km da Chamonix |
-| 4 | Parigi – Versailles (arrivo camping) | ~490 km da Mâcon |
+| 2 | Traforo Monte Bianco / Chamonix (FR) | ~21 km |
+| 3 | Mâcon (sosta pranzo) | ~200 km da Chamonix |
+| 4 | Parigi – Versailles (arrivo camping) | ~420 km da Mâcon |
 
 ---
 
@@ -93,12 +93,12 @@
 
 | Tratta | Distanza | Durata stimata (80 km/h) | Soste previste | Ora arrivo stimata |
 |--------|----------|--------------------------|----------------|--------------------|
-| Courmayeur → Chamonix (traforo) | 15 km | ~20 min | Dogana/pedaggio | 07:30 |
-| Chamonix → Mâcon | 350 km | ~4h 20min | — | ~12:00 |
-| Sosta pranzo Mâcon | — | — | ~1h | 13:00 |
-| Mâcon → Versailles | 490 km | ~6h 10min | 2 soste (~1h totale) | ~20:10 |
+| Courmayeur → Chamonix (traforo) | 21 km | 0h 30m | Dogana/pedaggio | 07:30 |
+| Chamonix → Mâcon | 200 km | 2h 15m | — | ~10:00 |
+| Sosta pranzo Mâcon | — | — | ~1h | ~11:00 |
+| Mâcon → Versailles | 420 km | 4h 0m | 2 soste (~1h totale) | ~16:00 |
 
-> Distanza totale: ~855 km. Giornata di trasferimento lunga: programmare soste frequenti, portare snack e intrattenimento per i bambini. Percorso: A40 → A6 → A5/A6 verso Parigi.
+> Distanza totale: ~641 km. Giornata di trasferimento lunga: programmare soste frequenti, portare snack e intrattenimento per i bambini. Percorso: A40 → A6 → A5/A6 verso Parigi.
 
 ---
 
@@ -237,7 +237,7 @@
 | # | Tappa | Distanza | Note |
 |---|-------|----------|------|
 | 1 | Versailles (camping) | — | Base notturna |
-| 2 | Disneyland Paris (Marne-la-Vallée) | ~45 km | Giornata intera al parco |
+| 2 | Disneyland Paris (Marne-la-Vallée) | ~60 km | Giornata intera al parco |
 
 ---
 
@@ -245,7 +245,7 @@
 
 | Tratta | Mezzo | Distanza | Durata | Ora arrivo |
 |--------|-------|----------|--------|------------|
-| Versailles → Disneyland | Camper o RER A | 45 km / treno | ~50 min in camper, ~1h10 RER | ~08:30 |
+| Versailles → Disneyland | Camper o RER A | 60 km / treno | 1h 0m in camper, ~1h10 RER | ~08:30 |
 | Rientro serale | Camper o RER A | — | ~50 min | ~21:30 |
 
 > **Opzione camper:** parcheggio camper ufficiale Disneyland Paris (Car Park Disneyland, a pagamento ~€25-30/giorno per veicoli grandi).
@@ -312,7 +312,7 @@
 | # | Tappa | Distanza dalla precedente |
 |---|-------|--------------------------|
 | 1 | Versailles / Parigi (partenza) | — |
-| 2 | Étretat | ~200 km |
+| 2 | Étretat | ~210 km |
 | 3 | Bayeux | ~100 km |
 
 ---
@@ -321,9 +321,9 @@
 
 | Tratta | Distanza | Durata stimata (80 km/h) | Soste previste | Ora arrivo stimata |
 |--------|----------|--------------------------|----------------|--------------------|
-| Versailles → Étretat | 200 km | ~2h 30min | 1 sosta breve (~20 min) | ~10:20 |
+| Versailles → Étretat | 210 km | 2h 20m | 1 sosta breve (~20 min) | ~10:10 |
 | Sosta a Étretat | — | — | ~2-3h visita | ~13:00 |
-| Étretat → Bayeux | 100 km | ~1h 15min | Nessuna sosta | ~14:30 |
+| Étretat → Bayeux | 100 km | 1h 20m | Nessuna sosta | ~14:20 |
 
 > Percorso: A13 direzione Rouen, poi A29 verso Le Havre / Étretat. Da Étretat, la D940 costiera verso nord poi la D516/D613 verso Bayeux.
 
@@ -388,7 +388,7 @@
 | # | Tappa | Distanza dalla precedente |
 |---|-------|--------------------------|
 | 1 | Bayeux (partenza) | — |
-| 2 | Omaha Beach (Saint-Laurent-sur-Mer / Colleville-sur-Mer) | ~15 km |
+| 2 | Omaha Beach (Saint-Laurent-sur-Mer / Colleville-sur-Mer) | ~19 km |
 
 ---
 
@@ -396,7 +396,7 @@
 
 | Tratta | Distanza | Durata stimata (80 km/h) | Soste previste | Ora arrivo stimata |
 |--------|----------|--------------------------|----------------|--------------------|
-| Bayeux → Omaha Beach | 15 km | ~20 min | Nessuna | ~09:30 |
+| Bayeux → Omaha Beach | 19 km | 0h 25m | Nessuna | ~09:25 |
 
 > Giornata di visita intensa nell'area delle spiagge del D-Day. Si consiglia di pianificare le visite dei musei/memoriali in anticipo poiché in agosto sono molto affollati.
 
@@ -461,9 +461,9 @@
 | # | Tappa | Distanza dalla precedente |
 |---|-------|--------------------------|
 | 1 | Omaha Beach (partenza) | — |
-| 2 | Mont Saint-Michel | ~130 km |
-| 3 | Cancale | ~60 km |
-| 4 | Saint-Malo | ~15 km |
+| 2 | Mont Saint-Michel | ~120 km |
+| 3 | Cancale | ~45 km |
+| 4 | Saint-Malo | ~17 km |
 
 ---
 
@@ -471,11 +471,11 @@
 
 | Tratta | Distanza | Durata stimata (80 km/h) | Soste previste | Ora arrivo stimata |
 |--------|----------|--------------------------|----------------|--------------------|
-| Omaha Beach → Mont Saint-Michel | 130 km | ~1h 40min | 1 sosta breve (~20 min) | ~09:30 |
-| Visita Mont Saint-Michel | — | — | ~3h | ~12:30 |
-| Mont Saint-Michel → Cancale | 60 km | ~45 min | — | ~13:30 |
-| Pranzo a Cancale (ostriche!) | — | — | ~1h | ~14:30 |
-| Cancale → Saint-Malo | 15 km | ~15 min | — | ~15:00 |
+| Omaha Beach → Mont Saint-Michel | 120 km | 1h 45m | 1 sosta breve (~20 min) | ~09:35 |
+| Visita Mont Saint-Michel | — | — | ~3h | ~12:35 |
+| Mont Saint-Michel → Cancale | 45 km | 0h 50m | — | ~13:25 |
+| Pranzo a Cancale (ostriche!) | — | — | ~1h | ~14:25 |
+| Cancale → Saint-Malo | 17 km | 0h 30m | — | ~15:00 |
 
 > Percorso: D572 / N175 verso il Mont Saint-Michel, poi D797 / D4 / D355 verso Cancale e Saint-Malo.
 > **Importante:** al Mont Saint-Michel il parcheggio camper è nel parcheggio principale lontano dall'isola (~3 km). Navette gratuite incluse. Prenotare online il parcheggio in agosto.
@@ -538,15 +538,15 @@
 | Tappa | Distanza da Saint-Malo |
 |---|---|
 | Saint-Malo | — |
-| Côte de Granit Rose (Perros-Guirec) | ~130 km |
-| Brignogan-Plages | ~205 km |
+| Côte de Granit Rose (Perros-Guirec) | ~170 km |
+| Brignogan-Plages | ~245 km |
 
 ## Trasferimenti
 
 | Tratta | Distanza | Durata (80 km/h) | Soste | Ora arrivo |
 |---|---|---|---|---|
-| Saint-Malo → Perros-Guirec (Côte de Granit Rose) | ~130 km | ~1h 40min | Sosta balneare (1–2h) | ~10:10 |
-| Perros-Guirec → Brignogan-Plages | ~75 km | ~1h | — | ~13:00–14:00 |
+| Saint-Malo → Perros-Guirec (Côte de Granit Rose) | 170 km | 2h 20m | Sosta balneare (1–2h) | ~11:10 |
+| Perros-Guirec → Brignogan-Plages | 75 km | 1h 20m | — | ~14:00 |
 
 ## Punti di interesse
 
@@ -581,30 +581,30 @@
 # Giorno 9 — Sabato 29 Agosto 2026: Brignogan → Route des Phares → Brest → Chambord
 
 ## Ora di partenza
-**05:30** — TAPPA MOLTO LUNGA (~580 km totali). Partenza prima dell'alba obbligatoria.
+**05:30** — TAPPA MOLTO LUNGA (~695 km totali). Partenza prima dell'alba obbligatoria.
 
-> **AVVISO**: Questa è la giornata più impegnativa dell'intero viaggio. Brignogan → Brest con deviazione per la Route des Phares aggiunge circa 80–100 km rispetto alla tratta diretta. Poi da Brest a Chambord ci sono ~500 km. Totale stimato: 580–600 km, circa 8–9 ore di guida effettiva. Con le soste, si arriverà a Chambord tra le 16:00 e le 18:00.
+> **AVVISO**: Questa è la giornata più impegnativa dell'intero viaggio. Brignogan → Brest con deviazione per la Route des Phares aggiunge circa 115 km. Poi da Brest a Chambord ci sono 580 km. Totale stimato: ~695 km, circa 7h 40m di guida effettiva. Con le soste, si arriverà a Chambord tra le 17:00 e le 18:00.
 
 ## Tappe
 
 | Tappa | Distanza progressiva |
 |---|---|
 | Brignogan-Plages | — |
-| Plouguerneau / Phare de l'Île Vierge | ~20 km |
-| Phare du Créac'h (Île d'Ouessant — deviazione consigliata) | ~60 km da Brignogan via Lannilis |
-| Pointe de Pen-Hir / Camaret-sur-Mer | ~90 km da Brignogan |
+| Plouguerneau / Phare de l'Île Vierge | ~10 km |
+| Phare du Créac'h (Île d'Ouessant — deviazione consigliata) | ~70 km da Brignogan |
+| Pointe de Pen-Hir / Camaret-sur-Mer | ~70 km da Brignogan |
 | Brest | ~115 km da Brignogan |
-| Chambord (Valle della Loira) | ~615 km da Brignogan |
+| Chambord (Valle della Loira) | ~695 km da Brignogan |
 
 ## Trasferimenti
 
 | Tratta | Distanza | Durata (80 km/h) | Soste | Ora arrivo stimata |
 |---|---|---|---|---|
-| Brignogan → Plouguerneau (Phare de l'Île Vierge) | ~20 km | ~15 min | Visita breve al faro (30 min) | ~06:15 |
-| Plouguerneau → Pointe de Pen-Hir (via Landerneau) | ~70 km | ~55 min | Sosta panoramica Pointe de Pen-Hir (45 min) | ~08:00 |
-| Pointe de Pen-Hir → Brest | ~25 km | ~20 min | Visita Brest (2h) | ~08:20 arrivo, ~10:30 partenza |
-| Brest → Chambord | ~500 km | ~6h 15min | Sosta pranzo 45 min + sosta carburante | ~17:30 |
-| **Totale giornata** | **~615 km** | **~9h guida** | **~2h soste totali** | **~17:30–18:30** |
+| Brignogan → Plouguerneau (Phare de l'Île Vierge) | 10 km | 0h 15m | Visita breve al faro (30 min) | ~06:15 |
+| Plouguerneau → Pointe de Pen-Hir | 60 km | 1h 5m | Sosta panoramica Pointe de Pen-Hir (45 min) | ~08:05 |
+| Pointe de Pen-Hir → Brest | 45 km | 0h 50m | Visita Brest (2h) | ~08:55 arrivo, ~10:55 partenza |
+| Brest → Chambord | 580 km | 5h 30m | Sosta pranzo 45 min + sosta carburante | ~17:40 |
+| **Totale giornata** | **~695 km** | **~7h 40m guida** | **~2h soste totali** | **~17:40–18:30** |
 
 ## Route des Phares — I Fari della Bretagna
 
@@ -657,17 +657,17 @@ La "Route des Phares" segue la costa nord-ovest della Bretagna da Brignogan vers
 | Tappa | Distanza da Chambord |
 |---|---|
 | Chambord | — |
-| Château de Cheverny | ~15 km |
-| Château de Chaumont-sur-Loire | ~25 km |
-| Chenonceau | ~50 km |
+| Château de Cheverny | ~18 km |
+| Château de Chaumont-sur-Loire | ~48 km |
+| Chenonceau | ~70 km |
 
 ## Trasferimenti
 
 | Tratta | Distanza | Durata (80 km/h) | Soste | Ora arrivo |
 |---|---|---|---|---|
-| Chambord → Cheverny | ~15 km | ~12 min | Visita castello (1h) | ~10:12 |
-| Cheverny → Chaumont | ~20 km | ~15 min | Sosta panoramica (30 min) | ~12:00 |
-| Chaumont → Chenonceau | ~25 km | ~20 min | Sosta pranzo a Amboise | ~13:30 |
+| Chambord → Cheverny | 18 km | 0h 20m | Visita castello (1h) | ~10:20 |
+| Cheverny → Chaumont | 30 km | 0h 35m | Sosta panoramica (30 min) | ~12:25 |
+| Chaumont → Chenonceau | 22 km | 0h 27m | Sosta pranzo a Amboise | ~13:22 |
 | Arrivo e visita Chenonceau | — | — | Visita castello (2h) | ~14:00–16:30 |
 | **Partenza verso Italia** | — | — | — | **~21:00** |
 
@@ -712,11 +712,11 @@ La "Route des Phares" segue la costa nord-ovest della Bretagna da Brignogan vers
 | # | Tappa | Distanza dalla precedente |
 |---|-------|--------------------------|
 | 1 | Chenonceau (partenza) | — |
-| 2 | Clermont-Ferrand (A71) | ~220 km |
-| 3 | Lione (A47/A89) | ~170 km |
+| 2 | Clermont-Ferrand (A71) | ~298 km |
+| 3 | Lyon (A89) | ~165 km |
 | 4 | Chambéry (A43) | ~100 km |
-| 5 | Traforo del Fréjus (Modane) | ~70 km |
-| 6 | Torino (A32) | ~100 km |
+| 5 | Traforo del Fréjus (Modane) | ~105 km |
+| 6 | Torino (A32) | ~90 km |
 | 7 | Milano (A4) | ~140 km |
 
 ---
@@ -725,16 +725,16 @@ La "Route des Phares" segue la costa nord-ovest della Bretagna da Brignogan vers
 
 | Tratta | Distanza | Durata (80 km/h) | Soste | Ora arrivo stimata |
 |--------|----------|------------------|-------|--------------------|
-| Chenonceau → Clermont-Ferrand (A71) | 220 km | ~2h 45min | — | ~08:45 |
-| Clermont-Ferrand → Lione (A89) | 170 km | ~2h 07min | Pausa pranzo ~30 min | ~11:22 |
-| Lione → Chambéry (A43) | 100 km | ~1h 15min | — | ~12:37 |
-| Chambéry → Modane/Fréjus | 70 km | ~52 min | Sosta breve ~15 min | ~13:44 |
-| Traforo del Fréjus (pedaggio + dogana) | 13 km | ~20 min | — | ~14:04 |
-| Bardonecchia → Torino (A32) | 100 km | ~1h 15min | — | ~15:19 |
-| Torino → Milano (A4) | 140 km | ~1h 45min | Sosta breve ~15 min | ~17:19 |
+| Chenonceau → Clermont-Ferrand (A71) | 298 km | 2h 48m | — | ~08:48 |
+| Clermont-Ferrand → Lyon (A89) | 165 km | 1h 46m | Pausa pranzo ~30 min | ~11:04 |
+| Lyon → Chambéry (A43) | 100 km | 1h 10m | — | ~12:14 |
+| Chambéry → Modane/Fréjus | 105 km | 1h 20m | Sosta breve ~15 min | ~13:49 |
+| Traforo del Fréjus (pedaggio + dogana) | 13 km | ~20 min | — | ~14:09 |
+| Bardonecchia → Torino (A32) | 90 km | 1h 15m | — | ~15:24 |
+| Torino → Milano (A4) | 140 km | 1h 45m | Sosta breve ~15 min | ~17:24 |
 
-> **Arrivo stimato a Milano: ~17:20**
-> Distanza totale: ~813 km. Percorso: A71 (Vierzon–Clermont) → A89 (Clermont–Lione) → A43 (Lione–Chambéry–Modane) → Traforo del Fréjus → A32 (Torino) → A4 (Milano).
+> **Arrivo stimato a Milano: ~17:24**
+> Distanza totale: ~911 km. Percorso: A71 (Vierzon–Clermont) → A89 (Clermont–Lyon) → A43 (Lyon–Chambéry–Modane) → Traforo del Fréjus → A32 (Torino) → A4 (Milano).
 > **Attenzione controesodo:** il 31 agosto è lunedì, giornata di rientro massivo. Passare il Fréjus entro le 14:00 e raggiungere Torino prima delle 16:00 per evitare code sull’A4.
 
 ---
@@ -776,15 +776,15 @@ La "Route des Phares" segue la costa nord-ovest della Bretagna da Brignogan vers
 
 | Giorno | Data | Da → A | Km circa |
 |--------|------|-----------|----------|
-| 1 | 21 Ago (Ven) | Milano → Courmayeur | ~145 km |
-| 2 | 22 Ago (Sab) | Courmayeur → Parigi (Versailles) | ~870 km |
+| 1 | 21 Ago (Ven) | Milano → Courmayeur | ~220 km |
+| 2 | 22 Ago (Sab) | Courmayeur → Parigi (Versailles) | ~641 km |
 | 3 | 23 Ago (Dom) | Parigi (giornata) | — |
-| 4 | 24 Ago (Lun) | Disneyland Paris | ~45 km |
+| 4 | 24 Ago (Lun) | Disneyland Paris | ~60 km |
 | 5 | 25 Ago (Mar) | Parigi → Étretat → Bayeux | ~310 km |
-| 6 | 26 Ago (Mer) | Bayeux → Omaha Beach | ~15 km |
-| 7 | 27 Ago (Gio) | Omaha → Mont Saint-Michel → Saint-Malo | ~200 km |
-| 8 | 28 Ago (Ven) | Saint-Malo → Brignogan-Plages | ~205 km |
-| 9 | 29 Ago (Sab) | Brignogan → Route des Phares → Brest → Chambord | ~615 km |
-| 10 | 30 Ago (Dom) | Chambord → Chenonceau | ~50 km |
-| 11 | 31 Ago (Lun) | Chenonceau → Milano | ~813 km |
-| **TOTALE** | | | **~3.268 km** |
+| 6 | 26 Ago (Mer) | Bayeux → Omaha Beach | ~19 km |
+| 7 | 27 Ago (Gio) | Omaha → Mont Saint-Michel → Saint-Malo | ~182 km |
+| 8 | 28 Ago (Ven) | Saint-Malo → Brignogan-Plages | ~245 km |
+| 9 | 29 Ago (Sab) | Brignogan → Route des Phares → Brest → Chambord | ~695 km |
+| 10 | 30 Ago (Dom) | Chambord → Chenonceau | ~70 km |
+| 11 | 31 Ago (Lun) | Chenonceau → Milano | ~911 km |
+| **TOTALE** | | | **~3.353 km** |
