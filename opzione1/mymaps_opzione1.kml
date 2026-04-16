@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Francia Camper · Opzione 1 · Agosto 2026</name>
+  <description>Itinerario senza Brest · 11 giorni · ~2.750 km · 4 famiglie</description>
+
+  <!-- ===== STYLES ===== -->
+  <!-- Gold — Trasferimento (G1, G2) -->
+  <Style id="s-tra-pt"><IconStyle><color>ff2a92b8</color><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle><LabelStyle><color>ff2a92b8</color><scale>0.9</scale></LabelStyle></Style>
+  <Style id="s-tra-ln"><LineStyle><color>cc2a92b8</color><width>5</width></LineStyle></Style>
+  <!-- Blue — Parigi (G3, G4) -->
+  <Style id="s-par-pt"><IconStyle><color>ff7c4b2a</color><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle><LabelStyle><color>ff7c4b2a</color><scale>0.9</scale></LabelStyle></Style>
+  <Style id="s-par-ln"><LineStyle><color>cc7c4b2a</color><width>5</width></LineStyle></Style>
+  <!-- Dark Blue — Normandia (G5, G6, G7) -->
+  <Style id="s-nor-pt"><IconStyle><color>ff724a1a</color><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle><LabelStyle><color>ff724a1a</color><scale>0.9</scale></LabelStyle></Style>
+  <Style id="s-nor-ln"><LineStyle><color>cc724a1a</color><width>5</width></LineStyle></Style>
+  <!-- Green — Loira (G8, G9) -->
+  <Style id="s-loi-pt"><IconStyle><color>ff4f6a2d</color><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle><LabelStyle><color>ff4f6a2d</color><scale>0.9</scale></LabelStyle></Style>
+  <Style id="s-loi-ln"><LineStyle><color>cc4f6a2d</color><width>5</width></LineStyle></Style>
+  <!-- Brown — Rientro (G10, G11) -->
+  <Style id="s-ret-pt"><IconStyle><color>ff1a3d7f</color><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle><LabelStyle><color>ff1a3d7f</color><scale>0.9</scale></LabelStyle></Style>
+  <Style id="s-ret-ln"><LineStyle><color>cc7f3d1a</color><width>5</width></LineStyle></Style>
+  <!-- Camp star -->
+  <Style id="s-camp"><IconStyle><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/star.png</href></Icon></IconStyle><LabelStyle><scale>0.8</scale></LabelStyle></Style>
+
+  <!-- ===================================================================== -->
+  <!-- G1 · Ven 21 Ago · Milano → Courmayeur                                -->
+  <!-- ===================================================================== -->
+  <Folder>
+    <name>G1 · Ven 21 Ago · Milano → Courmayeur</name>
+    <description>Partenza ore 19:00 · ~220 km · A4 → A5 · prima notte in Valle d'Aosta</description>
+
+    <Placemark>
+      <name>🚗 Partenza — Milano</name>
+      <description>Ritiro camper ore 15:00. Partenza ore 19:00 (traffico ridotto).
+A4 → Torino → A5 → Aosta → Courmayeur. ~3h inclusa 1 sosta.</description>
+      <styleUrl>#s-tra-pt</styleUrl>
+      <Point><coordinates>9.1859,45.4654,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>⛺ G1 — Courmayeur · Sosta notte</name>
+      <description>Arrivo ~22:00.
+Camping Arc-en-Ciel · Via della Vittoria (nel cuore del borgo).
+Alt: Camping Grandes Jorasses · Loc. La Saxe (vista Monte Bianco).
+DOMANI: Skyway Monte Bianco + Val Ferret · Partenza ore 07:00 tassativa.</description>
+      <styleUrl>#s-camp</styleUrl>
+      <Point><coordinates>6.9705,45.7956,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Percorso G1 — Milano → Courmayeur</name>
+      <styleUrl>#s-tra-ln</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          9.1859,45.4654,0
+          8.0619,45.0631,0
+          7.6869,45.0703,0
+          7.3161,45.5256,0
+          7.0055,45.7405,0
+          6.9705,45.7956,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Folder>
+
+  <!-- ===================================================================== -->
+  <!-- G2 · Sab 22 Ago · Courmayeur → Versailles                            -->
+  <!-- ===================================================================== -->
+  <Folder>
+    <name>G2 · Sab 22 Ago · Courmayeur → Versailles</name>
+    <description>Partenza tassativa ore 07:00 · ~641 km · Traforo Monte Bianco · A40 → A6 · Borgogna</description>
+
+    <Placemark>
+      <name>🚇 Traforo Monte Bianco · Entrèves (IT)</name>
+      <description>Pedaggio ~€50/camper. 11,6 km sotto il Monte Bianco.
+Uscita francese: area di Chamonix.</description>
+      <styleUrl>#s-tra-pt</styleUrl>
+      <Point><coordinates>6.9386,45.8710,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>🏔 Chamonix-Mont-Blanc · Uscita traforo (FR)</name>
+      <description>Possibile breve sosta fotografica sul massiccio.
+Route: A40 Autoroute Blanche → A6 Nord verso Parigi.</description>
+      <styleUrl>#s-tra-pt</styleUrl>
+      <Point><coordinates>6.8694,45.9237,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>☕ Sosta pranzo — Mâcon</name>
+      <description>Sosta pranzo ~11:00 · Capitale del Beaujolais · ~2h15 da Chamonix.
+A40 → A6 verso nord (Autoroute du Soleil). 2 soste totali nel pomeriggio.</description>
+      <styleUrl>#s-tra-pt</styleUrl>
+      <Point><coordinates>4.8293,46.3070,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>⛺ G2 — Versailles · Camping Huttopia ⭐</name>
+      <description>Arrivo ~16:00. 31 Rue Berthelot, 78000 Versailles.
+⚠ PRENOTARE SUBITO — 3 notti (22–23–24 ago). Navette per la Reggia incluse. Piscina.
+Base per Versailles, Parigi e Disneyland.</description>
+      <styleUrl>#s-camp</styleUrl>
+      <Point><coordinates>2.1274,48.7947,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Percorso G2 — Courmayeur → Versailles</name>
+      <styleUrl>#s-tra-ln</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          6.9705,45.7956,0
+          6.9386,45.8710,0
+          6.8694,45.9237,0
+          6.5728,46.0468,0
+          6.2430,46.1892,0
+          5.7534,46.1512,0
+          5.2367,46.2034,0
+          4.8293,46.3070,0
+          4.8012,46.7845,0
+          4.6987,47.0534,0
+          4.5128,47.7834,0
+          4.3123,48.3845,0
+          3.4223,48.8534,0
+          2.4534,48.8412,0
+          2.1274,48.7947,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Folder>
+
+  <!-- ===================================================================== -->
+  <!-- G3 · Dom 23 Ago · Versailles + Parigi                                 -->
+  <!-- ===================================================================== -->
+  <Folder>
+    <name>G3 · Dom 23 Ago · Versailles + Parigi</name>
+    <description>Base al camping · RER C → Parigi · Reggia di Versailles · Torre Eiffel · Montmartre</description>
+
+    <Placemark>
+      <name>👑 Reggia di Versailles</name>
+      <description>Ore 09:00–13:00. Galleria degli Specchi, appartamenti reali, Cappella Reale, Giardini Le Nôtre.
+⚠ BIGLIETTI ONLINE OBBLIGATORI. Navetta dall'Huttopia inclusa. Domenica i giardini sono magnifici.</description>
+      <styleUrl>#s-par-pt</styleUrl>
+      <Point><coordinates>2.1204,48.8049,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>🗼 Torre Eiffel + Champ-de-Mars</name>
+      <description>Parigi in RER C (~35 min da Versailles). Salita al 2° piano consigliata con bambini.
+⚠ BIGLIETTI ONLINE OBBLIGATORI — esauriti mesi prima in agosto. Picnic al Champ-de-Mars.</description>
+      <styleUrl>#s-par-pt</styleUrl>
+      <Point><coordinates>2.2945,48.8584,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>🏛 Sainte-Chapelle · Île de la Cité</name>
+      <description>Vetrate gotiche del XIII sec. — imperdibile con bambini. Biglietti online consigliati.
+Vicinissima a Notre-Dame in ricostruzione.</description>
+      <styleUrl>#s-par-pt</styleUrl>
+      <Point><coordinates>2.3450,48.8555,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>🎨 Montmartre + Sacré-Cœur</name>
+      <description>Quartiere bohémien sulla collina. Vista panoramica su tutta Parigi.
+Artisti di strada, Place du Tertre. Rientro a Versailles in RER C in serata.</description>
+      <styleUrl>#s-par-pt</styleUrl>
+      <Point><coordinates>2.3431,48.8867,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>⛺ G3 — Versailles · Camping Huttopia (2ª notte)</name>
+      <description>Non spostare i camper. Rientro in RER.</description>
+      <styleUrl>#s-camp</styleUrl>
+      <Point><coordinates>2.1274,48.7947,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Percorso G3 — RER C (in transito)</name>
+      <styleUrl>#s-par-ln</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          2.1274,48.7947,0
+          2.1204,48.8049,0
+          2.2945,48.8584,0
+          2.3450,48.8555,0
+          2.3431,48.8867,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Folder>
+
+  <!-- ===================================================================== -->
+  <!-- G4 · Lun 24 Ago · Disneyland Paris                                    -->
+  <!-- ===================================================================== -->
+  <Folder>
+    <name>G4 · Lun 24 Ago · Disneyland Paris</name>
+    <description>Partenza ore 07:30 · ~60 km · Giornata intera · Lightning Lane · parata serale</description>
+
+    <Placemark>
+      <name>🏰 Disneyland Paris · Marne-la-Vallée/Chessy</name>
+      <description>Apertura ~09:00. Parcheggio camper ufficiale (~€25) o RER A da Versailles.
+Disneyland Park + Walt Disney Studios. Parata ore 17:30. Disney Illuminations in chiusura.
+⚠ BIGLIETTI ONLINE OBBLIGATORI — Lightning Lane sull'app Disneyland Paris.</description>
+      <styleUrl>#s-par-pt</styleUrl>
+      <Point><coordinates>2.7833,48.8672,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>⛺ G4 — Versailles · Camping Huttopia (3ª notte)</name>
+      <description>Rientro serale dopo Disney Illuminations.</description>
+      <styleUrl>#s-camp</styleUrl>
+      <Point><coordinates>2.1274,48.7947,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Percorso G4 — Versailles ↔ Disneyland</name>
+      <styleUrl>#s-par-ln</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          2.1274,48.7947,0
+          2.3534,48.8412,0
+          2.7833,48.8672,0
+          2.3534,48.8412,0
+          2.1274,48.7947,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Folder>
+
+  <!-- ===================================================================== -->
+  <!-- G5 · Mar 25 Ago · Parigi → Étretat → Bayeux                          -->
+  <!-- ===================================================================== -->
+  <Folder>
+    <name>G5 · Mar 25 Ago · Parigi → Étretat → Bayeux</name>
+    <description>Partenza ore 07:30 · ~310 km · A13 → Rouen → A29 → D940 costiera · Normandia</description>
+
+    <Placemark>
+      <name>🏔 Falaises d'Étretat</name>
+      <description>Arrivo ~10:00. Le scogliere più fotografate di Francia — Porte d'Aval, Porte d'Amont.
+Sentiero panoramico (20 min a piedi). Spiaggia di ciottoli per i bambini.
+Percorso: A13 → Rouen → A29 → Étretat.</description>
+      <styleUrl>#s-nor-pt</styleUrl>
+      <Point><coordinates>0.2074,49.7074,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>📜 Bayeux · Arazzo UNESCO + Cattedrale</name>
+      <description>Arrivo ~14:20. Arazzo di Bayeux (UNESCO, 70m ricamati dell'XI sec.), Cattedrale Notre-Dame.
+⚠ BIGLIETTI ONLINE consigliati. Pranzo nel centro storico medievale.
+D940 costiera da Étretat → poi D516/D613 verso Bayeux.</description>
+      <styleUrl>#s-nor-pt</styleUrl>
+      <Point><coordinates>-0.7006,49.2765,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>⛺ G5 — Bayeux · Camping</name>
+      <description>Camping Port'land · Port-en-Bessin ⭐⭐⭐⭐⭐ (sul porto, piscina coperta).
+Alt: Camping Reine Mathilde · Bayeux (piscina riscaldata, parco giochi).</description>
+      <styleUrl>#s-camp</styleUrl>
+      <Point><coordinates>-0.7620,49.3412,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Percorso G5 — Versailles → Étretat → Bayeux</name>
+      <styleUrl>#s-nor-ln</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          2.1274,48.7947,0
+          1.7234,49.0534,0
+          1.1014,49.4438,0
+          0.9123,49.5012,0
+          0.4834,49.6234,0
+          0.2074,49.7074,0
+          -0.1085,49.6425,0
+          -0.3456,49.5234,0
+          -0.5124,49.4280,0
+          -0.7006,49.2765,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Folder>
+
+  <!-- ===================================================================== -->
+  <!-- G6 · Mer 26 Ago · Bayeux → Omaha Beach                               -->
+  <!-- ===================================================================== -->
+  <Folder>
+    <name>G6 · Mer 26 Ago · Bayeux → Omaha Beach</name>
+    <description>Partenza ore 09:00 · ~19 km · Spiagge dello sbarco · Cimitero americano · Pointe du Hoc</description>
+
+    <Placemark>
+      <name>🏖 Omaha Beach · Saint-Laurent-sur-Mer</name>
+      <description>La spiaggia più simbolica dello sbarco del 6 giugno 1944.
+Lunga, ventosa, emozionante. Momento di riflessione importante anche per i bambini.</description>
+      <styleUrl>#s-nor-pt</styleUrl>
+      <Point><coordinates>-0.8456,49.3727,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>🪦 Cimitero Americano · Colleville-sur-Mer</name>
+      <description>9.386 croci bianche sulla scogliera sopra Omaha. Ingresso gratuito.
+Centro visitatori con filmati e mappe della battaglia. UNESCO.</description>
+      <styleUrl>#s-nor-pt</styleUrl>
+      <Point><coordinates>-0.8615,49.3620,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>💥 Pointe du Hoc</name>
+      <description>Crateri delle bombe e bunker tedeschi intatti — grande impatto visivo per i bambini.
+A ~15 km a ovest di Omaha Beach. Sito di grande importanza storica.</description>
+      <styleUrl>#s-nor-pt</styleUrl>
+      <Point><coordinates>-0.9947,49.3950,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>⚓ Arromanches · Porto Mulberry</name>
+      <description>Resti del porto artificiale galleggiante del 1944 ancora visibili in mare.
+Museo 360° con filmati d'epoca su schermo circolare. A 10 km a est di Omaha.</description>
+      <styleUrl>#s-nor-pt</styleUrl>
+      <Point><coordinates>-0.6215,49.3418,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>⛺ G6 — Omaha Beach · Camping</name>
+      <description>Camping Omaha Beach · Vierville-sur-Mer (direttamente sulla costa storica).
+Alt: Camping Port'land · Port-en-Bessin ⭐⭐⭐⭐⭐.</description>
+      <styleUrl>#s-camp</styleUrl>
+      <Point><coordinates>-0.8763,49.3698,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Percorso G6 — Bayeux → Omaha → Pointe du Hoc → Arromanches</name>
+      <styleUrl>#s-nor-ln</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -0.7006,49.2765,0
+          -0.8615,49.3620,0
+          -0.9947,49.3950,0
+          -0.8615,49.3620,0
+          -0.6215,49.3418,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Folder>
+
+  <!-- ===================================================================== -->
+  <!-- G7 · Gio 27 Ago · Omaha → Mont-Saint-Michel → Cancale → Saint-Malo  -->
+  <!-- ===================================================================== -->
+  <Folder>
+    <name>G7 · Gio 27 Ago · Omaha → Mont-Saint-Michel → Cancale → Saint-Malo</name>
+    <description>Partenza ore 07:30 · ~182 km · Abbazia sulle maree · Ostriche a Cancale · Città corsara</description>
+
+    <Placemark>
+      <name>🏰 Mont-Saint-Michel · Abbazia</name>
+      <description>Arrivo ~09:35. Abbazia benedettina su isolotto granitico — maree più forti d'Europa.
+Visitare l'abbazia (2h), bastioni, omelette Mère Poulard.
+⚠ PARCHEGGIO CAMPER da prenotare online. Navette gratuite incluse.</description>
+      <styleUrl>#s-nor-pt</styleUrl>
+      <Point><coordinates>-1.5115,48.6360,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>🦪 Cancale · Mercato delle Ostriche</name>
+      <description>Arrivo ~13:25. Ostriche fresche sul porto — comprare e mangiare sul posto a prezzi modici.
+Vista panoramica sulla baia del Mont-Saint-Michel.</description>
+      <styleUrl>#s-nor-pt</styleUrl>
+      <Point><coordinates>-1.8510,48.6750,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>🏴‍☠️ Saint-Malo · Intramuros</name>
+      <description>Arrivo ~15:00. Giro completo sui remparts medievali in granito rosa.
+Cena di pesce nel porto. Fort National accessibile a bassa marea.</description>
+      <styleUrl>#s-nor-pt</styleUrl>
+      <Point><coordinates>-2.0252,48.6497,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>⛺ G7 — Saint-Malo · Camping</name>
+      <description>Camping Cité d'Alet ⭐⭐⭐⭐ (10 min a piedi dall'intramuros, vista mare).
+Alt: Camping des Nielles (vicino spiaggia del Sillon).</description>
+      <styleUrl>#s-camp</styleUrl>
+      <Point><coordinates>-2.0252,48.6497,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Percorso G7 — Omaha → MSM → Cancale → Saint-Malo</name>
+      <styleUrl>#s-nor-ln</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -0.8615,49.3620,0
+          -1.0854,48.9654,0
+          -1.3102,48.7298,0
+          -1.5115,48.6360,0
+          -1.6812,48.6584,0
+          -1.8510,48.6750,0
+          -2.0252,48.6497,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Folder>
+
+  <!-- ===================================================================== -->
+  <!-- G8 · Ven 28 Ago · Saint-Malo → Chambord                              -->
+  <!-- ===================================================================== -->
+  <Folder>
+    <name>G8 · Ven 28 Ago · Saint-Malo → Chambord</name>
+    <description>Partenza ore 08:00 · ~347 km · N137 → Rennes → A11 → Le Mans → A85 → Loira</description>
+
+    <Placemark>
+      <name>☕ Rennes · Eventuale sosta</name>
+      <description>Arrivo ~09:00. Eventuale sosta breve caffè.
+Capitale della Bretagna. Poi A11 verso Le Mans.</description>
+      <styleUrl>#s-loi-pt</styleUrl>
+      <Point><coordinates>-1.6778,48.1173,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>🏰 Chambord · Valle della Loira</name>
+      <description>Arrivo ~13:47. Il più grande castello della Loira — 440 stanze, doppia scala di Leonardo da Vinci.
+Pomeriggio libero: bici nel Domaine, Château de Cheverny (Tintin! · 15 km).
+⚠ BIGLIETTI ONLINE obbligatori per domani mattina.</description>
+      <styleUrl>#s-loi-pt</styleUrl>
+      <Point><coordinates>1.5169,47.6159,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>🏰 Château de Cheverny · Tintin! (opzionale)</name>
+      <description>A 15 km da Chambord. Castello privato con interni originali — ispirò il Castello di Moulinsart.
+Canile con 70 cani da caccia. Visita pomeriggio facoltativa.</description>
+      <styleUrl>#s-loi-pt</styleUrl>
+      <Point><coordinates>1.4584,47.5026,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>⛺ G8 — Chambord · Camping des Châteaux</name>
+      <description>Camping des Châteaux – Bracieux ⭐⭐⭐⭐ (8 km da Chambord, piscina, ristorante).
+Alt: Camping Caravaning de Blois (lungo la Loira).</description>
+      <styleUrl>#s-camp</styleUrl>
+      <Point><coordinates>1.5010,47.5485,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Percorso G8 — Saint-Malo → Rennes → Chambord</name>
+      <styleUrl>#s-loi-ln</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -2.0252,48.6497,0
+          -1.9012,48.4234,0
+          -1.6778,48.1173,0
+          -1.3500,47.8500,0
+          -0.7217,47.9967,0
+          -0.1985,47.9961,0
+          0.1975,47.9953,0
+          0.5452,47.8367,0
+          0.9012,47.7012,0
+          1.2543,47.6456,0
+          1.5169,47.6159,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Folder>
+
+  <!-- ===================================================================== -->
+  <!-- G9 · Sab 29 Ago · Chambord → Chenonceau                              -->
+  <!-- ===================================================================== -->
+  <Folder>
+    <name>G9 · Sab 29 Ago · Chambord → Chenonceau</name>
+    <description>~55 km · I due castelli più belli della Loira · giornata magica</description>
+
+    <Placemark>
+      <name>🏰 Château de Chambord</name>
+      <description>Ore 09:00–11:30. Il più grande della Loira: doppia scala elicoidale di Leonardo da Vinci.
+⚠ Arrivare entro le 09:30 (sabato alta stagione). Picnic nei giardini del Domaine.
+⚠ PRENOTARE ONLINE.</description>
+      <styleUrl>#s-loi-pt</styleUrl>
+      <Point><coordinates>1.5169,47.6159,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>🏰 Château de Chenonceau</name>
+      <description>Ore 13:30–17:00. Il "castello delle dame" sul fiume Cher — il più fotografato di Francia.
+Giardini di Caterina de' Medici, labirinto per i bambini, gita in barca sul Cher.
+⚠ PRENOTARE ONLINE. Ultima cena di gruppo all'estero!</description>
+      <styleUrl>#s-loi-pt</styleUrl>
+      <Point><coordinates>1.0698,47.3245,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>🏰 Château de Chaumont-sur-Loire (opzionale)</name>
+      <description>A ~30 km, lungo il percorso verso Chenonceau.
+Festival Internazionale dei Giardini (giugno–ottobre). Molto suggestivo.</description>
+      <styleUrl>#s-loi-pt</styleUrl>
+      <Point><coordinates>1.1823,47.4784,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>⛺ G9 — Chenonceau · Camping</name>
+      <description>Camping du Moulin Fort ⭐⭐⭐⭐ · Francueil (2 km, spiaggia sul Cher, noleggio canoe).
+Alt: Camping des Châteaux – Chenonceaux (500m dal castello).</description>
+      <styleUrl>#s-camp</styleUrl>
+      <Point><coordinates>1.0812,47.3312,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Percorso G9 — Chambord → Chenonceau</name>
+      <styleUrl>#s-loi-ln</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          1.5169,47.6159,0
+          1.3254,47.5812,0
+          1.1823,47.4784,0
+          1.0698,47.3245,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Folder>
+
+  <!-- ===================================================================== -->
+  <!-- G10 · Dom 30 Ago · Chenonceau → Chambéry                             -->
+  <!-- ===================================================================== -->
+  <Folder>
+    <name>G10 · Dom 30 Ago · Chenonceau → Chambéry</name>
+    <description>⚠ Partenza ore 08:00 — bollino arancione · ~508 km · A71 → A6 → Lione → A43</description>
+
+    <Placemark>
+      <name>☕ Lyon · Sosta pranzo</name>
+      <description>Arrivo ~13:00. Sosta pranzo ~1h. Vieux Lyon o area autostradale.
+Percorso: A85/A71 da Chenonceau → A6 → A46 → Lione → A43 verso Chambéry.</description>
+      <styleUrl>#s-ret-pt</styleUrl>
+      <Point><coordinates>4.8357,45.7640,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>🏔 Chambéry · Alpi Savoyarde</name>
+      <description>Arrivo ~15:10. Centro storico, Fontana degli Elefanti, Château des Ducs de Savoie.
+Lac du Bourget (10 km) — il più grande lago naturale di Francia.
+Ultima cena rilassata all'estero. Domani il Fréjus e rientro a Milano!</description>
+      <styleUrl>#s-ret-pt</styleUrl>
+      <Point><coordinates>5.9178,45.5646,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>⛺ G10 — Chambéry · Camping International du Lac</name>
+      <description>Camping International du Lac · Aix-les-Bains ⭐⭐⭐⭐ (sul Lac du Bourget, spiaggia).
+Alt: Camping Belle Époque · Le Bourget-du-Lac ⭐⭐⭐⭐.</description>
+      <styleUrl>#s-camp</styleUrl>
+      <Point><coordinates>5.9012,45.6934,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Percorso G10 — Chenonceau → Lione → Chambéry</name>
+      <styleUrl>#s-ret-ln</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          1.0698,47.3245,0
+          1.8745,47.0521,0
+          2.4012,46.8654,0
+          2.9754,46.3345,0
+          3.3234,46.5234,0
+          3.4223,46.1167,0
+          3.4354,45.7814,0
+          4.2354,45.8012,0
+          4.8357,45.7640,0
+          5.3612,45.5678,0
+          5.9178,45.5646,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Folder>
+
+  <!-- ===================================================================== -->
+  <!-- G11 · Lun 31 Ago · Chambéry → Milano · Consegna                     -->
+  <!-- ===================================================================== -->
+  <Folder>
+    <name>G11 · Lun 31 Ago · Chambéry → Milano · Consegna ✅</name>
+    <description>⚠ Partenza ore 05:00 · ~361 km · Traforo del Fréjus · A32 → Torino → A4 → Milano</description>
+
+    <Placemark>
+      <name>🚇 Traforo del Fréjus · Modane (FR)</name>
+      <description>Passaggio ~06:45. Pedaggio ~€60/camper. 12,9 km sotto le Alpi.
+Ingresso FR: Modane · Uscita IT: Bardonecchia.</description>
+      <styleUrl>#s-ret-pt</styleUrl>
+      <Point><coordinates>6.6621,45.2043,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>🇮🇹 Bardonecchia · Prima città italiana</name>
+      <description>Sosta colazione ~07:10. Area sosta camper con servizi.
+Svuotare il WC chimico qui. Fare il pieno di carburante. Poi A32 verso Torino.</description>
+      <styleUrl>#s-ret-pt</styleUrl>
+      <Point><coordinates>6.6986,45.0777,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>🔵 Torino</name>
+      <description>Passaggio ~08:25. Eventuale sosta brevissima (Sacra di San Michele visibile dall'A32!).
+Poi A4 verso Milano — attenzione code dalle 07:30 (lunedì di controesodo).</description>
+      <styleUrl>#s-ret-pt</styleUrl>
+      <Point><coordinates>7.6869,45.0703,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>🏁 Milano · Consegna Camper ✅</name>
+      <description>Arrivo stimato ~10:10.
+Prima della consegna: svuotare WC (Bardonecchia), pieno carburante, pulire interno, fotografare esterni.
+Fine del viaggio — 11 giorni, ~2.750 km, 4 famiglie! 🎉</description>
+      <styleUrl>#s-ret-pt</styleUrl>
+      <Point><coordinates>9.1859,45.4654,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Percorso G11 — Chambéry → Fréjus → Torino → Milano</name>
+      <styleUrl>#s-ret-ln</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          5.9178,45.5646,0
+          6.3456,45.3678,0
+          6.6621,45.2043,0
+          6.6986,45.0777,0
+          7.0512,45.0934,0
+          7.6869,45.0703,0
+          8.0619,45.0631,0
+          8.8234,45.1567,0
+          9.1859,45.4654,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Folder>
+
+</Document>
+</kml>
