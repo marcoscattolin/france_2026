@@ -11,7 +11,7 @@
 | # | Tappa | Distanza dalla precedente |
 |---|-------|--------------------------|
 | 1 | Milano (partenza) | — |
-| 2 | Courmayeur | ~145 km |
+| 2 | Courmayeur | ~220 km |
 
 ---
 
@@ -19,7 +19,7 @@
 
 | Tratta | Distanza | Durata stimata (80 km/h) | Soste previste | Ora arrivo stimata |
 |--------|----------|--------------------------|----------------|--------------------|
-| Milano → Courmayeur | 145 km | ~1h 50min | 1 sosta autogrill (~30 min) | ~21:20 |
+| Milano → Courmayeur | 220 km | 2h 30m | 1 sosta autogrill (~30 min) | ~22:00 |
 
 > Nota: il percorso segue l'A4 Milano–Torino poi la A5 Torino–Aosta fino a Courmayeur. La strada è in buona parte autostrada ma il tratto finale sale in quota. Partendo alle 19:00 si evita il traffico cittadino e si arriva a destinazione in serata. I punti di interesse si visiteranno il mattino del giorno 2 prima di ripartire.
 
@@ -72,7 +72,7 @@
 
 ## Ora di partenza
 
-**07:00** — Tappa lunga (~870 km), è fondamentale partire molto presto. Con bambini a bordo è preferibile essere in strada prima del traffico mattutino.
+**07:00** — Tappa lunga (~641 km), è fondamentale partire molto presto. Con bambini a bordo è preferibile essere in strada prima del traffico mattutino.
 
 ---
 
@@ -81,9 +81,9 @@
 | # | Tappa | Distanza dalla precedente |
 |---|-------|--------------------------|
 | 1 | Courmayeur (partenza) | — |
-| 2 | Traforo Monte Bianco / Chamonix (FR) | ~15 km |
-| 3 | Mâcon (sosta pranzo) | ~350 km da Chamonix |
-| 4 | Parigi – Versailles (arrivo camping) | ~490 km da Mâcon |
+| 2 | Traforo Monte Bianco / Chamonix (FR) | ~21 km |
+| 3 | Mâcon (sosta pranzo) | ~200 km da Chamonix |
+| 4 | Parigi – Versailles (arrivo camping) | ~420 km da Mâcon |
 
 ---
 
@@ -91,12 +91,12 @@
 
 | Tratta | Distanza | Durata stimata (80 km/h) | Soste previste | Ora arrivo stimata |
 |--------|----------|--------------------------|----------------|--------------------|
-| Courmayeur → Chamonix (traforo) | 15 km | ~20 min | Dogana/pedaggio | 07:30 |
-| Chamonix → Mâcon | 350 km | ~4h 20min | — | ~12:00 |
-| Sosta pranzo Mâcon | — | — | ~1h | 13:00 |
-| Mâcon → Versailles | 490 km | ~6h 10min | 2 soste (~1h totale) | ~20:10 |
+| Courmayeur → Chamonix (traforo) | 21 km | 0h 30m | Dogana/pedaggio | 07:30 |
+| Chamonix → Mâcon | 200 km | 2h 15m | — | ~10:00 |
+| Sosta pranzo Mâcon | — | — | ~1h | ~11:00 |
+| Mâcon → Versailles | 420 km | 4h 0m | 2 soste (~1h totale) | ~16:00 |
 
-> Distanza totale: ~855 km. Giornata di trasferimento lunga: programmare soste frequenti, portare snack e intrattenimento per i bambini. Percorso: A40 → A6 → A5/A6 verso Parigi.
+> Distanza totale: ~641 km. Giornata di trasferimento lunga: programmare soste frequenti, portare snack e intrattenimento per i bambini. Percorso: A40 → A6 → A5/A6 verso Parigi.
 
 ---
 
@@ -231,7 +231,7 @@
 | # | Tappa | Distanza | Note |
 |---|-------|----------|------|
 | 1 | Versailles (camping) | — | Base notturna |
-| 2 | Disneyland Paris (Marne-la-Vallée) | ~45 km | Giornata intera al parco |
+| 2 | Disneyland Paris (Marne-la-Vallée) | ~60 km | Giornata intera al parco |
 
 ---
 
@@ -239,7 +239,7 @@
 
 | Tratta | Mezzo | Distanza | Durata | Ora arrivo |
 |--------|-------|----------|--------|------------|
-| Versailles → Disneyland | Camper o RER A | 45 km / treno | ~50 min in camper, ~1h10 RER | ~08:30 |
+| Versailles → Disneyland | Camper o RER A | 60 km / treno | 1h 0m in camper, ~1h10 RER | ~08:30 |
 | Rientro serale | Camper o RER A | — | ~50 min | ~21:30 |
 
 > **Opzione camper:** parcheggio camper ufficiale Disneyland Paris (Car Park Disneyland, a pagamento ~€25-30/giorno per veicoli grandi).
@@ -263,7 +263,7 @@
 
 1. **Camping Versailles (Huttopia)** — base del viaggio
    - 31 Rue Berthelot, 78000 Versailles
-   - Si rientra qui dopo la giornata a Disneyland. A ~45 km dal parco, comoda per chi usa il camper.
+   - Si rientra qui dopo la giornata a Disneyland. A ~60 km dal parco, comoda per chi usa il camper.
 
 2. **Camping La Croix de Morains**
    - 8 Rue de Vaux, 51270 Orbais-l'Abbaye (circa 50 km a est di Disneyland)
@@ -304,7 +304,7 @@
 | # | Tappa | Distanza dalla precedente |
 |---|-------|--------------------------|
 | 1 | Versailles / Parigi (partenza) | — |
-| 2 | Étretat | ~200 km |
+| 2 | Étretat | ~210 km |
 | 3 | Bayeux | ~100 km |
 
 ---
@@ -313,9 +313,9 @@
 
 | Tratta | Distanza | Durata stimata (80 km/h) | Soste previste | Ora arrivo stimata |
 |--------|----------|--------------------------|----------------|--------------------|
-| Versailles → Étretat | 200 km | ~2h 30min | 1 sosta breve (~20 min) | ~10:20 |
+| Versailles → Étretat | 210 km | 2h 20m | 1 sosta breve (~20 min) | ~10:10 |
 | Sosta a Étretat | — | — | ~2-3h visita | ~13:00 |
-| Étretat → Bayeux | 100 km | ~1h 15min | Nessuna sosta | ~14:30 |
+| Étretat → Bayeux | 100 km | 1h 20m | Nessuna sosta | ~14:20 |
 
 > Percorso: A13 direzione Rouen, poi A29 verso Le Havre / Étretat. Da Étretat, la D940 costiera verso nord poi la D516/D613 verso Bayeux.
 
@@ -378,7 +378,7 @@
 | # | Tappa | Distanza dalla precedente |
 |---|-------|--------------------------|
 | 1 | Bayeux (partenza) | — |
-| 2 | Omaha Beach (Saint-Laurent-sur-Mer / Colleville-sur-Mer) | ~15 km |
+| 2 | Omaha Beach (Saint-Laurent-sur-Mer / Colleville-sur-Mer) | ~19 km |
 
 ---
 
@@ -386,7 +386,7 @@
 
 | Tratta | Distanza | Durata stimata (80 km/h) | Soste previste | Ora arrivo stimata |
 |--------|----------|--------------------------|----------------|--------------------|
-| Bayeux → Omaha Beach | 15 km | ~20 min | Nessuna | ~09:30 |
+| Bayeux → Omaha Beach | 19 km | 0h 25m | Nessuna | ~09:25 |
 
 > Giornata di visita intensa nell'area delle spiagge del D-Day. Si consiglia di pianificare le visite dei musei/memoriali in anticipo poiché in agosto sono molto affollati.
 
@@ -449,9 +449,9 @@
 | # | Tappa | Distanza dalla precedente |
 |---|-------|--------------------------|
 | 1 | Omaha Beach (partenza) | — |
-| 2 | Mont Saint-Michel | ~130 km |
-| 3 | Cancale | ~60 km |
-| 4 | Saint-Malo | ~15 km |
+| 2 | Mont Saint-Michel | ~120 km |
+| 3 | Cancale | ~45 km |
+| 4 | Saint-Malo | ~17 km |
 
 ---
 
@@ -459,11 +459,11 @@
 
 | Tratta | Distanza | Durata stimata (80 km/h) | Soste previste | Ora arrivo stimata |
 |--------|----------|--------------------------|----------------|--------------------|
-| Omaha Beach → Mont Saint-Michel | 130 km | ~1h 40min | 1 sosta breve (~20 min) | ~09:30 |
-| Visita Mont Saint-Michel | — | — | ~3h | ~12:30 |
-| Mont Saint-Michel → Cancale | 60 km | ~45 min | — | ~13:30 |
-| Pranzo a Cancale (ostriche!) | — | — | ~1h | ~14:30 |
-| Cancale → Saint-Malo | 15 km | ~15 min | — | ~15:00 |
+| Omaha Beach → Mont Saint-Michel | 120 km | 1h 45m | 1 sosta breve (~20 min) | ~09:35 |
+| Visita Mont Saint-Michel | — | — | ~3h | ~12:35 |
+| Mont Saint-Michel → Cancale | 45 km | 0h 50m | — | ~13:25 |
+| Pranzo a Cancale (ostriche!) | — | — | ~1h | ~14:25 |
+| Cancale → Saint-Malo | 17 km | 0h 30m | — | ~15:00 |
 
 > Percorso: D572 / N175 verso il Mont Saint-Michel, poi D797 / D4 / D355 verso Cancale e Saint-Malo.
 > **Importante:** al Mont Saint-Michel il parcheggio camper è nel parcheggio principale lontano dall'isola (~3 km). Navette gratuite incluse. Prenotare online il parcheggio in agosto.
@@ -528,7 +528,7 @@
 |---|-------|--------------------------|
 | 1 | Saint-Malo (partenza) | — |
 | 2 | Rennes (eventuale sosta) | ~70 km |
-| 3 | Chambord | ~280 km |
+| 3 | Chambord | ~277 km |
 
 ---
 
@@ -536,12 +536,12 @@
 
 | Tratta | Distanza | Durata stimata (80 km/h) | Soste previste | Ora arrivo stimata |
 |--------|----------|--------------------------|----------------|--------------------|
-| Saint-Malo → Rennes | 70 km | ~55 min | — | ~09:00 |
+| Saint-Malo → Rennes | 70 km | 1h 0m | — | ~09:00 |
 | Rennes (eventuale sosta pranzo) | — | — | ~1h (facoltativa) | ~10:00 |
-| Rennes → Chambord | 280 km | ~3h 30min | 1 sosta autostrada (~30 min) | ~14:00 |
+| Rennes → Chambord | 277 km | 3h 17m | 1 sosta autostrada (~30 min) | ~13:47 |
 
 > Percorso: N137 / A84 da Saint-Malo verso Rennes, poi A11 verso Le Mans, poi A85 / D951 verso Blois e Chambord.
-> Distanza totale: ~350 km.
+> Distanza totale: ~347 km.
 
 ---
 
@@ -602,7 +602,7 @@
 | # | Tappa | Distanza dalla precedente |
 |---|-------|--------------------------|
 | 1 | Chambord (partenza) | — |
-| 2 | Chenonceau | ~45 km |
+| 2 | Chenonceau | ~55 km |
 
 ---
 
@@ -610,7 +610,7 @@
 
 | Tratta | Distanza | Durata stimata (80 km/h) | Soste previste | Ora arrivo stimata |
 |--------|----------|--------------------------|----------------|--------------------|
-| Chambord → Chenonceau | 45 km | ~35 min | Nessuna | ~10:10 |
+| Chambord → Chenonceau | 55 km | 0h 57m | Nessuna | ~10:27 |
 
 > Percorso: D102 / D764 attraverso Blois e la Val de Loire verso Chenonceaux (comune dove si trova il castello). Giornata dedicata alla Valle della Loira con due castelli iconici.
 
@@ -674,7 +674,7 @@
 | # | Tappa | Distanza dalla precedente |
 |---|-------|--------------------------|
 | 1 | Chenonceau (partenza) | — |
-| 2 | Lyon (sosta pranzo) | ~340 km |
+| 2 | Lyon (sosta pranzo) | ~408 km |
 | 3 | Chambéry | ~100 km |
 
 ---
@@ -683,12 +683,12 @@
 
 | Tratta | Distanza | Durata stimata (80 km/h) | Soste previste | Ora arrivo stimata |
 |--------|----------|--------------------------|----------------|--------------------|
-| Chenonceau → Lyon | 340 km | ~4h 15min | 1 sosta autostrada (~30 min) | ~12:45 |
-| Sosta pranzo Lyon | — | — | ~1h | ~13:45 |
-| Lyon → Chambéry | 100 km | ~1h 15min | Nessuna | ~15:00 |
+| Chenonceau → Lyon | 408 km | 4h 30m | 1 sosta autostrada (~30 min) | ~13:00 |
+| Sosta pranzo Lyon | — | — | ~1h | ~14:00 |
+| Lyon → Chambéry | 100 km | 1h 10m | Nessuna | ~15:10 |
 
 > Percorso: A85 / A71 / A46 da Chenonceau verso Lyon, poi A43 verso Chambéry.
-> Distanza totale: ~440 km. Si entra nelle Alpi francesi.
+> Distanza totale: ~508 km. Si entra nelle Alpi francesi.
 
 ---
 
@@ -749,8 +749,8 @@
 | # | Tappa | Distanza dalla precedente |
 |---|-------|--------------------------|
 | 1 | Chambéry (partenza) | — |
-| 2 | Traforo del Fréjus (confine) | ~85 km |
-| 3 | Torino | ~55 km |
+| 2 | Traforo del Fréjus (confine) | ~118 km |
+| 3 | Torino | ~90 km |
 | 4 | Milano (arrivo entro le 09:00) | ~140 km |
 
 ---
@@ -759,15 +759,15 @@
 
 | Tratta | Distanza | Durata stimata (80 km/h) | Soste previste | Ora arrivo stimata |
 |--------|----------|--------------------------|----------------|--------------------|
-| Chambéry → Traforo del Fréjus | 85 km | ~1h 04min | — | ~06:04 |
-| Dogana + transito tunnel Fréjus | 13 km | ~25 min | Pedaggio + dogana | ~06:29 |
-| Fréjus (Bardonecchia) → Torino (A32) | 55 km | ~41 min | — | ~07:10 |
-| Torino → Milano (A4) | 140 km | ~1h 45min | Nessuna sosta | ~08:55 |
+| Chambéry → Traforo del Fréjus | 118 km | 1h 45m | — | ~06:45 |
+| Dogana + transito tunnel Fréjus | 13 km | ~25 min | Pedaggio + dogana | ~07:10 |
+| Fréjus (Bardonecchia) → Torino (A32) | 90 km | 1h 15m | — | ~08:25 |
+| Torino → Milano (A4) | 140 km | 1h 45m | Nessuna sosta | ~10:10 |
 
-> **Arrivo previsto a Milano: ~08:55 ✓**
+> **Arrivo previsto a Milano: ~10:10**
 > Percorso: A43 da Chambéry → Traforo del Fréjus → A32 verso Torino → A4 verso Milano.
 > **Attenzione:** il 31 agosto è lunedì, ultimo giorno del weekend di controesodo estivo. Partendo alle 05:00 si anticipa il traffico. Oltre le 07:00 l'A4 Torino–Milano può già essere congestionata.
-> Distanza totale: ~293 km.
+> Distanza totale: ~361 km.
 
 ---
 
