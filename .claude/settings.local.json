@@ -6,7 +6,10 @@
       "Bash(where py:*)",
       "Bash(ls -la template/*.kml)",
       "Bash(pandoc --version)",
-      "Bash(python)"
+      "Bash(python)",
+      "Bash(git fetch:*)",
+      "Bash(git pull:*)",
+      "Bash(python generate_pdf.py)"
     ]
   }
 }
