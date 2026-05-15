@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Static HTML/CSS/JS website for a family camper road trip through France (August 21-31, 2025), planned for 4 families with children. No build process, no dependencies — open `index.html` directly in a browser.
+Static HTML/CSS/JS website for a family camper road trip through France (August 21-31, 2026), planned for 4 families with children. No build process, no dependencies — open `index.html` directly in a browser.
 
 ## Development
 
@@ -16,14 +16,6 @@ No build, test, or lint commands. To preview:
 
 ### File Structure
 
-The project has three iterations:
-
-| Version | HTML | KML (Google My Maps) | Excel (logistics) |
-|---------|------|----------------------|-------------------|
-| v1 | `v1/` | `v1/francia_camper_mymaps.kml` | `v1/itinerario_francia_camper_v1.xlsx` |
-| v2 | `v2/index.html` | `v2/francia_camper_mymaps_v2.kml` | `v2/itinerario_francia_camper_v2.xlsx` |
-| **v3 (current)** | **`index.html`** (root) | `v3/francia_finale_mymaps.kml` | `v3/itinerario_finale.xlsx` |
-
 **`index.html`** at the root is the canonical final version.
 
 ### HTML Structure
@@ -31,7 +23,6 @@ The project has three iterations:
 All content is in a single `index.html` with inline CSS and JS. Key sections, in order:
 
 1. **Hero** — trip title, dates, stats
-2. **Disney Banner** — urgent booking callout
 3. **Route Strip** — horizontally scrollable stop list
 4. **Days Grid** — 11-row accordion; each row expands via `toggle(i)`
 5. **Booking Cards** — critical reservations with urgency levels
