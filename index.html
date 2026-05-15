@@ -59,6 +59,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--ink);f
 .warn{display:inline-block;font-size:.7rem;font-weight:500;background:#fff3cd;color:#7a5000;border-radius:3px;padding:1px 6px;margin-right:4px}
 .ok{display:inline-block;font-size:.7rem;font-weight:600;background:#d4edda;color:#155724;border-radius:3px;padding:1px 6px;margin-right:4px}
 .best{display:inline-block;font-size:.7rem;font-weight:600;background:#d4edda;color:#155724;border-radius:3px;padding:1px 6px;margin-left:6px}
+.conf{display:inline-flex;align-items:center;gap:3px;font-size:.65rem;font-weight:600;background:#d4edda;color:#155724;border-radius:3px;padding:2px 7px;margin-left:.5rem;letter-spacing:.03em;text-transform:uppercase;vertical-align:middle}
 
 .z-tra{background:#B8922A} .z-par{background:#2A4B7C}
 .z-bret{background:#1B5E7B} .z-nor{background:#1A4A72}
@@ -215,35 +216,35 @@ const days=[
    pom:"Arrivo Courmayeur <b>~22:00</b>. Prima sistemazione camper, cena di gruppo veloce. I bambini esplorano il camper! Domani sveglia alle 06:30 — grande trasferimento attraverso il <b>Traforo del Monte Bianco</b>.",
    camp:"<b>Camping Arc-en-Ciel</b> · Via della Vittoria, Courmayeur — nel cuore del borgo, ottimi servizi. Alt: <b>Camping Grandes Jorasses</b> · Loc. La Saxe — vista Monte Bianco."},
 
-  {n:2,date:"Sab 22",z:"z-tra",t:"Courmayeur → Parigi",s:"Grande trasferimento · Traforo Monte Bianco · Borgogna",km:"~634 km",
+  {n:2,date:"Sab 22",z:"z-tra",t:"Courmayeur → Parigi",s:"Grande trasferimento · Traforo Monte Bianco · Borgogna",km:"~634 km",conf:true,
    mat:"<span class='warn'>⚠ Partenza tassativa ore 07:00</span>. A5 → <b>Traforo Monte Bianco</b> (~€50/camper) → Chamonix → A40 → A6 Nord. Sosta pranzo a <b>Mâcon</b> (~12:00) nella zona del Beaujolais. Sabato 22 = bollino arancione.",
    pom:"A6/A5/A10 → area Parigi. Arrivo in campeggio in zona Parigi ~<b>19:00</b>. Sistemazione camper, cena di gruppo — domani Versailles e Parigi! Giornata lunga ma straordinaria: le Alpi cedono il posto alla campagna francese.",
-   camp:"<b>⭐ Campeggio in zona Parigi</b>· <span style='color:var(--accent);font-weight:600'>PRENOTARE SUBITO</span> (2 notti: 22–23 ago). Struttura moderna con piscina."},
+   camp:"<b>✅ Citykamp Parigi</b> — CONFERMATO (2 notti: 22–23 ago). <a href='https://www.citykamp.com/it/parigi/' target='_blank' style='color:var(--accent)'>citykamp.com ↗</a>"},
 
-  {n:3,date:"Dom 23",z:"z-par",t:"Parigi",s:"Torre Eiffel · Sainte-Chapelle · Montmartre",km:"0 km",
+  {n:3,date:"Dom 23",z:"z-par",t:"Parigi",s:"Torre Eiffel · Sainte-Chapelle · Montmartre",km:"0 km",conf:true,
    mat:"<b>Parigi in RER: <b>Torre Eiffel</b> + picnic al Champ-de-Mars · <b>Sainte-Chapelle</b> (vetrate gotiche XIII sec.) · <b>Montmartre</b> + Sacré-Cœur: vista su tutta Parigi. Rientro RER in serata.",
    pom:"<b>Parigi in RER: <b>Torre Eiffel</b> + picnic al Champ-de-Mars · <b>Sainte-Chapelle</b> (vetrate gotiche XIII sec.) · <b>Montmartre</b> + Sacré-Cœur: vista su tutta Parigi. Rientro RER in serata.",
-   camp:"<b>Campeggio in zona Parigi</b> ★★★★★ (2ª notte) — base ideale, non spostare i camper."},
+   camp:"<b>✅ Citykamp Parigi</b> — CONFERMATO (2ª notte). Base ideale, non spostare i camper. <a href='https://www.citykamp.com/it/parigi/' target='_blank' style='color:var(--accent)'>citykamp.com ↗</a>"},
 
-  {n:4,date:"Lun 24",z:"z-nor",t:"Parigi → Étretat → Bayeux",s:"Scogliere iconiche · Arazzo UNESCO · ingresso in Normandia",km:"~357 km",
+  {n:4,date:"Lun 24",z:"z-nor",t:"Parigi → Étretat → Bayeux",s:"Scogliere iconiche · Arazzo UNESCO · ingresso in Normandia",km:"~357 km",conf:true,
    mat:"<span class='warn'>Partenza ore 07:30</span>. A13 → Rouen → A29 → <b>Étretat</b> (~10:00, ~212 km): le scogliere più fotografate di Francia — arco naturale Porte d'Aval, sentiero panoramico 20 min. Immortalate da Monet. Spiaggia di ciottoli per i bambini.",
-   pom:"D940 costiera → <b>Bayeux</b> (~13:30, ~145 km): <b>Arazzo di Bayeux</b> (UNESCO, 70m ricamati dell'XI sec., 1h di visita) + cattedrale gotica. Pranzo in centro storico. Sistemazione campeggio zona Port-en-Bessin.",
-   camp:"<b>Camping Port'land</b> · Port-en-Bessin ★★★★★ (sul porto, piscina coperta) · Alt: <b>Camping Reine Mathilde</b> · Bayeux (piscina riscaldata, parco giochi)."},
+   pom:"D940 costiera → <b>Bayeux</b> (~13:30, ~145 km): <b>Arazzo di Bayeux</b> (UNESCO, 70m ricamati dell'XI sec., 1h di visita) + cattedrale gotica. Pranzo in centro storico. Sistemazione all'<b>Aire de la Ferme Froide</b> a Juaye-Mondaye.",
+   camp:"<b>✅ Aire de la Ferme Froide</b> · Juaye-Mondaye — CONFERMATO (€11/camper, bagni inclusi). <a href='https://www.pitchup.com/it/campsites/france/basse-normandie/calvados/juaye-mondaye/aire-de-la-ferme-froide/' target='_blank' style='color:var(--accent)'>pitchup.com ↗</a>"},
 
-  {n:5,date:"Mar 25",z:"z-nor",t:"Bayeux → Omaha Beach → Mont-Saint-Michel",s:"D-Day · cimitero americano · abbazia sulle maree",km:"~170 km",
+  {n:5,date:"Mar 25",z:"z-nor",t:"Bayeux → Omaha Beach → Mont-Saint-Michel",s:"D-Day · cimitero americano · abbazia sulle maree",km:"~170 km",conf:true,
    mat:"<span class='ok'>Partenza ore 08:30</span>. <b>Omaha Beach</b> (~25 km): la spiaggia più simbolica del D-Day. <b>Cimitero Americano</b> di Colleville-sur-Mer: 9.000 croci bianche — ingresso gratuito, centro visitatori emozionante. <b>Pointe du Hoc</b>: bunker e crateri intatti.",
    pom:"N175 → <b>Mont-Saint-Michel</b> (~145 km). <span class='warn'>Arrivare dopo le 17:00</span> — luce magica sull'abbazia, folla ridotta al tramonto. Parcheggio camper nel parking continentale (<b>prenotare online</b>), navette gratuite incluse.",
-   camp:"<b>Camping Haliotis</b> · Pontorson ★★★★ (8 km da MSM, navetta inclusa) — PRENOTARE SUBITO. Alt: <b>Camping du Mont-Saint-Michel</b> · Beauvoir."},
+   camp:"<b>✅ Camping La Baie du Mont-Saint-Michel</b> — CONFERMATO (€25/camper, bagni inclusi). <a href='https://www.camping-baiemontsaintmichel.com/' target='_blank' style='color:var(--accent)'>camping-baiemontsaintmichel.com ↗</a>"},
 
   {n:6,date:"Mer 26",z:"z-nor",t:"Mont-Saint-Michel → Cancale → Saint-Malo",s:"Visita abbazia · ostriche · città corsara medievale",km:"~62 km",
    mat:"Mattina al <b>Mont-Saint-Michel</b> (09:00–12:00): visita abbazia benedettina, bastioni e omelette Mère Poulard. Luce mattutina sulla baia. <b>Cancale</b> (~47 km, ~13:00): mercato delle ostriche sul porto — comprare e mangiare sul posto, vista sulla baia del MSM.",
    pom:"<b>Saint-Malo</b> (~15 km, ~15:00): giro completo sui <b>remparts medievali</b> (~1h), centro intramuros dei corsari, Grande Plage. Cena di pesce nel porto. Passeggiata serale lungo le mura — una delle città più belle della Bretagna.",
-   camp:"<b>Camping Cité d'Alet</b> · Saint-Malo ★★★★ — 10 min a piedi dall'intramuros, vista mare. Alt: <b>Camping des Nielles</b> · Saint-Malo (vicino spiaggia del Sillon)."},
+   camp:"<b>⏳ Camping Les Ilots</b> · Saint-Malo — <span style='color:var(--accent);font-weight:600'>IN ATTESA</span> (mail di richiesta inviata per tutti e 4 i camper). <a href='https://www.camperonline.it/sosta-camper/aree-di-sosta/francia/aire-de-campingcars-les-ilots/11597' target='_blank' style='color:var(--accent)'>camperonline.it ↗</a>"},
 
-  {n:7,date:"Gio 27",z:"z-bret",t:"Saint-Malo → Phare de Mean Ruz",s:"Bretagna · Côte de Granit Rose · faro iconico di Ploumanac'h",km:"~168 km",
+  {n:7,date:"Gio 27",z:"z-bret",t:"Saint-Malo → Phare de Mean Ruz",s:"Bretagna · Côte de Granit Rose · faro iconico di Ploumanac'h",km:"~168 km",conf:true,
    mat:"<span class='ok'>Partenza ore 09:00</span>. D786 lungo la costa bretone → <b>Ploumanac'h / Perros-Guirec</b> (~150 km). <b>Côte de Granit Rose</b>: formazioni rocciose di granito rosa uniche al mondo. <b>Phare de Mean Ruz</b>: il faro rosso e bianco sulle rocce — uno dei più fotografati di tutta la Bretagna.",
    pom:"Pomeriggio libero a <b>Perros-Guirec</b>: sentiero dei doganieri GR34 (facile, 2h tra le rocce rosa), spiaggia di Trestraou, gelato bretone. Tramonto sul faro — spettacolo unico che i bambini ricorderanno sempre.",
-   camp:"<b>Camping Trestraou</b> · Perros-Guirec ★★★★ (fronte mare, piscina). Alt: <b>Camping de la Côte de Granit Rose</b> · Perros-Guirec."},
+   camp:"<b>✅ Camping RCN Port l'Epine</b> · Trélévern — CONFERMATO (€51/camper, bagni inclusi). <a href='https://www.pitchup.com/it/campsites/france/bretagne/cotes-darmor/trelevern/camping_port_lepine/' target='_blank' style='color:var(--accent)'>pitchup.com ↗</a>"},
 
   {n:8,date:"Ven 28",z:"z-bret",t:"Phare de Mean Ruz → Chambord",s:"⚠ Tappa più lunga · Bretagna → Loira · partenza ore 06:30",km:"~487 km",
    mat:"<span class='warn'>⚠ Partenza ore 06:30 — tappa più lunga del viaggio</span>. D786 → N12 → <b>Rennes</b> (~09:30, sosta caffè + carburante obbligatorio!) → A11 → <b>Le Mans</b> (sosta pranzo ~12:00) → A85 → Blois → <b>Chambord</b>.",
@@ -271,7 +272,7 @@ days.forEach((d,i)=>{
   el.className='day-row';
   el.innerHTML=`<div class="day-header" onclick="toggle(${i})">
     <div class="day-num ${d.z}">${d.n}<small>${d.date}</small></div>
-    <div class="day-info"><div class="day-title">${d.t}</div><div class="day-sub">${d.s}</div></div>
+    <div class="day-info"><div class="day-title">${d.t}${d.conf?'<span class="conf">✓ Campeggio confermato</span>':''}</div><div class="day-sub">${d.s}</div></div>
     <div class="day-km"><strong>${d.km}</strong>espandi ↓</div>
   </div>
   <div class="day-body" id="b${i}">
