@@ -211,10 +211,10 @@ footer strong{color:var(--gold)}
 
 <script>
 const days=[
-  {n:1,date:"Ven 21",z:"z-tra",t:"Milano → Courmayeur",s:"Ritiro camper ore 15:00 · partenza serale ore 19:00 · Valle d'Aosta",km:"~216 km",
+  {n:1,date:"Ven 21",z:"z-tra",t:"Milano → Courmayeur",s:"Ritiro camper ore 15:00 · partenza serale ore 19:00 · Valle d'Aosta",km:"~216 km",conf:true,
    mat:"Ritiro camper ore 15:00 — verificare tutto prima di firmare. <span class='warn'>Partenza ore 19:00</span> da Milano (traffico ridotto in serata). A4 → Torino → A5 → Aosta → <b>Courmayeur</b>. ~3h inclusa 1 sosta.",
    pom:"Arrivo Courmayeur <b>~22:00</b>. Prima sistemazione camper, cena di gruppo veloce. I bambini esplorano il camper! Domani sveglia alle 06:30 — grande trasferimento attraverso il <b>Traforo del Monte Bianco</b>.",
-   camp:"<b>Camping Arc-en-Ciel</b> · Via della Vittoria, Courmayeur — nel cuore del borgo, ottimi servizi. Alt: <b>Camping Grandes Jorasses</b> · Loc. La Saxe — vista Monte Bianco."},
+   camp:"<b>✅ Camping Mont Blanc Plage</b> · Passy/Chamonix — CONFERMATO. <span style='color:var(--accent);font-weight:600'>Reception max ore 19</span> — chiamare per ingresso fino alle 21: +33 450 581 428 / +33 450 581 204. <a href='https://www.pitchup.com/it/campsites/france/rhone-alpes/haute-savoie/passy/camping_mont_blanc_plage/' target='_blank' style='color:var(--accent)'>pitchup.com ↗</a>"},
 
   {n:2,date:"Sab 22",z:"z-tra",t:"Courmayeur → Parigi",s:"Grande trasferimento · Traforo Monte Bianco · Borgogna",km:"~634 km",conf:true,
    mat:"<span class='warn'>⚠ Partenza tassativa ore 07:00</span>. A5 → <b>Traforo Monte Bianco</b> (~€50/camper) → Chamonix → A40 → A6 Nord. Sosta pranzo a <b>Mâcon</b> (~12:00) nella zona del Beaujolais. Sabato 22 = bollino arancione.",
@@ -236,30 +236,30 @@ const days=[
    pom:"N175 → <b>Mont-Saint-Michel</b> (~145 km). <span class='warn'>Arrivare dopo le 17:00</span> — luce magica sull'abbazia, folla ridotta al tramonto. Parcheggio camper nel parking continentale (<b>prenotare online</b>), navette gratuite incluse.",
    camp:"<b>✅ Camping La Baie du Mont-Saint-Michel</b> — CONFERMATO (€25/camper, bagni inclusi). <a href='https://www.camping-baiemontsaintmichel.com/' target='_blank' style='color:var(--accent)'>camping-baiemontsaintmichel.com ↗</a>"},
 
-  {n:6,date:"Mer 26",z:"z-nor",t:"Mont-Saint-Michel → Cancale → Saint-Malo",s:"Visita abbazia · ostriche · città corsara medievale",km:"~62 km",
+  {n:6,date:"Mer 26",z:"z-nor",t:"Mont-Saint-Michel → Cancale → Saint-Malo",s:"Visita abbazia · ostriche · città corsara medievale",km:"~62 km",conf:true,
    mat:"Mattina al <b>Mont-Saint-Michel</b> (09:00–12:00): visita abbazia benedettina, bastioni e omelette Mère Poulard. Luce mattutina sulla baia. <b>Cancale</b> (~47 km, ~13:00): mercato delle ostriche sul porto — comprare e mangiare sul posto, vista sulla baia del MSM.",
    pom:"<b>Saint-Malo</b> (~15 km, ~15:00): giro completo sui <b>remparts medievali</b> (~1h), centro intramuros dei corsari, Grande Plage. Cena di pesce nel porto. Passeggiata serale lungo le mura — una delle città più belle della Bretagna.",
-   camp:"<b>⏳ Camping Les Ilots</b> · Saint-Malo — <span style='color:var(--accent);font-weight:600'>IN ATTESA</span> (mail di richiesta inviata per tutti e 4 i camper). <a href='https://www.camperonline.it/sosta-camper/aree-di-sosta/francia/aire-de-campingcars-les-ilots/11597' target='_blank' style='color:var(--accent)'>camperonline.it ↗</a>"},
+   camp:"<b>✅ Camping de la Cité d'Aleth</b> · Saint-Malo — CONFERMATO. <a href='https://premium-camplive.com/fr/campingdelacitedaleth/' target='_blank' style='color:var(--accent)'>premium-camplive.com ↗</a>"},
 
   {n:7,date:"Gio 27",z:"z-bret",t:"Saint-Malo → Phare de Mean Ruz",s:"Bretagna · Côte de Granit Rose · faro iconico di Ploumanac'h",km:"~168 km",conf:true,
    mat:"<span class='ok'>Partenza ore 09:00</span>. D786 lungo la costa bretone → <b>Ploumanac'h / Perros-Guirec</b> (~150 km). <b>Côte de Granit Rose</b>: formazioni rocciose di granito rosa uniche al mondo. <b>Phare de Mean Ruz</b>: il faro rosso e bianco sulle rocce — uno dei più fotografati di tutta la Bretagna.",
    pom:"Pomeriggio libero a <b>Perros-Guirec</b>: sentiero dei doganieri GR34 (facile, 2h tra le rocce rosa), spiaggia di Trestraou, gelato bretone. Tramonto sul faro — spettacolo unico che i bambini ricorderanno sempre.",
    camp:"<b>✅ Camping RCN Port l'Epine</b> · Trélévern — CONFERMATO (€51/camper, bagni inclusi). <a href='https://www.pitchup.com/it/campsites/france/bretagne/cotes-darmor/trelevern/camping_port_lepine/' target='_blank' style='color:var(--accent)'>pitchup.com ↗</a>"},
 
-  {n:8,date:"Ven 28",z:"z-bret",t:"Phare de Mean Ruz → Chambord",s:"⚠ Tappa più lunga · Bretagna → Loira · partenza ore 06:30",km:"~487 km",
+  {n:8,date:"Ven 28",z:"z-bret",t:"Phare de Mean Ruz → Chambord",s:"⚠ Tappa più lunga · Bretagna → Loira · partenza ore 06:30",km:"~487 km",conf:true,
    mat:"<span class='warn'>⚠ Partenza ore 06:30 — tappa più lunga del viaggio</span>. D786 → N12 → <b>Rennes</b> (~09:30, sosta caffè + carburante obbligatorio!) → A11 → <b>Le Mans</b> (sosta pranzo ~12:00) → A85 → Blois → <b>Chambord</b>.",
    pom:"Arrivo area <b>Chambord/Bracieux</b> ~<b>15:30</b>. Pomeriggio libero: ricognizione del Domaine di Chambord, passeggiata o giro in bici nella foresta. Visita facoltativa al <b>Château de Cheverny</b> (15 km) — ispirò Moulinsart di Tintin!",
-   camp:"<b>Camping des Châteaux – Bracieux</b> ★★★★ (8 km da Chambord, piscina, ristorante). Alt: <b>Camping Municipal de Chambord</b> (accesso diretto al Domaine)."},
+   camp:"<b>✅ Camping Le Moulin Fort</b> · Francueil — CONFERMATO (2 km da Chenonceau, spiaggia sul Cher). <a href='https://www.pitchup.com/it/campsites/france/centre/indre-et-loire/francueil/camping-le-moulin-fort/' target='_blank' style='color:var(--accent)'>pitchup.com ↗</a>"},
 
-  {n:9,date:"Sab 29",z:"z-loi",t:"Chambord + Chenonceau",s:"I due castelli più belli della Loira · giornata magica",km:"~62 km",
+  {n:9,date:"Sab 29",z:"z-loi",t:"Chambord + Chenonceau",s:"I due castelli più belli della Loira · giornata magica",km:"~62 km",conf:true,
    mat:"<b>Château de Chambord</b> (09:00–12:00): il più grande della Loira, 440 stanze, doppia scala elicoidale di Leonardo da Vinci. <b>Arrivare entro le 9:30</b> — sabato di alta stagione, code aumentano rapidamente. Picnic nei giardini del Domaine.",
    pom:"<b>Château de Chenonceau</b> (13:30–17:00, ~62 km): il castello sul fiume Cher, il più fotografato di Francia. Giardini di Caterina de' Medici, labirinto per i bambini, eventuale gita in barca sul Cher. <span class='warn'>PRENOTARE ONLINE.</span> <b>Ultima cena di gruppo all'estero!</b>",
-   camp:"<b>Camping du Moulin Fort</b> · Francueil ★★★★ (2 km da Chenonceau, spiaggia sul Cher). Alt: <b>Camping des Châteaux – Chenonceaux</b> (500m dal castello)."},
+   camp:"<b>✅ Camping Le Moulin Fort</b> · Francueil — CONFERMATO (2ª notte, 2 km da Chenonceau). <a href='https://www.pitchup.com/it/campsites/france/centre/indre-et-loire/francueil/camping-le-moulin-fort/' target='_blank' style='color:var(--accent)'>pitchup.com ↗</a>"},
 
   {n:10,date:"Dom 30",z:"z-ret",t:"Chenonceau → Chambéry",s:"Rientro verso le Alpi · giornata di eccezione",km:"~554 km",
    mat:"<span class='warn'>⚠ PARTENZA ORE 08:00 — bollino arancione domenicale</span>. A71 → A6 → <b>Lione</b> (sosta pranzo ~45 min, ~12:30) → A43 → <b>Chambéry</b>. Attraversamento della valle del Rodano con le Alpi visibili all'orizzonte.",
    pom:"Arrivo Chambéry ~<b>16:00</b>. Sistemazione e ultima cena rilassata. Domani: Fréjus e rientro definitivo a Milano. <b>Solo 383 km dalla consegna!</b> Preparare carburante, WC da svuotare e pulizia per il mattino.",
-   camp:"<b>Camping International du Lac</b> · Aix-les-Bains ★★★★ (sul Lac du Bourget, spiaggia). Alt: <b>Camping Belle Époque</b> · Le Bourget-du-Lac ★★★★."},
+   camp:"<b>Camping Ferrand</b> · Lépin-le-Lac — <span style='color:var(--accent);font-weight:600'>DA CONFERMARE</span>. <a href='https://www.pitchup.com/it/campsites/france/rhone-alpes/savoie/lepin-le-lac/camping-ferrand/' target='_blank' style='color:var(--accent)'>pitchup.com ↗</a>"},
 
   {n:11,date:"Lun 31",z:"z-ret",t:"Chambéry → Milano · Consegna ✅",s:"Partenza ore 05:30 · Traforo del Fréjus · consegna in mattinata",km:"~383 km",
    mat:"<span class='warn'>⚠ Sveglia ore 05:00 — partenza ore 05:30!</span> A43 → <b>Traforo del Fréjus</b> (~€60, passaggio ~06:45) → A32 Bardonecchia → Torino (~08:30). Sosta colazione a Bardonecchia — prima città italiana! Svuotare WC all'area sosta.",
