@@ -196,9 +196,9 @@ footer strong{color:var(--gold)}
   <p class="section-label">Ultimo giorno</p>
   <h2 class="section-title">Rientro e consegna</h2>
   <div class="rientro-box">
-    <h3>⏰ Lunedì 31 Agosto — Partenza ore 05:30 da Chambéry</h3>
-    <p>Il giorno 11 è critico: consegna a Milano in mattinata. Percorso: A43 Chambéry → <strong>Traforo del Fréjus</strong> (~€60, passaggio ~06:45) → A32 Bardonecchia → Torino → A4 Milano. ~383 km, arrivo stimato <strong>~09:30–10:00</strong>.</p>
-    <p style="margin-top:.8rem"><span style="color:var(--gold)">⚠</span> Il 31 agosto è <strong>lunedì di controesodo</strong>: l'A4 Torino–Milano congestionata dalle 07:30. Partendo alle 05:30 si transita al Fréjus intorno alle 06:45 e si raggiunge Torino prima delle code.</p>
+    <h3>⏰ Lunedì 31 Agosto — Partenza ore 07:00 da Chambéry</h3>
+    <p>Il giorno 11 è critico: consegna a Milano alle 17:00. Percorso: A43 Chambéry → <strong>Traforo del Fréjus</strong> (~€60, passaggio ~06:45) → A32 Bardonecchia → Torino → A4 Milano. ~383 km, arrivo stimato <strong>~13:00–14:00</strong>.</p>
+    <p style="margin-top:.8rem"><span style="color:var(--gold)">⚠</span> Il 31 agosto è <strong>lunedì di controesodo</strong>: l'A4 Torino–Milano congestionata dalle 07:30.</p>
     <p style="margin-top:.8rem">Prima di consegnare: <strong>svuotare il WC chimico</strong> (area sosta Bardonecchia), fare il <strong>pieno di carburante</strong>, pulire l'interno, fotografare gli esterni del camper.</p>
   </div>
 </section>
@@ -211,13 +211,13 @@ footer strong{color:var(--gold)}
 
 <script>
 const days=[
-  {n:1,date:"Ven 21",z:"z-tra",t:"Milano → Courmayeur",s:"Ritiro camper ore 15:00 · partenza serale ore 19:00 · Valle d'Aosta",km:"~216 km",conf:true,
-   mat:"Ritiro camper ore 15:00 — verificare tutto prima di firmare. <span class='warn'>Partenza ore 19:00</span> da Milano (traffico ridotto in serata). A4 → Torino → A5 → Aosta → <b>Courmayeur</b>. ~3h inclusa 1 sosta.",
-   pom:"Arrivo Courmayeur <b>~22:00</b>. Prima sistemazione camper, cena di gruppo veloce. I bambini esplorano il camper! Domani sveglia alle 06:30 — grande trasferimento attraverso il <b>Traforo del Monte Bianco</b>.",
+  {n:1,date:"Ven 21",z:"z-tra",t:"Milano → Chamonix",s:"Ritiro camper ore 10:00, Via S. D'Acquisto, 28, 21053 Castellanza VA",km:"~216 km",conf:true,
+   mat:"Ritiro camper ore 10:00 — verificare tutto prima di firmare. <span class='warn'>Partenza ore 13:00</span> da Milano. A4 → Torino → A5 → Aosta → <b>Chamonix</b>. ~3h inclusa 1 sosta.",
+   pom:"Arrivo Chamonix <b>~22:00</b>. Prima sistemazione camper, cena di gruppo veloce. I bambini esplorano il camper!",
    camp:"<b>✅ Camping Mont Blanc Plage</b> · Passy/Chamonix — CONFERMATO. <span style='color:var(--accent);font-weight:600'>Reception max ore 19</span> — chiamare per ingresso fino alle 21: +33 450 581 428 / +33 450 581 204. <a href='https://www.pitchup.com/it/campsites/france/rhone-alpes/haute-savoie/passy/camping_mont_blanc_plage/' target='_blank' style='color:var(--accent)'>pitchup.com ↗</a>"},
 
-  {n:2,date:"Sab 22",z:"z-tra",t:"Courmayeur → Parigi",s:"Grande trasferimento · Traforo Monte Bianco · Borgogna",km:"~634 km",conf:true,
-   mat:"<span class='warn'>⚠ Partenza tassativa ore 07:00</span>. A5 → <b>Traforo Monte Bianco</b> (~€50/camper) → Chamonix → A40 → A6 Nord. Sosta pranzo a <b>Mâcon</b> (~12:00) nella zona del Beaujolais. Sabato 22 = bollino arancione.",
+  {n:2,date:"Sab 22",z:"z-tra",t:"Chamonix → Parigi",s:"Grande trasferimento Borgogna",km:"~634 km",conf:true,
+   mat:"<span class='warn'>⚠ Partenza tassativa ore 07:00</span>. Chamonix → A40 → A6 Nord. Sosta pranzo a <b>Mâcon</b> (~12:00) nella zona del Beaujolais. Sabato 22 = bollino arancione.",
    pom:"A6/A5/A10 → area Parigi. Arrivo in campeggio in zona Parigi ~<b>19:00</b>. Sistemazione camper, cena di gruppo — domani Versailles e Parigi! Giornata lunga ma straordinaria: le Alpi cedono il posto alla campagna francese.",
    camp:"<b>✅ Citykamp Parigi</b> — CONFERMATO (2 notti: 22–23 ago). <a href='https://www.citykamp.com/it/parigi/' target='_blank' style='color:var(--accent)'>citykamp.com ↗</a>"},
 
@@ -261,9 +261,9 @@ const days=[
    pom:"Arrivo Chambéry ~<b>16:00</b>. Sistemazione e ultima cena rilassata. Domani: Fréjus e rientro definitivo a Milano. <b>Solo 383 km dalla consegna!</b> Preparare carburante, WC da svuotare e pulizia per il mattino.",
    camp:"<b>Camping Ferrand</b> · Lépin-le-Lac — <span style='color:var(--accent);font-weight:600'>DA CONFERMARE</span>. <a href='https://www.pitchup.com/it/campsites/france/rhone-alpes/savoie/lepin-le-lac/camping-ferrand/' target='_blank' style='color:var(--accent)'>pitchup.com ↗</a>"},
 
-  {n:11,date:"Lun 31",z:"z-ret",t:"Chambéry → Milano · Consegna ✅",s:"Partenza ore 05:30 · Traforo del Fréjus · consegna in mattinata",km:"~383 km",
-   mat:"<span class='warn'>⚠ Sveglia ore 05:00 — partenza ore 05:30!</span> A43 → <b>Traforo del Fréjus</b> (~€60, passaggio ~06:45) → A32 Bardonecchia → Torino (~08:30). Sosta colazione a Bardonecchia — prima città italiana! Svuotare WC all'area sosta.",
-   pom:"A4 Torino → <b>Milano</b>: arrivo stimato <b>~09:30–10:00</b>. Prima della consegna: fare il pieno di carburante, pulire l'interno camper, fotografare gli esterni. <b>Fine del viaggio — 11 giorni, ~3.100 km, 4 famiglie!</b>",
+  {n:11,date:"Lun 31",z:"z-ret",t:"Chambéry → Milano · Consegna ✅",s:"Partenza ore 09:00 · Traforo del Fréjus · consegna ore 17:00",km:"~383 km",
+   mat:"<span class='warn'>⚠ Sveglia ore 07:00 — partenza ore 07:00!</span> A43 → <b>Traforo del Fréjus</b> (~€60, passaggio ~06:45) → A32 Bardonecchia → Torino (~08:30). Sosta colazione a Bardonecchia — prima città italiana! Svuotare WC all'area sosta.",
+   pom:"A4 Torino → <b>Milano</b>: arrivo stimato <b>~13:00–14:00</b>. Prima della consegna: fare il pieno di carburante, pulire l'interno camper, fotografare gli esterni. <b>Fine del viaggio — 11 giorni, ~3.100 km, 4 famiglie!</b>",
    camp:"— (notte a Chambéry · consegna camper a Milano in mattinata)"},
 ];
 const grid=document.getElementById('days');
